@@ -2,8 +2,8 @@ Source: aurex-meta
 Section: metapackages
 Priority: optional
 Maintainer: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
-Standards-Version: 3.8.4
-Build-Depends: debhelper (>= 7.0.50~), germinate (>= 2.8-0aurex1), rsync, bzr, debootstrap
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 2.8-0aurex1), rsync, bzr, debootstrap
 
 Package: ubuntu-minimal
 Architecture: any
