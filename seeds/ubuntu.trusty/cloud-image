@@ -1,0 +1,45 @@
+Task-Section: server
+Task-Description: Ubuntu Cloud Image (instance)
+Task-Extended-Description: Packages included in Ubuntu Cloud images.  Previously this task was named 'uec'.
+Task-Key: cloud-init
+
+= System administration tools =
+
+ * acpid
+ * apport # LP: #424051
+ * at
+ * byobu
+ * curl
+ * landscape-client
+ * openssh-server
+ * overlayroot
+ * patch
+ * pollinate
+ * screen
+ * software-properties-common
+ * tasksel # LP: #649833
+ * vim
+
+= Network =
+
+ * ethtool
+
+= Documentation =
+
+ * w3m
+
+= EC2 =
+
+ * cloud-init
+ * cloud-guest-utils
+ * grub-legacy-ec2
+
+= Maintenance =
+
+ * update-notifier-common # LP: 897815
+
+= Other =
+
+ * fonts-ubuntu-font-family-console
+ * open-vm-tools
+ * sosreport # LP: #1311274

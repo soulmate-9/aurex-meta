@@ -1,0 +1,34 @@
+= Hardware =
+
+ * i855-crt        # crack to enable video out on i855 chipsets
+ * mdetect         # formerly used by X for mouse autodetection
+ * irda-utils
+ * wacom-tools
+ * wvdial
+ * gobi-loader
+
+== Filesystems ==
+
+ * cloop-utils # for LiveCD
+ * hfsplus
+
+== Cluster ==
+
+ * ocfs2console
+
+== Restricted drivers ==
+
+ * fglrx-amdcccle-updates
+ * fglrx-updates-dev
+ * nvidia-current-updates
+ * nvidia-current-updates-dev
+ * nvidia-settings-updates
+ * /^nvidia-[0-9]+/
+ * /^nvidia-[0-9]+-updates/
+ * /^nvidia-[0-9]+-dev/
+ * /^nvidia-[0-9]+-updates-dev/
+ * /^nvidia-experimental-[0-9]+/
+ * /^nvidia-experimental-[0-9]+-dev/
+ * /^nvidia-settings-experimental-[0-9]+/
+ * /^nvidia-settings-[0-9]+-updates/
+ * /^nvidia-settings-[0-9]+/

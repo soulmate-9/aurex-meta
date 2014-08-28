@@ -1,0 +1,37 @@
+This seed exists only to allow fine tuning the 3y support time
+
+= Dev tools =
+
+ * cdbs
+ * gnupg2
+
+= Documentation =
+ * gnupg-doc
+ * tar-doc
+
+= Additional multimedia =
+
+ * gstreamer-tools
+ * gstreamer1.0-tools
+
+= Extra desktop =
+
+ * libreoffice-base
+ * thunderbird-gnome-support
+ * rhythmbox
+ * evolution-exchange
+ * evolution-indicator
+ * landscape-client-ui
+ * icc-profiles-free
+ * virt-manager
+ * xchat-gnome
+ * vim-gnome
+
+= Command line tools =
+
+ * bittornado
+ * virtinst
+
+= Certification =
+
+ * lsb

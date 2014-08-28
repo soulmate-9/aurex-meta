@@ -1,0 +1,77 @@
+= Development =
+
+== Development Tools ==
+
+ * valgrind
+ * cmake
+ * indent
+
+== Revision Control ==
+
+ * subversion
+ * subversion-tools
+ * python-svn
+ * git-core
+ * gitk
+ * cvs
+
+== Advanced editors ==
+
+ * vim          # Needs to stay off server CDs because it pulls in Gnome
+ * emacs
+ * emacs24
+ * emacs24-el
+ * emacs24-nox
+ * emacs-goodies-el
+
+And some useful Emacs-related tools:
+
+ * auctex
+ * bbdb
+
+== Documentation ==
+
+ * monodoc-webkit-manual
+
+== Development Tools ==
+
+ * openjdk-7-demo
+ * openjdk-7-source
+ * ubuntu-defaults-builder
+
+Allow building live CDs for older releases too.
+
+ * syslinux-themes-ubuntu-oneiric
+ * syslinux-themes-ubuntu-precise
+ * syslinux-themes-ubuntu-quantal
+ * syslinux-themes-ubuntu-raring
+ * syslinux-themes-ubuntu-saucy
+
+= Libraries =
+
+ * tk8.5-dev
+ * libgl1-mesa-swx11-i686
+ * libchart-perl
+ * libgd-graph-perl
+ * libtemplate-perl
+
+= Python2.x =
+
+ * idle
+ * idle-python2.7
+ * python2.7-examples
+ * libpython2.7-testsuite
+
+= Python3 =
+
+ * python3-doc
+ * idle3
+ * idle-python3.4
+ * python3-all-dev
+ * python3-all-dbg
+ * python3-examples
+ * python3-setuptools
+ * python3-bsddb3-dbg
+ * python-bsddb3-doc
+ * python3-gi-cairo
+ * libpython3.4-testsuite

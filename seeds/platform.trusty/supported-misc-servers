@@ -1,0 +1,232 @@
+= Servers and Daemons =
+
+Database:
+
+ * mdbtools				# OOo2 supports the JET format
+
+Email:
+
+ * fetchmail
+ * procmail
+ * exim4
+ * exim4-daemon-heavy
+ * exim4-daemon-light
+ * exim4-doc-html
+ * mail-stack-delivery
+ * mailman
+
+Must also consider webmail and so on...
+
+VPN:
+
+ * strongswan # ipsec vpn - jpds/14.04 (LP: #1266066)
+ * strongswan-ike
+ * strongswan-plugin-dhcp
+ * strongswan-plugin-eap-md5
+ * strongswan-plugin-eap-mschapv2
+ * strongswan-plugin-eap-peap
+ * strongswan-plugin-eap-radius
+ * strongswan-plugin-eap-tls
+ * strongswan-plugin-eap-tnc
+ * strongswan-plugin-eap-ttls
+ * strongswan-plugin-gmp
+ * strongswan-plugin-ldap
+ * strongswan-plugin-mysql
+ * strongswan-plugin-openssl
+ * strongswan-plugin-pkcs11
+ * strongswan-plugin-radattr
+ * strongswan-plugin-sql
+ * strongswan-plugin-unbound
+ * strongswan-pt-tls-client
+ * strongswan-tnc-base
+ * strongswan-tnc-client
+ * strongswan-tnc-pdp
+ * strongswan-tnc-server
+ 
+Web applications:
+
+ * zope3-sandbox
+ * python-moinmoin      # moin (>= 1.5)
+ * python-django
+ * python-tickcount #ChuckShort - server-lucid-canonical-application-support
+ * python-openid #ChuckShort - server-lucid-canonical-application-support
+ * python-pastescript #ChuckShort - server-lucid-canonical-application-support
+ * python-pastedeploy #ChuckShort - server-lucid-canonical-application-support
+ * python-psycopg2
+ * memcached #ClintByrum - server-maverick-uds-web20-workloads
+ * libmemcached-dev #ClintByrum - server-maverick-uds-web20-workloads
+ * rabbitmq-server
+
+Printing:
+
+ * printer-driver-m2300w  # Driver for the Minolta magicolor 2300W/24000W color laser printers
+
+Utilities:
+
+ * graphviz
+ * logcheck		  # great security tool for any server
+ * logcheck-database	  # useful for above
+ * rrdtool
+ * john
+ * libmemcached-tools #ClintByrum - server-maverick-uds-web20-workloads
+ * nut # ChuckShort - ServerPackageReview
+ * nut-cgi
+ * nut-snmp
+ * powernap
+ * powernap-server
+
+Radius server:
+
+ * freeradius
+
+Backup:
+
+ * bacula-director-sqlite3
+ * bacula-sd-sqlite3
+ * mtx
+
+Proxy:
+
+ * haproxy #ClintByrum server-maverick-uds-cloud-loadbalancing
+
+Configuration Management:
+
+ * puppet
+ * puppetmaster
+ * facter
+ * etckeeper
+
+Monitoring:
+
+ * nagios3
+ * nagios3-common
+ * nagios3-doc
+ * nagios-plugins-basic
+ * nagios-plugins-standard
+ * nagios-nrpe-server #ChuckShort - server lucid-canonical-application-support
+ * nagios-nrpe-plugin #ChuckShort - server lucid-canonical-application-support
+
+Backup:
+
+ * bacula
+ * bacula-director-mysql
+ * bacula-director-pgsql
+ * bacula-sd-mysql
+ * bacula-sd-pgsql
+
+Storage:
+  
+ * ceph
+ * radosgw
+ * python-ceph
+ * clvm
+
+Other:
+
+ * sysvinit  # ScottJamesRemnant retain support for now
+ * samba-doc-pdf
+ * ibmasm-utils
+ * rabbitmq-server
+ * nova-doc
+ * nova-api
+ * nova-network
+ * nova-objectstore
+ * nova-scheduler
+ * nova-volume
+ * nova-compute
+ * nova-compute-kvm
+ * nova-compute-lxc
+ * nova-vncproxy
+ * nova-cert
+ * nova-scheduler # James Page LP: #1180084
+ * euca2tools
+ * unzip
+ * python-nova
+ * nova-common
+ * python-swift
+ * swift-account
+ * swift-container
+ * swift-doc
+ * swift-object
+ * swift-proxy
+ * python-glance
+ * python-glanceclient
+ * python-neutronclient
+ * python-quantumclient		# needed until 14.04
+ * glance
+ * keystone
+ * python-keystone
+ * keystone-doc
+ * python-keystoneclient
+ * python-cinderclient
+ * python-swiftclient
+ * python-ceilometer
+ * ceilometer-common
+ * ceilometer-collector
+ * ceilometer-api
+ * ceilometer-agent-compute
+ * ceilometer-agent-central
+ * openstack-dashboard
+ * python-django-openstack
+ * python-requests
+ * python-oslo-config
+ * python-oslo.sphinx
+ * openvswitch
+ * python-cinder
+ * cinder-volume
+ * cinder-api
+ * cinder-scheduler
+ * neutron-server
+ * quantum-server			# needed until 14.04
+ * neutron-common
+ * quantum-common			# needed until 14.04
+ * neutron-plugin-cisco
+ * quantum-plugin-cisco			# needed until 14.04
+ * neutron-plugin-nec
+ * quantum-plugin-nec			# needed until 14.04
+ * neutron-plugin-metaplugin
+ * quantum-plugin-metaplugin		# needed until 14.04
+ * neutron-plugin-nicira
+ * quantum-plugin-nicira		# needed until 14.04
+ * neutron-l3-agent
+ * quantum-l3-agent			# needed until 14.04
+ * neutron-dhcp-agent
+ * quantum-dhcp-agent			# needed until 14.04
+ * quantum-metadata-agent		# needed until 14.04
+ * python-neutron
+ * python-quantum			# needed until 14.04
+ * neutron-plugin-openvswitch
+ * quantum-plugin-openvswitch		# needed until 14.04
+ * neutron-plugin-openvswitch-agent
+ * quantum-plugin-openvswitch-agent	# needed until 14.04
+ * neutron-plugin-linuxbridge
+ * quantum-plugin-linuxbridge		# needed until 14.04
+ * neutron-plugin-linuxbridge-agent
+ * quantum-plugin-linuxbridge-agent	# needed until 14.04
+ * neutron-plugin-ryu
+ * quantum-plugin-ryu			# needed until 14.04
+ * neutron-plugin-ryu-agent
+ * quantum-plugin-ryu-agent		# needed until 14.04
+ * cinder-backup
+ * neutron-lbaas-agent
+ * quantum-lbaas-agent			# needed until 14.04
+ * neutron-plugin-midonet
+ * quantum-plugin-midonet		# needed until 14.04
+ * python-heat
+ * heat-common
+ * heat-engine
+ * heat-api
+ * heat-api-cfn
+ * heat-api-cloudwatch
+ * openssh-blacklist-extra
+ * lxc
+ * lxc-tests
+
+Cloud:
+
+ * walinuxagent # BenHoward - windows azure enablement
+ * euca2ools
+
+IPv6 tools:
+
+ * quagga                 # RobertCollins

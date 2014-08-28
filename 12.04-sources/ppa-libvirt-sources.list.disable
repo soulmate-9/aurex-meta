@@ -1,0 +1,6 @@
+# Jacob Zimmermann
+# virt
+# Up-to-date virtualisation tools
+deb http://ppa.launchpad.net/jacob/virt/ubuntu lucid main 
+deb-src http://ppa.launchpad.net/jacob/virt/ubuntu lucid main
+
