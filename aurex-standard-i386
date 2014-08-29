@@ -1,7 +1,7 @@
 arj
-at
 busybox-static
 cdrdao
+cifs-utils
 cpio
 cron
 debconf-utils
@@ -16,14 +16,13 @@ hdparm
 info
 iptables
 language-selector-common
-lha
+lhasa
 logrotate
 lshw
 lsof
 ltrace
 man-db
 mc
-memtest86+
 mime-support
 netcat
 nfs-common
@@ -36,7 +35,6 @@ rpm
 rsync
 screen
 smbclient
-smbfs
 squashfs-tools
 sshfs
 strace
