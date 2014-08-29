@@ -1,0 +1,131 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: aurex support
+Task-Extended-Description: This task provides aurex supported packages
+Task-Metapackage: exclude-aurex-support
+# 'exclude' prefix in metapackage name to avoid installation in update-lists script
+
+#Task-Seeds: aurex-support-kernel
+
+= java =
+ * oracle-java7-installer
+ * oracle-java8-installer 
+
+= virtualization libvirt =
+ * libvirt-bin
+ * libvirt0
+ * python-libvirt
+ * virt-manager
+ * virt-viewer
+ * virtinst
+ * qemu-kvm
+ * quemu
+
+= virtualization virtualbox =
+ * virtualbox-4.1
+ * virtualbox-4.2
+ * virtualbox-4.3
+
+= zentyal =
+ * zentyal
+ * zentyal-all
+ * language-packs-zentyal-all
+ * zenbuntu-desktop
+
+= aurex =
+ * aurex-instant
+ * germinate
+ * aurex-translive
+== aurex live ==
+ * aurex-ubiquity-transmute
+ * aurex-ubiquity-theme
+
+= Language support =
+ * Languages: es ca en fr de it
+
+ * language-pack-${Languages}
+ * language-pack-${Languages}-base
+ * language-pack-gnome-${Languages}
+ * language-pack-gnome-${Languages}-base
+== firefox language support ==
+ * firefox-locale-${Languages}
+
+= libreoffice =
+ * Languages: es ca en-gb en-us fr de it
+ * libreoffice-l10n-${Languages}
+ * libreoffice-help-${Languages}
+ * libreoffice-style-*
+
+= dropbox =
+ * nautilus-dropbox
+
+= wine =
+ * wine1.2
+ * wine1.3
+ * wine1.4
+ * wine1.6
+== wine build-depends and tools (from zentyal repos) ==
+ * ldap-utils
+ * libldap-2.4-2
+ * libldap-2.4-2-dbg
+ * libldap2-dev
+ * slapd
+ * slapd-dbg
+ * slapd-smbk5pwd
+
+= opera =
+ * opera
+
+= samba related (get all actual stuff from zentyal) =
+ * samba
+ * samba-common-bin
+ * samba-common
+ * smbclient
+ * swat
+ * samba-doc
+ * cifs-utils
+ * libpam-smbpass
+ * libsmbclient
+ * libsmbclient-dev
+ * winbind
+ * samba-dbg
+ * libwbclient0
+
+# TODO: system-config-samba ntfs-config 
+= graphics =
+ * (gnome-sushi)
+ * mypaint
+ * mypaint-data-hires
+# to enable globus, add
+# ppa:gloobus-dev/gloobus-preview
+# * (gloobus-preview)
+# * (gloobus-sushi)
+
+= classroom control =
+* italc2-master
+* italc2-client
+* libitalc2
+
+= network utilities & services =
+ * vsftpd
+
+= other =
+ * alien
+# * ambiance-colors-xfce-lxde
+ * dropbox
+ * nautilus-dropbox
+ * nautilus-actions-extra
+# * jupiter
+# * jupiter-support-eee 
+ * unetbootin
+ * multisystem
+ * yad
+
+= xfce 4.10 devel =
+ * libgarcon-1-0-dev
+
+= old themes =
+# * radiance-colors-xfce-lxde
+# * faenza-icon-theme
+# * faience-icon-theme
+

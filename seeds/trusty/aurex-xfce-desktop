@@ -1,0 +1,116 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: aurex xfce desktop
+Task-Extended-Description: This task provides the aurex xfce desktop environment.
+Task-Key: aurex-xfce-desktop
+Task-Metapackage: aurex-xfce-desktop
+
+= Xfce core =
+ * xfwm4
+ * xfdesktop4
+ * xfce4-panel
+ * xfce4-settings
+ * xfce4-session
+ * thunar
+ * xfce4-appfinder
+ * thunar-volman
+ * (libxfce4ui-utils)   # for xfce4-about
+ * xfce4-whiskermenu-plugin
+
+= Xfce goodies =
+ * (xfce4-xkb-plugin)
+ * (xfce4-mailwatch-plugin)
+ * (xfce4-verve-plugin)
+ * (xfce4-quicklauncher-plugin)
+ * (xfce4-weather-plugin)
+ * (xfce4-cpugraph-plugin)
+ * (xfce4-systemload-plugin)
+ * (xfce4-netload-plugin)
+ * (xfce4-notes-plugin)
+ * (xfce4-dict)
+ * (xfce4-places-plugin)
+ * (thunar-archive-plugin)
+ * (thunar-media-tags-plugin)
+ * (xfce4-volumed)
+ * (xfce4-terminal)
+ * (orage)
+ * (xfce4-power-manager)
+ * (gigolo)
+ * (xfce4-taskmanager)
+ * (xfburn)
+ * (parole)
+ * xfce4-notifyd
+ * xfce4-appfinder
+
+= Indicators =
+ * (xfce4-indicator-plugin)
+ * (indicator-application)
+ * (indicator-sound)
+ * (indicator-messages)
+ * (indicator-power)
+
+= Other stuff =
+ * xkb-data
+ * xorg
+ #* (xterm)
+ * (blueman)
+ * (acpi-support)
+ * (avahi-daemon)
+ * (bluez)
+ * (bluez-alsa)
+ * (bluez-cups)
+ * (brltty)
+ * (brltty-x11)
+ * (catfish)
+ * (desktop-file-utils)
+ * (espeak)
+ * (gcalctool)
+ * (gnome-accessibility-themes)
+ * (gnome-system-tools)
+ * (hplip)
+ * (ibus)
+ * (ibus-gtk)
+ * (ibus-pinyin)
+ * (ibus-table)
+ * (kerneloops-daemon)
+ * (laptop-detect)
+ * (leafpad)
+ * (libnss-mdns)
+ * (onboard)
+ * (pastebinit)
+ * (pavucontrol)
+ * (pcmciautils)
+ * (pidgin)
+ * (pidgin-microblog)
+ * (pidgin-otr)
+ * (policykit-desktop-privileges)
+ * (printer-driver-c2esp)
+ * (printer-driver-foo2zjs)
+ * (printer-driver-min12xxw)
+ * (printer-driver-ptouch)
+ * (printer-driver-pxljr)
+ * (printer-driver-sag-gdi)
+ * (printer-driver-splix)
+ * (screensaver-default-images)
+ * (xsane)
+ * (speech-dispatcher)
+ * (system-config-printer-gnome)
+ * (thunderbird)
+ * (transmission-gtk)
+ * (xcursor-themes)
+ * (xfburn)
+ * (xfce4-datetime-plugin)
+ * (xfce4-dict)
+ * (xfce4-indicator-plugin)
+ * (xfce4-mailwatch-plugin)
+ * (xfce4-quicklauncher-plugin)
+ * (xfce4-systemload-plugin)
+ * (xfce4-taskmanager)
+ * (xfce4-terminal)
+ * (xfce4-verve-plugin)
+ * (xfce4-weather-plugin)
+ * (xscreensaver)
+ * (xscreensaver-data)
+ * (xscreensaver-data-extra)
+ * (xscreensaver-gl)
+ * (xscreensaver-gl-extra)
