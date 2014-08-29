@@ -6,6 +6,7 @@ arj
 at-spi2-core
 aurex-boot-theme
 aurex-default-settings
+aurex-desktop
 aurex-gtk-theme
 aurex-icon-theme
 aurex-keyring
@@ -13,6 +14,7 @@ aurex-lightdm-theme
 aurex-plymouth-theme
 aurex-transmute
 aurex-transmute-gui
+aurex-xfce-desktop
 ausias-cc-default-settings
 ausias-papercut-client
 ausias-printers-centro

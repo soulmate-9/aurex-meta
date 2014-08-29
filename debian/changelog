@@ -1,3 +1,27 @@
+aurex-meta (1.325~aurex14.04.3) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added aurex-asir to aurex-desktop-depinf [amd64]
+  * Added aurex-daw to aurex-desktop-depinf [amd64]
+  * Added aurex-desktop to aurex-desktop-depinf [amd64], aurex-desktop-
+    secretaria [amd64], ausias-desktop [amd64], desktop [amd64]
+  * Added aurex-desktop-depinf to ausias-desktop-depinf [amd64]
+  * Added aurex-desktop-secretaria to ausias-desktop-secretaria [amd64]
+  * Added aurex-secretaria to aurex-desktop-secretaria [amd64]
+  * Added aurex-smr to aurex-desktop-depinf [amd64]
+  * Added aurex-standard to standard [amd64]
+  * Added aurex-xfce-desktop to aurex-desktop [amd64], aurex-desktop-
+    depinf [amd64], aurex-desktop-secretaria [amd64], ausias-desktop
+    [amd64]
+  * Added ausias-desktop to ausias-desktop-depinf [amd64], ausias-
+    desktop-secretaria [amd64]
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 29 Aug 2014 18:33:34 +0200
+
 aurex-meta (1.325~aurex14.04.2) trusty; urgency=medium
 
   * Refreshed dependencies
