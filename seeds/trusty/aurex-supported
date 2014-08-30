@@ -57,7 +57,8 @@ Task-Metapackage: exclude-aurex-support
  * libreoffice-style-*
 
 = dropbox =
- * nautilus-dropbox
+# * nautilus-dropbox
+ * dropbox
 
 = wine =
  * wine1.2

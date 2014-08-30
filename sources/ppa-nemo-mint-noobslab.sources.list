@@ -1,0 +1,3 @@
+# updated nemo and extensions
+deb http://ppa.launchpad.net/noobslab/mint/ubuntu trusty main
+deb-src http://ppa.launchpad.net/noobslab/mint/ubuntu trusty main
