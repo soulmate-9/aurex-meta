@@ -204,6 +204,10 @@ prepare_chroot(){
 			rsync -axC "$CUSTOM_DEBOOTSTRAP_COPY/" "$CHROOT_DIR/"
 		fi
 		chroot_mounts
+		if [ "$a" = "amd64" ] ; then
+			# add i386 as foreign architecture
+			$CHROOT_CMD dpkg --add-architecture i386
+		fi
 		if [ "$CUSTOM_DEBOOTSTRAP_PKGS" ] ; then
 			echo "chroot: install custom pkgs"
 			$CHROOT_CMD apt-get update || true
