@@ -1,0 +1,3 @@
+# Daily builds of the Shimmer Project's projects.
+deb http://ppa.launchpad.net/shimmerproject/daily/ubuntu trusty main 
+deb-src http://ppa.launchpad.net/shimmerproject/daily/ubuntu trusty main 

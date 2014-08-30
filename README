@@ -47,6 +47,8 @@ The chroot contains an standard Ubuntu debootstrap. The required customization c
  - CUSTOM_DEBOOSTRAP_CMD: custom command to execute in the chroot after debootstrap, custom install and custom copy. The next step is just the simulated installation of metapackages.
 'update-lists' supports option "--current-target=<DIRNAME>" to re-use a debootstrap dir to speed the process. Customization is not skipped.
 Note that 'update-lists' uses debootstrap and REQUIRES root privileges.
+To generate chroots for available architectures you can use the command:
+sudo ./update-tool debootstrap
 
 update scripts and package building
 ===================================
