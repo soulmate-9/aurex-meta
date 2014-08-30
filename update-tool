@@ -229,7 +229,7 @@ prepare_chroot(){
 }
 
 gen_repo_basename(){
-	NAME="$(echo "$1" |sed -e "s%http:\/\/%%"
+	NAME="$(echo "$1" |sed -e "s%http:\/\/%%")"
 	echo "filter_$(echo "${NAME}" |tr "/ " "-_")"
 }
 
