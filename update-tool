@@ -229,7 +229,8 @@ prepare_chroot(){
 }
 
 gen_repo_basename(){
-	echo "filter_$(echo "${1}" |tr "/ " "_:")"
+	NAME="$(echo "$1" |sed -e "s%http:\/\/%%"
+	echo "filter_$(echo "${NAME}" |tr "/ " "-_")"
 }
 
 update_lists(){
@@ -344,9 +345,9 @@ split_lists(){
 				REPO_URL="$(sed -ne "${nfirst}{s%^# -> %%;p}" "$f")"
 				FILENAME="$(gen_repo_basename "$REPO_URL")"
 				nlast="$n"
-				sed -ne "${nfirst},${nlast}{/^#.*$/d;s%$%        install%;p}" "$f" > "$TARGET_DIR/${FILENAME}-$F_ARCH.list"
-				echo "$REPO_URL" > "$TARGET_DIR/${FILENAME}-$F_ARCH.url"
-				cat <<EOF > "$TARGET_DIR/${FILENAME}-$F_ARCH.updates"
+				sed -ne "${nfirst},${nlast}{/^#.*$/d;s%$%        install%;p}" "$f" > "$SPLIT_DIR/${FILENAME}-$F_ARCH.list"
+				echo "$REPO_URL" > "$SPLIT_DIR/${FILENAME}-$F_ARCH.url"
+				cat <<EOF > "$SPLIT_DIR/${FILENAME}-$F_ARCH.updates"
 Name: ${FILENAME}-$F_ARCH
 Method: ${REPO_URL% *}
 Suite: ${REPO_URL#* }
@@ -422,7 +423,7 @@ pcache_list(){
 
 
 usage(){
-	die "Usage: $(basename "$0") {configure-sources|update-seeds|update-metapackages|debootstrap|prepare-chroot|update-lists|split-lists|clean} [--target-dir=<DIRNAME>]"
+	die "Usage: $(basename "$0") {configure-sources|update-seeds|update-metapackages|debootstrap|prepare-chroot|update-lists|clean} [--target-dir=<DIRNAME>]\n       $(basename "$0") split-lists SPLIT-DIRECTORY"
 }
 
 # variables
@@ -495,8 +496,9 @@ case "$ACTION" in
 		[ -z "$CLEAN_DIR" ] || rm -rf "$CLEAN_DIR"
 		;;
 	split-lists)
-		[ "$TARGET_DIR" ] || die "split-lists requires --target-dir=<DIRNAME> option"
-		[ -d "$TARGET_DIR" ] || die "$TARGET_DIR is not a valid directory"
+		[ -z  "$2" ] || SPLIT_DIR="$2" 
+		[ "$SPLIT_DIR" ] || die "split-lists requires SPLIT_DIR parameter"
+		[ -d "$SPLIT_DIR" ] || die "$SPLIT_DIR is not a valid directory"
 		split_lists
 		;;
 	*)
