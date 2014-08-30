@@ -1,0 +1,6 @@
+wine-gecko2.24        install
+wine-gecko2.24:i386        install
+wine-mono4.5.2        install
+wine1.7        install
+wine1.7-amd64        install
+wine1.7-i386:i386        install

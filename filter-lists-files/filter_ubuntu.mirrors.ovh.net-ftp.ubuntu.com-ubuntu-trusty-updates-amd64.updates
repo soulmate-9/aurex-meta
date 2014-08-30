@@ -1,0 +1,7 @@
+Name: filter_ubuntu.mirrors.ovh.net-ftp.ubuntu.com-ubuntu-trusty-updates-amd64
+Method: http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/
+Suite: trusty-updates
+Components:  contrib>contrib main>contrib multiverse>contrib non-free>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: amd64 source
+FilterList: purge filter_ubuntu.mirrors.ovh.net-ftp.ubuntu.com-ubuntu-trusty-updates-amd64.list
+

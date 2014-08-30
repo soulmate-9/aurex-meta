@@ -1,0 +1,7 @@
+Name: filter_archive.canonical.com-ubuntu-trusty-i386
+Method: http://archive.canonical.com/ubuntu/
+Suite: trusty
+Components:  contrib>contrib main>contrib multiverse>contrib non-free>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: i386 source
+FilterList: purge filter_archive.canonical.com-ubuntu-trusty-i386.list
+

@@ -1,0 +1,7 @@
+Name: filter_liveusb.info-multisystem-depot-all-i386
+Method: http://liveusb.info/multisystem/depot/
+Suite: all
+Components:  contrib>contrib main>contrib multiverse>contrib non-free>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: i386 source
+FilterList: purge filter_liveusb.info-multisystem-depot-all-i386.list
+

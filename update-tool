@@ -229,7 +229,8 @@ prepare_chroot(){
 }
 
 gen_repo_basename(){
-	NAME="$(echo "$1" |sed -e "s%http:\/\/%%")"
+	NAME="$(echo "$1" |sed -e "s%http:\/\/%%;s% %%")"
+	NAME="$(echo "$NAME" |sed -e "s%ppa.launchpad.net\/%%")"
 	echo "filter_$(echo "${NAME}" |tr "/ " "-_")"
 }
 
