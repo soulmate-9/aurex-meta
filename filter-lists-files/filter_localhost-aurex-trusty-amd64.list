@@ -59,6 +59,7 @@ flatwoken-icon-theme        install
 germinate        install
 konica-minolta-ppds        install
 libthunarx-2-0        install
+nemo-pdf-tools        install
 powerpoint-viewer-bin        install
 python3-germinate        install
 thunar        install

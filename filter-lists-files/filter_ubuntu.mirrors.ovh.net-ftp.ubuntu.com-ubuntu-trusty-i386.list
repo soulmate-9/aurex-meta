@@ -283,6 +283,7 @@ gir1.2-notify-0.7        install
 gir1.2-packagekitglib-1.0        install
 gir1.2-pango-1.0        install
 gir1.2-peas-1.0        install
+gir1.2-poppler-0.18        install
 gir1.2-secret-1        install
 gir1.2-signon-1.0        install
 gir1.2-soup-2.4        install
@@ -950,7 +951,6 @@ libmythes-1.2-0        install
 libnatpmp1        install
 libncurses5:i386        install
 libncursesw5:i386        install
-libnemo-extension1        install
 libneon27-gnutls        install
 libnet-dbus-perl        install
 libnet-dns-perl        install
@@ -1479,15 +1479,11 @@ mysql-utilities        install
 mysql-workbench        install
 mysql-workbench-data        install
 nano        install
-nautilus-dropbox        install
 nautilus-sendto        install
 nautilus-share        install
 ncurses-base        install
 ncurses-bin        install
 ncurses-term        install
-nemo        install
-nemo-data        install
-nemo-fileroller        install
 netbase        install
 netcat-openbsd        install
 netpbm        install

@@ -1,0 +1,7 @@
+Name: filter_yad-i386
+Method: yad
+Suite: yad
+Components:  contrib>contrib main>contrib multiverse>contrib non-free>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: i386 source
+FilterList: purge filter_yad-i386.list
+

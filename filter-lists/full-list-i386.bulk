@@ -6,6 +6,9 @@ opera
 # -> http://download.virtualbox.org/virtualbox/debian/ trusty
 virtualbox-4.2
 virtualbox-4.3
+# -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ trusty
+unetbootin
+unetbootin-translations
 # -> http://liveusb.info/multisystem/depot/ all
 gtkdialog
 multisystem
@@ -71,14 +74,20 @@ flatwoken-icon-theme
 germinate
 konica-minolta-ppds
 libthunarx-2-0
+nemo-pdf-tools
 powerpoint-viewer-bin
 python3-germinate
 thunar
 thunar-data
 thunar-volman
-# -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ trusty
-unetbootin
-unetbootin-translations
+# -> http://ppa.launchpad.net/noobslab/mint/ubuntu/ trusty
+cinnamon-translations
+gir1.2-nemo-3.0
+libnemo-extension1
+nemo
+nemo-data
+nemo-fileroller
+python-nemo
 # -> http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu/ trusty
 radiance-colors
 # -> http://ppa.launchpad.net/shimmerproject/daily/ubuntu/ trusty
@@ -91,11 +100,6 @@ wine-gecko2.24
 wine-mono4.5.2
 wine1.7
 wine1.7-i386
-# -> http://ppa.launchpad.net/webupd8team/java/ubuntu/ trusty
-oracle-java7-installer
-oracle-java8-installer
-# -> http://ppa.launchpad.net/webupd8team/y-ppa-manager/ubuntu/ trusty
-yad
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ trusty-proposed
 linux-headers-3.13.0-31
 linux-headers-3.13.0-31-lowlatency
@@ -972,6 +976,7 @@ gir1.2-notify-0.7
 gir1.2-packagekitglib-1.0
 gir1.2-pango-1.0
 gir1.2-peas-1.0
+gir1.2-poppler-0.18
 gir1.2-secret-1
 gir1.2-signon-1.0
 gir1.2-soup-2.4
@@ -1639,7 +1644,6 @@ libmythes-1.2-0
 libnatpmp1
 libncurses5:i386
 libncursesw5:i386
-libnemo-extension1
 libneon27-gnutls
 libnet-dbus-perl
 libnet-dns-perl
@@ -2168,15 +2172,11 @@ mysql-utilities
 mysql-workbench
 mysql-workbench-data
 nano
-nautilus-dropbox
 nautilus-sendto
 nautilus-share
 ncurses-base
 ncurses-bin
 ncurses-term
-nemo
-nemo-data
-nemo-fileroller
 netbase
 netcat-openbsd
 netpbm
@@ -2734,3 +2734,8 @@ zenity
 zenity-common
 zip
 zlib1g:i386
+# -> http://ppa.launchpad.net/webupd8team/java/ubuntu/ trusty
+oracle-java7-installer
+oracle-java8-installer
+# -> http://ppa.launchpad.net/webupd8team/y-ppa-manager/ubuntu/ trusty
+yad
