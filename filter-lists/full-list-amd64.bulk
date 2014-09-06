@@ -17,10 +17,13 @@ multisystem
 # -> http://localhost/aurex/ trusty
 acroread
 acroread-bin:i386
+android-sdk-installer
 aurex-asir
 aurex-atspi-fix
 aurex-boot-theme
+aurex-boot-theme-graphics
 aurex-browser-profile
+aurex-cache
 aurex-cc-auth
 aurex-cc-mount
 aurex-certificates
@@ -56,6 +59,7 @@ aurex-transmute
 aurex-transmute-gui
 aurex-ubiquity-theme
 aurex-ubiquity-transmute
+aurex-usb-power-fixes
 aurex-virtualbox-4.3
 aurex-virtualbox-common
 aurex-wallpaper-theme
@@ -72,11 +76,16 @@ ausias-papercut-client
 ausias-printers-centro
 ausias-printers-depinf
 ausias-printers-secretaria
+eclipse-adt-plugin
+eclipse-jee-installer
+eclipse-luna-base
+eclipse-luna-installer
 flatwoken-icon-theme
 germinate
 konica-minolta-ppds
 libthunarx-2-0
 nemo-pdf-tools
+netbeans-8.0-installer
 powerpoint-viewer-bin
 python3-germinate
 thunar
@@ -92,6 +101,11 @@ nemo-fileroller
 python-nemo
 # -> http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu/ trusty
 radiance-colors
+# -> http://ppa.launchpad.net/semiosis/ubuntu-glusterfs-3.5/ubuntu/ trusty
+glusterfs-client
+glusterfs-common
+glusterfs-dbg
+glusterfs-server
 # -> http://ppa.launchpad.net/shimmerproject/daily/ubuntu/ trusty
 greybird-gtk-theme
 xubuntu-icon-theme
@@ -105,8 +119,8 @@ wine1.7
 wine1.7-amd64
 wine1.7-i386:i386
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ trusty-proposed
-linux-headers-3.13.0-31
-linux-headers-3.13.0-31-lowlatency
+linux-headers-3.13.0-36
+linux-headers-3.13.0-36-lowlatency
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ trusty-updates
 account-plugin-aim
 account-plugin-jabber
@@ -215,8 +229,6 @@ gtk2-engines-pixbuf
 hplip
 hplip-data
 hud
-icedtea-6-jre-cacao
-icedtea-6-jre-jamvm
 icedtea-7-jre-jamvm
 ifupdown
 im-config
@@ -227,6 +239,7 @@ intel-gpu-tools
 iputils-arping
 iputils-ping
 iputils-tracepath
+irqbalance
 kate-data
 katepart
 kde-runtime
@@ -329,6 +342,8 @@ libgail-3-0
 libgail-common
 libgail18
 libgbm1
+libgcrypt11:amd64
+libgcrypt11:i386
 libgettextpo-dev
 libgettextpo0
 libgexiv2-2
@@ -417,6 +432,7 @@ libkwinglutils1abi3
 libkworkspace4abi2
 libkxmlrpcclient4
 liblightdm-gobject-1-0
+liblua5.1-0
 liblwp-protocol-https-perl
 liblzo2-2
 libmagic1:amd64
@@ -558,6 +574,7 @@ libxfont1
 libxml2
 libxml2-utils
 libxml2:i386
+light-locker-settings
 lightdm
 linux-libc-dev
 locales
@@ -578,11 +595,7 @@ nepomuk-core-runtime
 net-tools
 network-manager-gnome
 nfs-common
-nscd
 nvidia-common
-openjdk-6-jre
-openjdk-6-jre-headless
-openjdk-6-jre-lib
 openjdk-7-jre
 openjdk-7-jre-headless
 opensc
@@ -651,6 +664,7 @@ rhythmbox-plugin-zeitgeist
 rhythmbox-plugins
 rpcbind
 rsync
+rsyslog
 samba
 samba-common
 samba-common-bin
@@ -720,7 +734,12 @@ winbind
 xdg-utils
 xfce4-power-manager
 xfce4-power-manager-data
+xnest
+xserver-common
+xserver-xephyr
+xserver-xorg-core
 xserver-xorg-video-ati
+xserver-xorg-video-intel
 xserver-xorg-video-radeon
 xul-ext-ubufox
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ trusty
@@ -1029,8 +1048,6 @@ gksu
 glib-networking
 glib-networking-common
 glib-networking-services
-glusterfs-client
-glusterfs-common
 gnome-accessibility-themes
 gnome-bluetooth
 gnome-contacts
@@ -1114,8 +1131,6 @@ ibus-gtk
 ibus-gtk3
 ibus-pinyin
 ibus-table
-icedtea-netx
-icedtea-netx-common
 icoutils
 ifenslave
 imagemagick
@@ -1142,7 +1157,6 @@ iproute
 iproute2
 iptables
 ipxe-qemu
-irqbalance
 isc-dhcp-client
 isc-dhcp-common
 iso-codes
@@ -1443,8 +1457,6 @@ libgconf2-4
 libgcr-3-common
 libgcr-base-3-1
 libgcr-ui-3-1
-libgcrypt11:amd64
-libgcrypt11:i386
 libgd-perl
 libgd3
 libgd3:i386
@@ -1681,7 +1693,6 @@ liblouis2
 liblqr-1-0
 libltdl7
 libltdl7:i386
-liblua5.1-0
 liblua5.2-0
 liblvm2app2.2
 liblwp-mediatypes-perl
@@ -2283,6 +2294,7 @@ libzephyr4
 libzip2
 libzvbi-common
 libzvbi0
+light-locker
 light-themes
 lintian
 linux-sound-base
@@ -2489,6 +2501,7 @@ python-paramiko
 python-pil
 python-piston-mini-client
 python-pkg-resources
+python-psutil
 python-pycurl
 python-pyodbc
 python-pyorbit
@@ -2589,7 +2602,6 @@ rfkill
 rpm
 rpm-common
 rpm2cpio
-rsyslog
 rtkit
 sbsigntool
 screen
@@ -2669,7 +2681,6 @@ tree
 tsconf
 ttf-bitstream-vera
 ttf-dejavu-core
-ttf-dejavu-extra
 ttf-indic-fonts-core
 ttf-mscorefonts-installer
 ttf-punjabi-fonts
@@ -2840,7 +2851,6 @@ xinit
 xinput
 xkb-data
 xml-core
-xnest
 xorg
 xorg-docs-core
 xsane
@@ -2850,10 +2860,7 @@ xscreensaver-data
 xscreensaver-data-extra
 xscreensaver-gl
 xscreensaver-gl-extra
-xserver-common
-xserver-xephyr
 xserver-xorg
-xserver-xorg-core
 xserver-xorg-input-all
 xserver-xorg-input-evdev
 xserver-xorg-input-mouse
@@ -2864,7 +2871,6 @@ xserver-xorg-video-all
 xserver-xorg-video-cirrus
 xserver-xorg-video-fbdev
 xserver-xorg-video-glamoregl
-xserver-xorg-video-intel
 xserver-xorg-video-mach64
 xserver-xorg-video-mga
 xserver-xorg-video-modesetting

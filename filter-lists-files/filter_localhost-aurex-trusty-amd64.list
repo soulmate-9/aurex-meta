@@ -1,9 +1,12 @@
 acroread        install
 acroread-bin:i386        install
+android-sdk-installer        install
 aurex-asir        install
 aurex-atspi-fix        install
 aurex-boot-theme        install
+aurex-boot-theme-graphics        install
 aurex-browser-profile        install
+aurex-cache        install
 aurex-cc-auth        install
 aurex-cc-mount        install
 aurex-certificates        install
@@ -39,6 +42,7 @@ aurex-transmute        install
 aurex-transmute-gui        install
 aurex-ubiquity-theme        install
 aurex-ubiquity-transmute        install
+aurex-usb-power-fixes        install
 aurex-virtualbox-4.3        install
 aurex-virtualbox-common        install
 aurex-wallpaper-theme        install
@@ -55,11 +59,16 @@ ausias-papercut-client        install
 ausias-printers-centro        install
 ausias-printers-depinf        install
 ausias-printers-secretaria        install
+eclipse-adt-plugin        install
+eclipse-jee-installer        install
+eclipse-luna-base        install
+eclipse-luna-installer        install
 flatwoken-icon-theme        install
 germinate        install
 konica-minolta-ppds        install
 libthunarx-2-0        install
 nemo-pdf-tools        install
+netbeans-8.0-installer        install
 powerpoint-viewer-bin        install
 python3-germinate        install
 thunar        install

@@ -78,7 +78,7 @@ ii  libfreetype6:amd64              2.5.2-1ubuntu2.2
 ii  libfribidi0:amd64               0.19.6-1
 ii  libfuse2:amd64                  2.9.2-4ubuntu4
 ii  libgcc1:amd64                   1:4.9-20140406-0ubuntu1
-ii  libgcrypt11:amd64               1.5.3-2ubuntu4
+ii  libgcrypt11:amd64               1.5.3-2ubuntu4.1
 ii  libgdbm3:amd64                  1.8.3-12build1
 ii  libgnutls-openssl27:amd64       2.12.23-12ubuntu2.1
 ii  libgnutls26:amd64               2.12.23-12ubuntu2.1
@@ -133,7 +133,7 @@ ii  libtext-iconv-perl              1.7-5build2
 ii  libtext-soundex-perl            3.4-1build1
 ii  libtext-wrapi18n-perl           0.06-7
 ii  libtinfo5:amd64                 5.9+20140118-1ubuntu1
-ii  libudev1:amd64                  204-5ubuntu20.4
+ii  libudev1:amd64                  204-5ubuntu20.5
 ii  libusb-0.1-4:amd64              2:0.1.12-23.3ubuntu1
 ii  libustr-1.0-1:amd64             1.0.4-3ubuntu2
 ii  libuuid1:amd64                  2.20.1-5.1ubuntu20.1
@@ -169,7 +169,7 @@ ii  python3.4                       3.4.0-2ubuntu1
 ii  python3.4-minimal               3.4.0-2ubuntu1
 ii  readline-common                 6.3-4ubuntu2
 ii  resolvconf                      1.69ubuntu1.1
-ii  rsyslog                         7.4.4-1ubuntu2
+ii  rsyslog                         7.4.4-1ubuntu2.1
 ii  sed                             4.2.2-4ubuntu1
 ii  sensible-utils                  0.0.9
 ii  sudo                            1.8.9p5-1ubuntu1
@@ -180,7 +180,7 @@ ii  tzdata                          2014e-0ubuntu0.14.04
 ii  ubuntu-keyring                  2012.05.19
 ii  ubuntu-minimal                  1.325
 ii  ucf                             3.0027+nmu1
-ii  udev                            204-5ubuntu20.4
+ii  udev                            204-5ubuntu20.5
 ii  upstart                         1.12.1-0ubuntu4.2
 ii  ureadahead                      0.100.0-16
 ii  util-linux                      2.20.1-5.1ubuntu20.1

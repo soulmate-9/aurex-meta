@@ -105,8 +105,6 @@ gtk2-engines-pixbuf        install
 hplip        install
 hplip-data        install
 hud        install
-icedtea-6-jre-cacao        install
-icedtea-6-jre-jamvm        install
 icedtea-7-jre-jamvm        install
 ifupdown        install
 im-config        install
@@ -117,6 +115,7 @@ intel-gpu-tools        install
 iputils-arping        install
 iputils-ping        install
 iputils-tracepath        install
+irqbalance        install
 kate-data        install
 katepart        install
 kde-runtime        install
@@ -212,6 +211,7 @@ libgail-3-0        install
 libgail-common        install
 libgail18        install
 libgbm1        install
+libgcrypt11:i386        install
 libgettextpo-dev        install
 libgettextpo0        install
 libgexiv2-2        install
@@ -287,6 +287,7 @@ libkwinglutils1abi3        install
 libkworkspace4abi2        install
 libkxmlrpcclient4        install
 liblightdm-gobject-1-0        install
+liblua5.1-0        install
 liblwp-protocol-https-perl        install
 liblzo2-2        install
 libmagic1:i386        install
@@ -419,6 +420,7 @@ libxenstore3.0        install
 libxfont1        install
 libxml2        install
 libxml2-utils        install
+light-locker-settings        install
 lightdm        install
 linux-libc-dev        install
 locales        install
@@ -439,11 +441,7 @@ nepomuk-core-runtime        install
 net-tools        install
 network-manager-gnome        install
 nfs-common        install
-nscd        install
 nvidia-common        install
-openjdk-6-jre        install
-openjdk-6-jre-headless        install
-openjdk-6-jre-lib        install
 openjdk-7-jre        install
 openjdk-7-jre-headless        install
 opensc        install
@@ -512,6 +510,7 @@ rhythmbox-plugin-zeitgeist        install
 rhythmbox-plugins        install
 rpcbind        install
 rsync        install
+rsyslog        install
 samba        install
 samba-common        install
 samba-common-bin        install
@@ -581,6 +580,11 @@ winbind        install
 xdg-utils        install
 xfce4-power-manager        install
 xfce4-power-manager-data        install
+xnest        install
+xserver-common        install
+xserver-xephyr        install
+xserver-xorg-core        install
 xserver-xorg-video-ati        install
+xserver-xorg-video-intel        install
 xserver-xorg-video-radeon        install
 xul-ext-ubufox        install

@@ -303,8 +303,6 @@ gksu        install
 glib-networking        install
 glib-networking-common        install
 glib-networking-services        install
-glusterfs-client        install
-glusterfs-common        install
 gnome-accessibility-themes        install
 gnome-bluetooth        install
 gnome-contacts        install
@@ -388,8 +386,6 @@ ibus-gtk        install
 ibus-gtk3        install
 ibus-pinyin        install
 ibus-table        install
-icedtea-netx        install
-icedtea-netx-common        install
 icoutils        install
 ifenslave        install
 imagemagick        install
@@ -416,7 +412,6 @@ iproute        install
 iproute2        install
 iptables        install
 ipxe-qemu        install
-irqbalance        install
 isc-dhcp-client        install
 isc-dhcp-common        install
 iso-codes        install
@@ -717,8 +712,6 @@ libgconf2-4        install
 libgcr-3-common        install
 libgcr-base-3-1        install
 libgcr-ui-3-1        install
-libgcrypt11:amd64        install
-libgcrypt11:i386        install
 libgd-perl        install
 libgd3        install
 libgd3:i386        install
@@ -955,7 +948,6 @@ liblouis2        install
 liblqr-1-0        install
 libltdl7        install
 libltdl7:i386        install
-liblua5.1-0        install
 liblua5.2-0        install
 liblvm2app2.2        install
 liblwp-mediatypes-perl        install
@@ -1557,6 +1549,7 @@ libzephyr4        install
 libzip2        install
 libzvbi-common        install
 libzvbi0        install
+light-locker        install
 light-themes        install
 lintian        install
 linux-sound-base        install
@@ -1763,6 +1756,7 @@ python-paramiko        install
 python-pil        install
 python-piston-mini-client        install
 python-pkg-resources        install
+python-psutil        install
 python-pycurl        install
 python-pyodbc        install
 python-pyorbit        install
@@ -1863,7 +1857,6 @@ rfkill        install
 rpm        install
 rpm-common        install
 rpm2cpio        install
-rsyslog        install
 rtkit        install
 sbsigntool        install
 screen        install
@@ -1943,7 +1936,6 @@ tree        install
 tsconf        install
 ttf-bitstream-vera        install
 ttf-dejavu-core        install
-ttf-dejavu-extra        install
 ttf-indic-fonts-core        install
 ttf-mscorefonts-installer        install
 ttf-punjabi-fonts        install
@@ -2114,7 +2106,6 @@ xinit        install
 xinput        install
 xkb-data        install
 xml-core        install
-xnest        install
 xorg        install
 xorg-docs-core        install
 xsane        install
@@ -2124,10 +2115,7 @@ xscreensaver-data        install
 xscreensaver-data-extra        install
 xscreensaver-gl        install
 xscreensaver-gl-extra        install
-xserver-common        install
-xserver-xephyr        install
 xserver-xorg        install
-xserver-xorg-core        install
 xserver-xorg-input-all        install
 xserver-xorg-input-evdev        install
 xserver-xorg-input-mouse        install
@@ -2138,7 +2126,6 @@ xserver-xorg-video-all        install
 xserver-xorg-video-cirrus        install
 xserver-xorg-video-fbdev        install
 xserver-xorg-video-glamoregl        install
-xserver-xorg-video-intel        install
 xserver-xorg-video-mach64        install
 xserver-xorg-video-mga        install
 xserver-xorg-video-modesetting        install
