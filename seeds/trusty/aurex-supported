@@ -110,6 +110,12 @@ Task-Metapackage: exclude-aurex-support
 = network utilities & services =
  * vsftpd
 
+= filesystems =
+ * glusterfs-client
+ * glusterfs-server
+ * glusterfs-common
+ * glusterfs-dbg
+
 = other =
  * alien
 # * ambiance-colors-xfce-lxde

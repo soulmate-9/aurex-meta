@@ -9,6 +9,8 @@ virtualbox-4.3
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ trusty
 unetbootin
 unetbootin-translations
+# -> http://linux.dropbox.com/ubuntu/ trusty
+dropbox
 # -> http://liveusb.info/multisystem/depot/ all
 gtkdialog
 multisystem

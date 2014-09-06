@@ -1,0 +1,7 @@
+Name: filter_linux.dropbox.com-ubuntu-trusty-amd64
+Method: http://linux.dropbox.com/ubuntu/
+Suite: trusty
+Components:  contrib>contrib main>contrib multiverse>contrib non-free>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: amd64 source
+FilterList: purge filter_linux.dropbox.com-ubuntu-trusty-amd64.list
+

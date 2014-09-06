@@ -26,7 +26,7 @@ Task-Metapackage: exclude-aurex-inf
  * eclipse-jee-installer
  * eclipse-adt-plugin
  * gphpedit
- * netbeans-7.3.1-installer
+ * netbeans-8.0-installer
  * mysql-client
  * (geany)
  * (geany-plugins)
