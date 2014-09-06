@@ -12,6 +12,10 @@ firefox-locale-es
 firefox-locale-fr
 firefox-locale-it
 germinate
+glusterfs-client
+glusterfs-common
+glusterfs-dbg
+glusterfs-server
 language-pack-ca
 language-pack-ca-base
 language-pack-de

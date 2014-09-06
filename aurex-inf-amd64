@@ -1,6 +1,9 @@
+android-sdk-installer
 aurex-virtualbox-4.3
 bzr
 easy-rsa
+eclipse-adt-plugin
+eclipse-jee-installer
 freemind
 git
 git-svn
@@ -8,6 +11,7 @@ gphpedit
 libvirt-bin
 mysql-client
 mysql-workbench
+netbeans-8.0-installer
 openssh-server
 qemu-kvm
 virt-manager
