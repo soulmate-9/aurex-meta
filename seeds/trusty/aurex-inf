@@ -14,17 +14,21 @@ Task-Metapackage: exclude-aurex-inf
  * aurex-virtualbox-4.3
 
 == kvm, libvirt ==
- * virt-manager
  * libvirt-bin
  * qemu-kvm
+ * virtinst
+ * virt-manager
+ * spice-client-gtk 
+ * python-spice-client-gtk
 
 = network tools =
  * wireshark
 
 = development =
- * android-sdk-installer
- * eclipse-jee-installer
- * eclipse-adt-plugin
+ * (android-sdk-installer)
+ * (eclipse-jee-installer)
+ * (eclipse-adt-plugin)
+ * (android-studio-installer)
  * gphpedit
  * netbeans-8.0-installer
  * mysql-client

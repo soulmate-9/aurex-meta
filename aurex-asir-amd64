@@ -1,9 +1,6 @@
-android-sdk-installer
 aurex-virtualbox-4.3
 bzr
 easy-rsa
-eclipse-adt-plugin
-eclipse-jee-installer
 freemind
 git
 git-svn
@@ -13,6 +10,9 @@ mysql-client
 mysql-workbench
 netbeans-8.0-installer
 openssh-server
+python-spice-client-gtk
 qemu-kvm
+spice-client-gtk
 virt-manager
+virtinst
 wireshark

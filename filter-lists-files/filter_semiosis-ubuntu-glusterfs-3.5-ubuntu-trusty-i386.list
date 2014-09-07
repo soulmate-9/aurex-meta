@@ -1,0 +1,4 @@
+glusterfs-client        install
+glusterfs-common        install
+glusterfs-dbg        install
+glusterfs-server        install

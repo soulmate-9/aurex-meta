@@ -1,3 +1,31 @@
+aurex-meta (1.325~aurex14.04.7) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added android-studio-installer to aurex-asir-recommends, aurex-daw-
+    recommends, aurex-inf-recommends, aurex-smr-recommends
+  * Added oracle-java8-set-default to aurex-desktop-depinf-recommends
+    [amd64], aurex-desktop-recommends [amd64], aurex-desktop-secretaria-
+    recommends [amd64], ausias-desktop-recommends [amd64]
+  * Added python-spice-client-gtk to aurex-asir [amd64], aurex-daw
+    [amd64], aurex-inf [amd64], aurex-smr [amd64]
+  * Added spice-client-gtk to aurex-asir [amd64], aurex-daw [amd64],
+    aurex-inf [amd64], aurex-smr [amd64]
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added virtinst to aurex-asir [amd64], aurex-daw [amd64], aurex-inf
+    [amd64], aurex-smr [amd64]
+  * Moved android-sdk-installer to aurex-asir-recommends [amd64], aurex-
+    daw-recommends [amd64], aurex-inf-recommends [amd64], aurex-smr-
+    recommends [amd64]
+  * Moved eclipse-adt-plugin to aurex-asir-recommends [amd64], aurex-
+    daw-recommends [amd64], aurex-inf-recommends [amd64], aurex-smr-
+    recommends [amd64]
+  * Moved eclipse-jee-installer to aurex-asir-recommends [amd64], aurex-
+    daw-recommends [amd64], aurex-inf-recommends [amd64], aurex-smr-
+    recommends [amd64]
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 07 Sep 2014 02:08:15 +0200
+
 aurex-meta (1.325~aurex14.04.6) trusty; urgency=medium
 
   * Refreshed dependencies

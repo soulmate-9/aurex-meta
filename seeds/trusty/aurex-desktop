@@ -129,6 +129,7 @@ Task-Metapackage: aurex-desktop
 
 = java =
  * (oracle-java8-installer)
+ * (oracle-java8-set-default)
 
 = networking =
 # * aurex-openvpn-nm
