@@ -17,7 +17,9 @@ multisystem
 # -> http://localhost/aurex/ trusty
 acroread
 acroread-bin
+android-devel-downloader
 android-sdk-installer
+android-studio-installer
 aurex-asir
 aurex-atspi-fix
 aurex-boot-theme
@@ -1911,6 +1913,7 @@ libspeex1
 libspeexdsp1
 libsphinxbase1
 libspice-client-glib-2.0-8
+libspice-client-gtk-2.0-4
 libspice-client-gtk-3.0-4
 libspice-server1
 libsqlite3-0:i386
@@ -2358,6 +2361,7 @@ python-simplejson
 python-sip
 python-six
 python-smbc
+python-spice-client-gtk
 python-talloc
 python-tdb
 python-twisted-bin
@@ -2476,6 +2480,7 @@ speech-dispatcher-audio-plugins
 sphinx-voxforge-hmm-en
 sphinx-voxforge-lm-en
 spice-client-glib-usb-acl-helper
+spice-client-gtk
 squashfs-tools
 ssh-import-id
 sshfs
@@ -2745,5 +2750,6 @@ zlib1g:i386
 # -> http://ppa.launchpad.net/webupd8team/java/ubuntu/ trusty
 oracle-java7-installer
 oracle-java8-installer
+oracle-java8-set-default
 # -> http://ppa.launchpad.net/webupd8team/y-ppa-manager/ubuntu/ trusty
 yad

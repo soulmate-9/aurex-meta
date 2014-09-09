@@ -1,3 +1,9 @@
+aurex-meta (1.325~aurex14.04.8) trusty; urgency=medium
+
+  * Dummy upgrade
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 09 Sep 2014 11:05:37 +0200
+
 aurex-meta (1.325~aurex14.04.7) trusty; urgency=medium
 
   * Refreshed dependencies

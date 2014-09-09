@@ -1198,6 +1198,7 @@ libspeex1        install
 libspeexdsp1        install
 libsphinxbase1        install
 libspice-client-glib-2.0-8        install
+libspice-client-gtk-2.0-4        install
 libspice-client-gtk-3.0-4        install
 libspice-server1        install
 libsqlite3-0:i386        install
@@ -1645,6 +1646,7 @@ python-simplejson        install
 python-sip        install
 python-six        install
 python-smbc        install
+python-spice-client-gtk        install
 python-talloc        install
 python-tdb        install
 python-twisted-bin        install
@@ -1763,6 +1765,7 @@ speech-dispatcher-audio-plugins        install
 sphinx-voxforge-hmm-en        install
 sphinx-voxforge-lm-en        install
 spice-client-glib-usb-acl-helper        install
+spice-client-gtk        install
 squashfs-tools        install
 ssh-import-id        install
 sshfs        install

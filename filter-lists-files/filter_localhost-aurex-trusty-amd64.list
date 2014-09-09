@@ -1,6 +1,8 @@
 acroread        install
 acroread-bin:i386        install
+android-devel-downloader        install
 android-sdk-installer        install
+android-studio-installer        install
 aurex-asir        install
 aurex-atspi-fix        install
 aurex-boot-theme        install
