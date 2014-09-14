@@ -1,3 +1,11 @@
+aurex-meta (1.325~aurex14.04.9) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added aurex-update-manager to aurex-asir, aurex-daw, aurex-inf,
+    aurex-secretaria, aurex-smr
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 15 Sep 2014 00:04:37 +0200
+
 aurex-meta (1.325~aurex14.04.8) trusty; urgency=medium
 
   * Dummy upgrade
