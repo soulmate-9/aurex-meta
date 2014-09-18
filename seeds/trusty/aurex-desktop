@@ -63,8 +63,8 @@ Task-Metapackage: aurex-desktop
 = pdf support =
  * evince
  * acroread
-# maybe no longer needed if cups-pdf is really fixed by now
-# * (aurex-cups-pdf)
+# maybe no longer needed when cups-pdf gets really fixed ...
+ * (aurex-cups-pdf)
  * cups-pdf
  * pdftk
 

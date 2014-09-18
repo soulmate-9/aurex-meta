@@ -1,3 +1,12 @@
+aurex-meta (1.325~aurex14.04.10) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added aurex-cups-pdf to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 19 Sep 2014 01:47:56 +0200
+
 aurex-meta (1.325~aurex14.04.9) trusty; urgency=medium
 
   * Refreshed dependencies
