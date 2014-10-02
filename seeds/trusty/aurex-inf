@@ -34,6 +34,9 @@ Task-Metapackage: exclude-aurex-inf
  * mysql-client
  * (geany)
  * (geany-plugins)
+ * (sublimetext-installer)
+ * (xmlcopyeditor)
+ * (amaya)
 
 = other devel tools =
  * freemind
