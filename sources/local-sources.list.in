@@ -1,0 +1,5 @@
+# catch all local pool for binary packages of multiple sources
+
+deb _@_LOCAL_MIRROR_@_/ trusty main
+# no sources for this repo
+

@@ -1,3 +1,13 @@
+aurex-meta (1.325~aurex14.04.12) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added amaya to aurex-asir-recommends, aurex-daw-recommends, aurex-
+    inf-recommends, aurex-smr-recommends
+  * Added xmlcopyeditor to aurex-asir-recommends, aurex-daw-recommends,
+    aurex-inf-recommends, aurex-smr-recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 04 Oct 2014 10:44:28 +0200
+
 aurex-meta (1.325~aurex14.04.11) trusty; urgency=medium
 
   * Refreshed dependencies
