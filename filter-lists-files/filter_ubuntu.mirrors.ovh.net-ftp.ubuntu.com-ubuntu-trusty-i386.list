@@ -21,10 +21,7 @@ apparmor        install
 appmenu-qt        install
 appmenu-qt5        install
 apport-symptoms        install
-apt-clone        install
 apt-xapian-index        install
-aptdaemon        install
-aptdaemon-data        install
 aptitude        install
 aptitude-common        install
 apturl        install
@@ -35,7 +32,6 @@ aspell-en        install
 at-spi2-core        install
 attr        install
 auth-client-config        install
-autofs        install
 avahi-autoipd        install
 avahi-daemon        install
 avahi-utils        install
@@ -96,7 +92,6 @@ cryptsetup        install
 cryptsetup-bin        install
 cups-pdf        install
 cups-pk-helper        install
-curl        install
 dash        install
 davfs2        install
 dc        install
@@ -146,7 +141,6 @@ espeak        install
 espeak-data        install
 ethtool        install
 example-content        install
-exo-utils        install
 expect        install
 extlinux        install
 fakeroot        install
@@ -159,7 +153,6 @@ folks-common        install
 fonts-dejavu        install
 fonts-dejavu-core        install
 fonts-dejavu-extra        install
-fonts-droid        install
 fonts-freefont-ttf        install
 fonts-horai-umefont        install
 fonts-kacst        install
@@ -207,7 +200,6 @@ gawk        install
 gcc        install
 gcc-4.8        install
 gcc-4.8-base:i386        install
-gcc-4.9-base:i386        install
 gcj-4.8-jre-lib        install
 gconf-service        install
 gconf-service-backend        install
@@ -577,8 +569,6 @@ libcryptsetup4        install
 libcrystalhd3        install
 libctemplate2        install
 libctpl2        install
-libcurl3        install
-libcurl3-gnutls        install
 libcwidget3        install
 libdaemon0        install
 libdata-random-perl        install
@@ -634,9 +624,6 @@ libevent-2.0-5        install
 libexempi3        install
 libexif12        install
 libexiv2-12        install
-libexo-1-0        install
-libexo-common        install
-libexo-helpers        install
 libexpat1:i386        install
 libexttextcat-2.0-0        install
 libexttextcat-data        install
@@ -679,7 +666,6 @@ libgarcon-1-0-dev        install
 libgarcon-common        install
 libgc1c2        install
 libgcc-4.8-dev        install
-libgcc1:i386        install
 libgcj-common        install
 libgcj14        install
 libgck-1-0        install
@@ -792,8 +778,6 @@ libgvnc-1.0-0        install
 libgweather-3-6        install
 libgweather-common        install
 libgxps2        install
-libharfbuzz-icu0        install
-libharfbuzz0b        install
 libhcrypto4-heimdal        install
 libhdb9-heimdal        install
 libheimbase1-heimdal        install
@@ -975,10 +959,6 @@ libnotify-bin        install
 libnotify4        install
 libnss-ldap        install
 libnss-mdns        install
-libnss3        install
-libnss3-1d        install
-libnss3-nssdb        install
-libnss3-tools        install
 libntdb1        install
 libntrack-qt4-1        install
 libntrack0        install
@@ -1053,7 +1033,6 @@ libpeas-common        install
 libperl4-corelibs-perl        install
 libperl5.18        install
 libperlio-gzip-perl        install
-libphonon4        install
 libpipeline1        install
 libpixman-1-0        install
 libpkcs11-helper1        install
@@ -1285,7 +1264,6 @@ libvirtodbc0        install
 libvisio-0.0-0        install
 libvisual-0.4-0        install
 libvisual-0.4-plugins        install
-libvncserver0        install
 libvo-aacenc0        install
 libvo-amrwbenc0        install
 libvorbis0a        install
@@ -1365,6 +1343,7 @@ libxcursor1        install
 libxdamage1        install
 libxdmcp6        install
 libxdo3        install
+libxerces-c3.1        install
 libxerces2-java        install
 libxext6        install
 libxfce4ui-1-0        install
@@ -1468,7 +1447,6 @@ mtr-tiny        install
 mypaint        install
 mypaint-data        install
 myspell-ca        install
-myspell-en-gb        install
 myspell-es        install
 mysql-utilities        install
 mysql-workbench        install
@@ -1531,10 +1509,6 @@ perl        install
 perl-base        install
 perl-modules        install
 perlmagick        install
-phonon        install
-phonon-backend-gstreamer        install
-phonon-backend-gstreamer-common        install
-phonon-backend-gstreamer1.0        install
 pidgin-libnotify        install
 pidgin-microblog        install
 pidgin-otr        install
@@ -1582,8 +1556,6 @@ python        install
 python-appindicator        install
 python-apt        install
 python-apt-common        install
-python-aptdaemon        install
-python-aptdaemon.gtk3widgets        install
 python-cairo        install
 python-chardet        install
 python-commandnotfound        install
@@ -1614,13 +1586,11 @@ python-launchpadlib        install
 python-lazr.restfulclient        install
 python-lazr.uri        install
 python-ldb        install
-python-libvirt        install
 python-lockfile        install
 python-minimal        install
 python-mysql.connector        install
 python-notify        install
 python-ntdb        install
-python-numpy        install
 python-oauth        install
 python-oauthlib        install
 python-oneconf        install
@@ -1665,9 +1635,6 @@ python2.7        install
 python2.7-minimal        install
 python3        install
 python3-apt        install
-python3-aptdaemon        install
-python3-aptdaemon.gtk3widgets        install
-python3-aptdaemon.pkcompat        install
 python3-brlapi        install
 python3-cairo        install
 python3-chardet        install

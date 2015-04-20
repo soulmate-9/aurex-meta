@@ -13,6 +13,7 @@ aurex-cc-auth        install
 aurex-cc-mount        install
 aurex-certificates        install
 aurex-ctrl-alt-del        install
+aurex-cups-pdf        install
 aurex-daw        install
 aurex-default-associations        install
 aurex-default-settings        install
@@ -44,6 +45,7 @@ aurex-transmute        install
 aurex-transmute-gui        install
 aurex-ubiquity-theme        install
 aurex-ubiquity-transmute        install
+aurex-update-manager        install
 aurex-usb-power-fixes        install
 aurex-virtualbox-4.3        install
 aurex-virtualbox-common        install
@@ -61,6 +63,8 @@ ausias-papercut-client        install
 ausias-printers-centro        install
 ausias-printers-depinf        install
 ausias-printers-secretaria        install
+bluegriffon        install
+bluegriffon-data        install
 eclipse-adt-plugin        install
 eclipse-jee-installer        install
 eclipse-luna-base        install
@@ -76,3 +80,4 @@ python3-germinate        install
 thunar        install
 thunar-data        install
 thunar-volman        install
+xmlcopyeditor        install

@@ -30,6 +30,7 @@ aurex-cc-auth
 aurex-cc-mount
 aurex-certificates
 aurex-ctrl-alt-del
+aurex-cups-pdf
 aurex-daw
 aurex-default-associations
 aurex-default-settings
@@ -61,6 +62,7 @@ aurex-transmute
 aurex-transmute-gui
 aurex-ubiquity-theme
 aurex-ubiquity-transmute
+aurex-update-manager
 aurex-usb-power-fixes
 aurex-virtualbox-4.3
 aurex-virtualbox-common
@@ -78,6 +80,8 @@ ausias-papercut-client
 ausias-printers-centro
 ausias-printers-depinf
 ausias-printers-secretaria
+bluegriffon
+bluegriffon-data
 eclipse-adt-plugin
 eclipse-jee-installer
 eclipse-luna-base
@@ -93,6 +97,9 @@ python3-germinate
 thunar
 thunar-data
 thunar-volman
+xmlcopyeditor
+# -> http://localhost/local-repo/ trusty
+amaya
 # -> http://ppa.launchpad.net/noobslab/mint/ubuntu/ trusty
 cinnamon-translations
 gir1.2-nemo-3.0
@@ -121,8 +128,8 @@ wine1.7
 wine1.7-amd64
 wine1.7-i386:i386
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ trusty-proposed
-linux-headers-3.13.0-36
-linux-headers-3.13.0-36-lowlatency
+linux-headers-3.13.0-37
+linux-headers-3.13.0-37-lowlatency
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ trusty-updates
 account-plugin-aim
 account-plugin-jabber
@@ -133,10 +140,14 @@ app-install-data
 apport
 apport-gtk
 apt
+apt-clone
 apt-transport-https
 apt-utils
+aptdaemon
+aptdaemon-data
 archdetect-deb
 augeas-lenses
+autofs
 base-files
 bash
 bsdutils
@@ -159,6 +170,7 @@ cups-filters
 cups-filters-core-drivers
 cups-ppdc
 cups-server-common
+curl
 dbus
 dbus-x11
 dpkg
@@ -171,6 +183,7 @@ evince-common
 evolution-data-server
 evolution-data-server-common
 evolution-data-server-online-accounts
+exo-utils
 file
 file-roller
 firefox
@@ -183,8 +196,11 @@ firefox-locale-it
 flashplugin-installer
 fontconfig
 fontconfig-config
+fonts-droid
 fonts-opensymbol
 gcalctool
+gcc-4.9-base:amd64
+gcc-4.9-base:i386
 gdb
 gdebi
 gdebi-core
@@ -231,7 +247,6 @@ gtk2-engines-pixbuf
 hplip
 hplip-data
 hud
-icedtea-7-jre-jamvm
 ifupdown
 im-config
 indicator-printers
@@ -314,6 +329,8 @@ libcupsfilters1
 libcupsimage2
 libcupsmime1
 libcupsppdc1
+libcurl3
+libcurl3-gnutls
 libdbus-1-3:amd64
 libdbus-1-3:i386
 libdbusmenu-glib4
@@ -335,6 +352,9 @@ libelf1
 libelf1:i386
 libevdocument3-4
 libevview3-3
+libexo-1-0
+libexo-common
+libexo-helpers
 libfontconfig1
 libfontconfig1:i386
 libfontembed1
@@ -344,6 +364,8 @@ libgail-3-0
 libgail-common
 libgail18
 libgbm1
+libgcc1:amd64
+libgcc1:i386
 libgcrypt11:amd64
 libgcrypt11:i386
 libgettextpo-dev
@@ -384,6 +406,9 @@ libgtk2.0-0:i386
 libgtk2.0-bin
 libgtk2.0-common
 libgudev-1.0-0
+libharfbuzz-icu0
+libharfbuzz0b
+libharfbuzz0b:i386
 libhpmud0
 libhud2
 libido3-0.1-0
@@ -450,7 +475,10 @@ libnepomukutils4
 libnm-gtk-common
 libnm-gtk0
 libnspr4
-libnspr4-0d
+libnss3
+libnss3-1d
+libnss3-nssdb
+libnss3-tools
 libopenvg1-mesa
 libosmesa6
 libosmesa6:i386
@@ -459,6 +487,7 @@ liboxideqtcore0
 libpam-smbpass
 libpam-systemd
 libpanel-applet-4-0
+libphonon4
 libplasma3
 libpurple-bin
 libpurple0
@@ -534,6 +563,7 @@ libsmbclient
 libsmbclient-dev
 libsolid4
 libspectre1
+libssl0.9.8
 libssl1.0.0:amd64
 libssl1.0.0:i386
 libsvn-perl
@@ -561,6 +591,7 @@ libvirt-bin
 libvirt0
 libvlc5
 libvlccore7
+libvncserver0
 libwayland-egl1-mesa
 libwbclient0
 libwebkit2gtk-3.0-25
@@ -585,6 +616,7 @@ mcp-account-manager-uoa
 mdadm
 mount
 multiarch-support
+myspell-en-gb
 mysql-client
 mysql-client-5.5
 mysql-client-core-5.5
@@ -609,23 +641,34 @@ oxideqt-codecs
 oxideqt-codecs-extra
 parole
 patch
+phonon
+phonon-backend-gstreamer
+phonon-backend-gstreamer-common
+phonon-backend-gstreamer1.0
 pidgin
 pidgin-data
 plasma-scriptengine-javascript
 pm-utils
 printer-driver-hpcups
 printer-driver-postscript-hp
+python-aptdaemon
+python-aptdaemon.gtk3widgets
 python-bzrlib
 python-cupshelpers
 python-gi
 python-gi-cairo
 python-gobject
+python-libvirt
 python-libxml2
 python-lxml
+python-numpy
 python-pexpect
 python-samba
 python-secretstorage
 python3-apport
+python3-aptdaemon
+python3-aptdaemon.gtk3widgets
+python3-aptdaemon.pkcompat
 python3-distupgrade
 python3-gi
 python3-gi-cairo
@@ -768,10 +811,7 @@ apparmor
 appmenu-qt
 appmenu-qt5
 apport-symptoms
-apt-clone
 apt-xapian-index
-aptdaemon
-aptdaemon-data
 aptitude
 aptitude-common
 apturl
@@ -782,7 +822,6 @@ aspell-en
 at-spi2-core
 attr
 auth-client-config
-autofs
 avahi-autoipd
 avahi-daemon
 avahi-utils
@@ -843,7 +882,6 @@ cryptsetup
 cryptsetup-bin
 cups-pdf
 cups-pk-helper
-curl
 dash
 davfs2
 dc
@@ -893,7 +931,6 @@ espeak
 espeak-data
 ethtool
 example-content
-exo-utils
 expect
 extlinux
 fakeroot
@@ -906,7 +943,6 @@ folks-common
 fonts-dejavu
 fonts-dejavu-core
 fonts-dejavu-extra
-fonts-droid
 fonts-freefont-ttf
 fonts-horai-umefont
 fonts-kacst
@@ -955,8 +991,6 @@ gcc
 gcc-4.8
 gcc-4.8-base:amd64
 gcc-4.8-base:i386
-gcc-4.9-base:amd64
-gcc-4.9-base:i386
 gcj-4.8-jre-lib
 gconf-service
 gconf-service-backend
@@ -1337,8 +1371,6 @@ libcryptsetup4
 libcrystalhd3
 libctemplate2
 libctpl2
-libcurl3
-libcurl3-gnutls
 libcwidget3
 libdaemon0
 libdata-random-perl
@@ -1401,9 +1433,6 @@ libexempi3
 libexif12
 libexif12:i386
 libexiv2-12
-libexo-1-0
-libexo-common
-libexo-helpers
 libexpat1:amd64
 libexpat1:i386
 libexttextcat-2.0-0
@@ -1449,8 +1478,6 @@ libgarcon-1-0-dev
 libgarcon-common
 libgc1c2
 libgcc-4.8-dev
-libgcc1:amd64
-libgcc1:i386
 libgcj-common
 libgcj14
 libgck-1-0
@@ -1574,9 +1601,6 @@ libgvnc-1.0-0
 libgweather-3-6
 libgweather-common
 libgxps2
-libharfbuzz-icu0
-libharfbuzz0b
-libharfbuzz0b:i386
 libhcrypto4-heimdal
 libhcrypto4-heimdal:i386
 libhdb9-heimdal
@@ -1780,10 +1804,6 @@ libnotify-bin
 libnotify4
 libnss-ldap
 libnss-mdns
-libnss3
-libnss3-1d
-libnss3-nssdb
-libnss3-tools
 libntdb1
 libntrack-qt4-1
 libntrack0
@@ -1871,7 +1891,6 @@ libpeas-common
 libperl4-corelibs-perl
 libperl5.18
 libperlio-gzip-perl
-libphonon4
 libpipeline1
 libpixman-1-0
 libpixman-1-0:i386
@@ -1953,6 +1972,7 @@ libqtgui4
 libqtwebkit4
 libquadmath0
 libqwt5-qt4
+libraptor1
 libraptor2-0
 librarian0
 librasqal3
@@ -2123,7 +2143,6 @@ libvirtodbc0
 libvisio-0.0-0
 libvisual-0.4-0
 libvisual-0.4-plugins
-libvncserver0
 libvo-aacenc0
 libvo-amrwbenc0
 libvorbis0a
@@ -2223,6 +2242,7 @@ libxdamage1:i386
 libxdmcp6
 libxdmcp6:i386
 libxdo3
+libxerces-c3.1
 libxerces2-java
 libxext6
 libxext6:i386
@@ -2338,7 +2358,6 @@ mtr-tiny
 mypaint
 mypaint-data
 myspell-ca
-myspell-en-gb
 myspell-es
 mysql-utilities
 mysql-workbench
@@ -2405,10 +2424,6 @@ perl
 perl-base
 perl-modules
 perlmagick
-phonon
-phonon-backend-gstreamer
-phonon-backend-gstreamer-common
-phonon-backend-gstreamer1.0
 pidgin-libnotify
 pidgin-microblog
 pidgin-otr
@@ -2456,8 +2471,6 @@ python
 python-appindicator
 python-apt
 python-apt-common
-python-aptdaemon
-python-aptdaemon.gtk3widgets
 python-cairo
 python-chardet
 python-commandnotfound
@@ -2488,13 +2501,11 @@ python-launchpadlib
 python-lazr.restfulclient
 python-lazr.uri
 python-ldb
-python-libvirt
 python-lockfile
 python-minimal
 python-mysql.connector
 python-notify
 python-ntdb
-python-numpy
 python-oauth
 python-oauthlib
 python-oneconf
@@ -2539,9 +2550,6 @@ python2.7
 python2.7-minimal
 python3
 python3-apt
-python3-aptdaemon
-python3-aptdaemon.gtk3widgets
-python3-aptdaemon.pkcompat
 python3-brlapi
 python3-cairo
 python3-chardet

@@ -1,9 +1,9 @@
 ii  adduser                         3.113+nmu3ubuntu3
-ii  apt                             1.0.1ubuntu2.1
-ii  apt-utils                       1.0.1ubuntu2.1
+ii  apt                             1.0.1ubuntu2.4.1
+ii  apt-utils                       1.0.1ubuntu2.4.1
 ii  base-files                      7.2ubuntu5.1
 ii  base-passwd                     3.5.33
-ii  bash                            4.3-7ubuntu1
+ii  bash                            4.3-7ubuntu1.4
 ii  bsdutils                        1:2.20.1-5.1ubuntu20.1
 ii  busybox-initramfs               1:1.21.0-1ubuntu1
 ii  bzip2                           1.0.6-5
@@ -22,10 +22,10 @@ ii  dpkg                            1.17.5ubuntu5.3
 ii  e2fslibs:amd64                  1.42.9-3ubuntu1
 ii  e2fsprogs                       1.42.9-3ubuntu1
 ii  eject                           2.1.5+deb1+cvs20081104-13.1
-ii  file                            1:5.14-2ubuntu3.1
+ii  file                            1:5.14-2ubuntu3.2
 ii  findutils                       4.4.2-7
 ii  gcc-4.8-base:amd64              4.8.2-19ubuntu1
-ii  gcc-4.9-base:amd64              4.9-20140406-0ubuntu1
+ii  gcc-4.9-base:amd64              4.9.1-0ubuntu1
 ii  gettext-base                    0.18.3.1-1ubuntu3
 ii  gnupg                           1.4.16-1ubuntu2.1
 ii  gpgv                            1.4.16-1ubuntu2.1
@@ -50,8 +50,8 @@ ii  klibc-utils                     2.0.3-0ubuntu1
 ii  kmod                            15-0ubuntu6
 ii  less                            458-2
 ii  libacl1:amd64                   2.2.52-1
-ii  libapt-inst1.5:amd64            1.0.1ubuntu2.1
-ii  libapt-pkg4.12:amd64            1.0.1ubuntu2.1
+ii  libapt-inst1.5:amd64            1.0.1ubuntu2.4.1
+ii  libapt-pkg4.12:amd64            1.0.1ubuntu2.4.1
 ii  libarchive-extract-perl         0.70-1
 ii  libasprintf0c2:amd64            0.18.3.1-1ubuntu3
 ii  libattr1:amd64                  1:2.4.47-1ubuntu1
@@ -67,7 +67,7 @@ ii  libcap2-bin                     1:2.24-0ubuntu2
 ii  libcgmanager0:amd64             0.24-0ubuntu7
 ii  libcomerr2:amd64                1.42.9-3ubuntu1
 ii  libdb5.3:amd64                  5.3.28-3ubuntu3
-ii  libdbus-1-3:amd64               1.6.18-0ubuntu4.1
+ii  libdbus-1-3:amd64               1.6.18-0ubuntu4.2
 ii  libdebconfclient0:amd64         0.187ubuntu1
 ii  libdevmapper1.02.1:amd64        2:1.02.77-6ubuntu2
 ii  libdrm2:amd64                   2.4.52-1
@@ -77,7 +77,7 @@ ii  libffi6:amd64                   3.1~rc1+r3.0.13-12
 ii  libfreetype6:amd64              2.5.2-1ubuntu2.2
 ii  libfribidi0:amd64               0.19.6-1
 ii  libfuse2:amd64                  2.9.2-4ubuntu4
-ii  libgcc1:amd64                   1:4.9-20140406-0ubuntu1
+ii  libgcc1:amd64                   1:4.9.1-0ubuntu1
 ii  libgcrypt11:amd64               1.5.3-2ubuntu4.1
 ii  libgdbm3:amd64                  1.8.3-12build1
 ii  libgnutls-openssl27:amd64       2.12.23-12ubuntu2.1
@@ -92,7 +92,7 @@ ii  liblockfile-bin                 1.09-6ubuntu1
 ii  liblockfile1:amd64              1.09-6ubuntu1
 ii  liblog-message-simple-perl      0.10-1
 ii  liblzma5:amd64                  5.1.1alpha+20120614-2ubuntu2
-ii  libmagic1:amd64                 1:5.14-2ubuntu3.1
+ii  libmagic1:amd64                 1:5.14-2ubuntu3.2
 ii  libmodule-pluggable-perl        5.1-1
 ii  libmount1:amd64                 2.20.1-5.1ubuntu20.1
 ii  libmpdec2:amd64                 2.4.0-6
@@ -133,7 +133,7 @@ ii  libtext-iconv-perl              1.7-5build2
 ii  libtext-soundex-perl            3.4-1build1
 ii  libtext-wrapi18n-perl           0.06-7
 ii  libtinfo5:amd64                 5.9+20140118-1ubuntu1
-ii  libudev1:amd64                  204-5ubuntu20.5
+ii  libudev1:amd64                  204-5ubuntu20.7
 ii  libusb-0.1-4:amd64              2:0.1.12-23.3ubuntu1
 ii  libustr-1.0-1:amd64             1.0.4-3ubuntu2
 ii  libuuid1:amd64                  2.20.1-5.1ubuntu20.1
@@ -180,7 +180,7 @@ ii  tzdata                          2014e-0ubuntu0.14.04
 ii  ubuntu-keyring                  2012.05.19
 ii  ubuntu-minimal                  1.325
 ii  ucf                             3.0027+nmu1
-ii  udev                            204-5ubuntu20.5
+ii  udev                            204-5ubuntu20.7
 ii  upstart                         1.12.1-0ubuntu4.2
 ii  ureadahead                      0.100.0-16
 ii  util-linux                      2.20.1-5.1ubuntu20.1
