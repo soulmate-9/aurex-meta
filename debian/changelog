@@ -1,3 +1,13 @@
+aurex-meta (1.325~aurex14.04.13) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added ausias-cc-image-server to ausias-classroom-teacher
+  * Added libreoffice-style-elementary to aurex-supported
+  * Added sublimetext-installer to aurex-asir-recommends, aurex-daw-
+    recommends, aurex-inf-recommends, aurex-smr-recommends
+
+ -- Sandra Villanueva Gavino <savilga@gmail.com>  Mon, 29 Jun 2015 13:32:47 +0200
+
 aurex-meta (1.325~aurex14.04.12) trusty; urgency=medium
 
   * Refreshed dependencies

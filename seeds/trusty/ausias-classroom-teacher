@@ -8,3 +8,5 @@ Task-Seeds: ausias-netstation ausias-printstation
 
 = italc =
  * italc2-master
+= support to disk image for clonning = 
+ * ausias-cc-image-server
