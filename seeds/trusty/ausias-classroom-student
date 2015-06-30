@@ -9,3 +9,7 @@ Task-Seeds: ausias-netstation ausias-printstation
 = italc =
  * italc2-client
 
+= Network bridge tools for KVM = 
+ * auto-bridge
+
+

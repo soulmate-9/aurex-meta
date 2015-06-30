@@ -1,3 +1,11 @@
+aurex-meta (1.325~aurex14.04.14) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added auto-bridge to ausias-classroom-student, ausias-classroom-
+    teacher
+
+ -- Sandra Villanueva Gavino <savilga@gmail.com>  Tue, 30 Jun 2015 17:57:25 +0200
+
 aurex-meta (1.325~aurex14.04.13) trusty; urgency=medium
 
   * Refreshed dependencies
