@@ -6,6 +6,7 @@ opera
 # -> http://download.virtualbox.org/virtualbox/debian/ trusty
 virtualbox-4.2
 virtualbox-4.3
+virtualbox-5.0
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ trusty
 unetbootin
 unetbootin-translations
@@ -88,6 +89,7 @@ ausias-papercut-client
 ausias-printers-centro
 ausias-printers-depinf
 ausias-printers-secretaria
+auto-bridge
 bluegriffon
 bluegriffon-data
 eclipse-adt-plugin
@@ -134,8 +136,8 @@ wine1.7
 wine1.7-amd64
 wine1.7-i386:i386
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ trusty-proposed
-linux-headers-3.19.0-22
-linux-headers-3.19.0-22-lowlatency
+linux-headers-3.19.0-28
+linux-headers-3.19.0-28-lowlatency
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ trusty-updates
 account-plugin-aim
 account-plugin-facebook
@@ -163,6 +165,7 @@ augeas-lenses
 autofs
 base-files
 bash
+bash-completion
 bind9-host
 binutils
 bluez
@@ -197,6 +200,7 @@ dbus
 dbus-x11
 debugedit
 dh-apparmor
+dh-python
 dkms
 dnsmasq-base
 dnsutils
@@ -252,6 +256,7 @@ gir1.2-ebookcontacts-1.2
 gir1.2-edataserver-1.2
 gir1.2-evince-3.0
 gir1.2-freedesktop
+gir1.2-gdkpixbuf-2.0
 gir1.2-glib-2.0
 gir1.2-gnomebluetooth-1.0
 gir1.2-gst-plugins-base-1.0
@@ -310,6 +315,7 @@ hardening-includes
 hplip
 hplip-data
 hud
+ifenslave
 ifupdown
 im-config
 indicator-printers
@@ -318,6 +324,8 @@ initramfs-tools
 initramfs-tools-bin
 initscripts
 intel-gpu-tools
+iproute
+iproute2
 iputils-arping
 iputils-ping
 iputils-tracepath
@@ -459,6 +467,8 @@ libevview3-3
 libexo-1-0
 libexo-common
 libexo-helpers
+libexpat1:amd64
+libexpat1:i386
 libflac8
 libflac8:i386
 libflite1
@@ -478,6 +488,9 @@ libgcc1:i386
 libgcj14
 libgcrypt11:amd64
 libgcrypt11:i386
+libgdk-pixbuf2.0-0
+libgdk-pixbuf2.0-0:i386
+libgdk-pixbuf2.0-common
 libgettextpo-dev
 libgettextpo0
 libgexiv2-2
@@ -663,6 +676,10 @@ libpangoft2-1.0-0
 libpangoft2-1.0-0:i386
 libpangoxft-1.0-0
 libpangoxft-1.0-0:i386
+libparted0debian1
+libpcre3:amd64
+libpcre3:i386
+libpcrecpp0
 libphonon4
 libplasma3
 libplymouth2:amd64
@@ -782,11 +799,16 @@ libselinux1:i386
 libsepol1:amd64
 libserf-1-1
 libservlet3.0-java
+libslp1
 libsmbclient
 libsmbclient-dev
+libsnmp-base
+libsnmp30
 libsolid4
 libspectre1
 libspice-server1
+libsqlite3-0:amd64
+libsqlite3-0:i386
 libss2:amd64
 libssh-4
 libssl0.9.8
@@ -816,6 +838,8 @@ libunity-control-center1
 libunity-core-6.0-9
 libunity-gtk2-parser0
 libunity-gtk3-parser0
+libusbredirhost1
+libusbredirparser1
 libuuid1:amd64
 libuuid1:i386
 libvirt-bin
@@ -833,6 +857,9 @@ libwebkitgtk-3.0-common
 libwhoopsie0
 libwind0-heimdal
 libwind0-heimdal:i386
+libwmf-bin
+libwmf0.2-7
+libwmf0.2-7-gtk
 libwnck-3-0
 libwnck-3-common
 libxatracker2
@@ -857,6 +884,7 @@ light-locker-settings
 lightdm
 linux-libc-dev
 locales
+login
 lshw
 ltrace
 man-db
@@ -883,6 +911,8 @@ nfs-common
 ntpdate
 nux-tools
 nvidia-common
+oneconf
+oneconf-common
 openjdk-7-jre
 openjdk-7-jre-headless
 opensc
@@ -893,7 +923,11 @@ openssl
 openvpn
 oxideqt-codecs
 oxideqt-codecs-extra
+p7zip
+p7zip-full
 parole
+parted
+passwd
 patch
 phonon
 phonon-backend-gstreamer
@@ -934,6 +968,7 @@ python-libvirt
 python-libxml2
 python-lxml
 python-numpy
+python-oneconf
 python-pexpect
 python-pkg-resources
 python-requests
@@ -955,6 +990,7 @@ python3-distupgrade
 python3-gi
 python3-gi-cairo
 python3-lxml
+python3-oneconf
 python3-pexpect
 python3-pkg-resources
 python3-problem-report
@@ -1046,6 +1082,7 @@ transmission-gtk
 tzdata
 tzdata-java
 ubiquity
+ubiquity-casper
 ubiquity-frontend-kde
 ubiquity-ubuntu-artwork
 ubuntu-docs
@@ -1148,7 +1185,6 @@ axel
 bamfdaemon
 baobab
 base-passwd
-bash-completion
 bc
 binfmt-support
 bison
@@ -1208,7 +1244,6 @@ default-jre-headless
 deja-dup
 deja-dup-backend-gvfs
 desktop-file-utils
-dh-python
 dialog
 dictionaries-common
 diffstat
@@ -1346,7 +1381,6 @@ gir1.2-cogl-1.0
 gir1.2-coglpango-1.0
 gir1.2-dee-1.0
 gir1.2-gdata-0.0
-gir1.2-gdkpixbuf-2.0
 gir1.2-gmenu-3.0
 gir1.2-gnomekeyring-1.0
 gir1.2-goa-1.0
@@ -1438,7 +1472,6 @@ ibus-gtk3
 ibus-pinyin
 ibus-table
 icoutils
-ifenslave
 imagemagick
 imagemagick-common
 indicator-applet
@@ -1457,8 +1490,6 @@ inputattach
 insserv
 install-info
 intltool-debian
-iproute
-iproute2
 iptables
 iso-codes
 iw
@@ -1665,8 +1696,6 @@ libexempi3
 libexif12
 libexif12:i386
 libexiv2-12
-libexpat1:amd64
-libexpat1:i386
 libexttextcat-2.0-0
 libexttextcat-data
 libextutils-depends-perl
@@ -1718,9 +1747,6 @@ libgd3:i386
 libgdata-common
 libgdata13
 libgdbm3:amd64
-libgdk-pixbuf2.0-0
-libgdk-pixbuf2.0-0:i386
-libgdk-pixbuf2.0-common
 libgee-0.8-2
 libgee2
 libgegl-0.2-0
@@ -2043,16 +2069,12 @@ libpaper-utils
 libpaper1
 libparse-debianchangelog-perl
 libparse-edid-perl
-libparted0debian1
 libpath-class-perl
 libpcap0.8
 libpcap0.8:i386
 libpci3
 libpciaccess0
 libpciaccess0:i386
-libpcre3:amd64
-libpcre3:i386
-libpcrecpp0
 libpcsclite1
 libpeas-1.0-0
 libpeas-common
@@ -2147,15 +2169,12 @@ libsignon-plugins-common1
 libsignon-qt5-1
 libsigsegv2
 libslang2:amd64
-libslp1
 libslv2-9
 libsm6
 libsm6:i386
 libsmi2ldbl
 libsndfile1
 libsndfile1:i386
-libsnmp-base
-libsnmp30
 libsocket-getaddrinfo-perl
 libsocket6-perl
 libsonic0
@@ -2173,8 +2192,6 @@ libsphinxbase1
 libspice-client-glib-2.0-8
 libspice-client-gtk-2.0-4
 libspice-client-gtk-3.0-4
-libsqlite3-0:amd64
-libsqlite3-0:i386
 libsrtp0
 libssh2-1
 libstartup-notification0
@@ -2243,8 +2260,6 @@ libusb-0.1-4:amd64
 libusb-1.0-0
 libusb-1.0-0:i386
 libusbmuxd2
-libusbredirhost1
-libusbredirparser1
 libustr-1.0-1:amd64
 libutempter0
 libuu0
@@ -2288,9 +2303,6 @@ libwildmidi1
 libwireshark-data
 libwireshark3
 libwiretap3
-libwmf-bin
-libwmf0.2-7
-libwmf0.2-7-gtk
 libwnck-common
 libwnck22
 libwpd-0.9-9
@@ -2425,7 +2437,6 @@ light-themes
 lintian
 linux-sound-base
 lockfile-progs
-login
 logrotate
 lp-solve
 lsb-base
@@ -2489,8 +2500,6 @@ odbcinst
 odbcinst1debian2
 onboard
 onboard-data
-oneconf
-oneconf-common
 openprinting-ppds
 ophcrack
 ophcrack-cli
@@ -2503,11 +2512,7 @@ oxygen-icon-theme
 p11-kit
 p11-kit-modules
 p11-kit-modules:i386
-p7zip
-p7zip-full
 p7zip-rar
-parted
-passwd
 pastebinit
 patchutils
 pavucontrol
@@ -2585,7 +2590,6 @@ python-notify
 python-ntdb
 python-oauth
 python-oauthlib
-python-oneconf
 python-openssl
 python-pam
 python-paramiko
@@ -2637,7 +2641,6 @@ python3-mako
 python3-markupsafe
 python3-minimal
 python3-oauthlib
-python3-oneconf
 python3-pam
 python3-piston-mini-client
 python3-plainbox
@@ -2746,7 +2749,6 @@ ttf-ubuntu-font-family
 ttf-wqy-microhei
 tumbler
 tumbler-common
-ubiquity-casper
 ubuntu-artwork
 ubuntu-desktop
 ubuntu-extras-keyring
