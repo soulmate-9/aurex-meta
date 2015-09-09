@@ -1,4 +1,2 @@
 # official package repository of GlusterFS 3.5 for Ubuntu, provided by the Gluster Community.
-deb http://ppa.launchpad.net/gluster/glusterfs-3.5/ubuntu trusty main
-deb-src http://ppa.launchpad.net/gluster/glusterfs-3.5/ubuntu trusty main
-
+deb http://ppa.launchpad.net/gluster/glusterfs-3.5/ubuntu/ trusty main
