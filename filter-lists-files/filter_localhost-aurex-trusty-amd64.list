@@ -10,6 +10,7 @@ aurex-boot-theme-graphics        install
 aurex-browser-profile        install
 aurex-cache        install
 aurex-cc-auth        install
+aurex-cc-auth-i386        install
 aurex-cc-mount        install
 aurex-certificates        install
 aurex-ctrl-alt-del        install
@@ -54,15 +55,18 @@ aurex-wine        install
 aurex-xfce-desktop        install
 ausias-cc-default-settings        install
 ausias-cc-extra-settings        install
+ausias-cc-image-server        install
 ausias-classroom-student        install
 ausias-classroom-teacher        install
 ausias-desktop        install
 ausias-desktop-depinf        install
 ausias-desktop-secretaria        install
+ausias-fusioninventory-agent        install
 ausias-papercut-client        install
 ausias-printers-centro        install
 ausias-printers-depinf        install
 ausias-printers-secretaria        install
+auto-bridge        install
 bluegriffon        install
 bluegriffon-data        install
 eclipse-adt-plugin        install
@@ -77,6 +81,8 @@ nemo-pdf-tools        install
 netbeans-8.0-installer        install
 powerpoint-viewer-bin        install
 python3-germinate        install
+sublimetext-2-installer        install
+sublimetext-installer        install
 thunar        install
 thunar-data        install
 thunar-volman        install
