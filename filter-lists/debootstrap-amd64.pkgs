@@ -172,7 +172,7 @@ ii  resolvconf                      1.69ubuntu1.1
 ii  rsyslog                         7.4.4-1ubuntu2.6
 ii  sed                             4.2.2-4ubuntu1
 ii  sensible-utils                  0.0.9
-ii  sudo                            1.8.9p5-1ubuntu1.1
+ii  sudo                            1.8.9p5-1ubuntu1.2
 ii  sysv-rc                         2.88dsf-41ubuntu6.2
 ii  sysvinit-utils                  2.88dsf-41ubuntu6.2
 ii  tar                             1.27.1-1

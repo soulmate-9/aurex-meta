@@ -11,7 +11,7 @@ Task-Metapackage: exclude-aurex-inf
  * aurex-update-manager
 
 = virtualization =
- * aurex-virtualbox-4.3
+ * aurex-virtualbox-5.0
 
 == kvm, libvirt ==
  * libvirt-bin

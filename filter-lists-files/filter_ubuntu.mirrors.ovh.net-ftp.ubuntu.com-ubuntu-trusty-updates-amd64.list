@@ -741,6 +741,8 @@ libyaml-libyaml-perl        install
 libzeitgeist-2.0-0        install
 light-locker-settings        install
 lightdm        install
+linux-headers-3.19.0-28        install
+linux-headers-3.19.0-28-lowlatency        install
 linux-libc-dev        install
 locales        install
 login        install
