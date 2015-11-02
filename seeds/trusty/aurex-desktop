@@ -121,7 +121,9 @@ Task-Metapackage: aurex-desktop
 # * (libdvdcss2)
 
 == flash ==
- * flashplugin-installer
+# * flashplugin-installer
+# use partners equivalent to avoid download issues
+ * adobe-flashplugin
 
 = win emulation =
  * (aurex-wine)

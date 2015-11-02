@@ -1,4 +1,5 @@
 acroread
+adobe-flashplugin
 alsa-base
 alsa-utils
 anacron
@@ -35,7 +36,6 @@ eog
 ethtool
 evince
 file-roller
-flashplugin-installer
 foomatic-db-compressed-ppds
 foomatic-filters
 gedit
