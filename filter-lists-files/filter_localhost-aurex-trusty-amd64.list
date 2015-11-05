@@ -11,7 +11,9 @@ aurex-browser-profile        install
 aurex-cache        install
 aurex-cc-auth        install
 aurex-cc-auth-i386        install
+aurex-cc-autofs        install
 aurex-cc-mount        install
+aurex-cc-switch        install
 aurex-certificates        install
 aurex-ctrl-alt-del        install
 aurex-cups-pdf        install
@@ -46,9 +48,11 @@ aurex-transmute        install
 aurex-transmute-gui        install
 aurex-ubiquity-theme        install
 aurex-ubiquity-transmute        install
+aurex-unplugged-theme        install
 aurex-update-manager        install
 aurex-usb-power-fixes        install
 aurex-virtualbox-4.3        install
+aurex-virtualbox-5.0        install
 aurex-virtualbox-common        install
 aurex-wallpaper-theme        install
 aurex-wine        install

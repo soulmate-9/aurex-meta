@@ -16,7 +16,6 @@ aurex-default-associations        install
 aurex-default-settings        install
 aurex-desktop        install
 aurex-desktop-depinf        install
-aurex-desktop-secretaria        install
 aurex-gtk-bookmarks-settings        install
 aurex-gtk-theme        install
 aurex-icon-theme        install
@@ -29,7 +28,6 @@ aurex-passwd        install
 aurex-plymouth-theme        install
 aurex-powerpoint-viewer        install
 aurex-screenshot-settings        install
-aurex-secretaria        install
 aurex-smr        install
 aurex-standard        install
 aurex-translive        install
@@ -40,7 +38,7 @@ aurex-ubiquity-theme        install
 aurex-ubiquity-transmute        install
 aurex-update-manager        install
 aurex-usb-power-fixes        install
-aurex-virtualbox-4.3        install
+aurex-virtualbox-5.0        install
 aurex-virtualbox-common        install
 aurex-wallpaper-theme        install
 aurex-wine        install
