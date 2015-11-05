@@ -1,3 +1,10 @@
+aurex-meta (1.325~aurex14.04.19) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added atom to aurex-asir, aurex-daw, aurex-inf, aurex-smr
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 05 Nov 2015 14:08:10 +0100
+
 aurex-meta (1.325~aurex14.04.18) trusty; urgency=medium
 
   * Refreshed dependencies

@@ -37,6 +37,7 @@ Task-Metapackage: exclude-aurex-inf
  * (sublimetext-installer)
  * (xmlcopyeditor)
  * (amaya)
+ * atom
 
 = other devel tools =
  * freemind
