@@ -178,6 +178,8 @@ Task-Metapackage: aurex-desktop
  * gparted
  * (ophcrack)
  * pm-utils
+== boot fix for EFI ==
+ * (boot-repair)
 
 = kernel =
 # * (linux-generic-lts-raring)
