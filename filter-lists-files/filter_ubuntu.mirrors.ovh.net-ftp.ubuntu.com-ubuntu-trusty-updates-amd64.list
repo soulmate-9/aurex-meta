@@ -69,6 +69,7 @@ duplicity        install
 e2fslibs:amd64        install
 e2fsprogs        install
 ecryptfs-utils        install
+efibootmgr        install
 empathy        install
 empathy-common        install
 evince        install

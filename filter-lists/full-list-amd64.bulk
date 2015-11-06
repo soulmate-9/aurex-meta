@@ -211,6 +211,7 @@ duplicity
 e2fslibs:amd64
 e2fsprogs
 ecryptfs-utils
+efibootmgr
 empathy
 empathy-common
 evince
@@ -2955,3 +2956,8 @@ oracle-java8-installer
 oracle-java8-set-default
 # -> http://ppa.launchpad.net/webupd8team/y-ppa-manager/ubuntu/ trusty
 yad
+# -> http://ppa.launchpad.net/yannubuntu/boot-repair/ubuntu/ trusty
+boot-repair
+boot-sav
+boot-sav-extra
+glade2script

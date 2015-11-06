@@ -1,0 +1,4 @@
+boot-repair        install
+boot-sav        install
+boot-sav-extra        install
+glade2script        install
