@@ -1,0 +1,30 @@
+# -------------
+# Ubuntu sources
+# -------------
+deb _@_UBUNTU_MIRROR_@_ trusty main restricted universe multiverse
+deb-src _@_UBUNTU_MIRROR_@_ trusty main restricted universe multiverse
+
+# updates
+deb _@_UBUNTU_MIRROR_@_ trusty-updates main restricted universe multiverse
+deb-src _@_UBUNTU_MIRROR_@_ trusty-updates main restricted universe multiverse
+
+# security
+deb _@_UBUNTU_MIRROR_@_ trusty-security main restricted universe multiverse
+deb-src _@_UBUNTU_MIRROR_@_ trusty-security main restricted universe multiverse
+
+# proposed
+deb _@_UBUNTU_MIRROR_@_ trusty-proposed main restricted universe multiverse
+deb-src _@_UBUNTU_MIRROR_@_ trusty-proposed main restricted universe multiverse
+
+# backports
+deb _@_UBUNTU_MIRROR_@_ trusty-backports main restricted universe multiverse
+deb-src _@_UBUNTU_MIRROR_@_ trusty-backports main restricted universe multiverse
+
+# partner
+deb _@_PARTNER_MIRROR_@_ trusty partner
+deb-src http://archive.canonical.com/ubuntu/ trusty partner
+
+# extras
+deb http://extras.ubuntu.com/ubuntu trusty main
+deb-src http://extras.ubuntu.com/ubuntu trusty main
+

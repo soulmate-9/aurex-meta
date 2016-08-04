@@ -1,3 +1,9 @@
+aurex-meta (2.206~aurex16.04.1) xenial; urgency=medium
+
+    * First release for 'xenial'
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 04 Aug 2016 13:05:50 +0200
+
 aurex-meta (1.325~aurex14.04.20) trusty; urgency=medium
 
   * Refreshed dependencies

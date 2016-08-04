@@ -105,11 +105,12 @@ expand_update_cfg(){
 update_seeds(){
 	TMP_DIR="$(mktemp -d)"
 	echo "Downloading seeds from launchpad ..."
-	bzr branch $BZR_DIST $TMP_DIR/bzr-ubuntu.$CURRENT_DIST
-	bzr branch $BZR_PLAT $TMP_DIR/bzr-platform.$CURRENT_DIST
+	for d in ubuntu platform xubuntu ubuntu-mate; do
+		bzr branch $BZR_BASE/${d}.${CURRENT_DIST} $TMP_DIR/bzr-${d}.${CURRENT_DIST}
+	done
 
 	TIME_STAMP="$(date "+%Y%m%d-%H%M%S")"
-	for d in ubuntu platform ; do
+	for d in ubuntu platform xubuntu ubuntu-mate; do
 		rsync -axC $TMP_DIR/bzr-$d.$CURRENT_DIST/ $TMP_DIR/$d.$CURRENT_DIST/
 		FIRST_TIME=""
 		if [ ! -d "seeds/$d.$CURRENT_DIST" ] ; then

@@ -3,6 +3,6 @@
 # -------------
 # partner component excluded
 
-deb _@_AUREX_MIRROR_@_ xenial main
-deb-src _@_AUREX_MIRROR_@_ xenial main
+deb _@_AUREX_MIRROR_@_ trusty main
+deb-src _@_AUREX_MIRROR_@_ trusty main
 
