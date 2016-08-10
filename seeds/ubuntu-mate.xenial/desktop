@@ -1,0 +1,112 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Ubuntu MATE desktop
+Task-Extended-Description: This task provides the Ubuntu MATE desktop environment.
+Task-Key: ubuntu-mate-desktop
+Task-Name: ubuntu-mate-desktop
+Task-Seeds: desktop-common core
+
+ * Feature: no-follow-recommends
+
+== Applications ==
+
+ * brasero
+ * brasero-cdrkit
+ * cheese
+ * deja-dup
+ * deja-dup-backend-cloudfiles
+ * deja-dup-backend-gvfs
+ * deja-dup-backend-s3
+ * deja-dup-caja
+ * folder-color-caja 
+ * gnome-disk-utility
+ * hexchat
+ * libpurple-bin
+ * lightdm-gtk-greeter-settings
+ * mate-dock-applet
+ * pidgin
+ * pidgin-libnotify
+ * pidgin-otr
+ * plank
+ * rhythmbox
+ * rhythmbox-plugins
+ * rhythmbox-plugin-cdrecorder
+ * synapse
+ * thunderbird
+ * transmission-gtk
+ * usb-creator-gtk [i386 amd64]
+ * vlc
+ * vlc-plugin-notify
+ * ubuntu-mate-welcome
+ * xul-ext-calendar-timezones
+ * xul-ext-gdata-provider
+ * xul-ext-lightning
+
+== Shotwell ==
+
+ * account-plugin-facebook
+ * account-plugin-flickr
+ * account-plugin-google
+ * libaccount-plugin-generic-oauth
+ * libaccount-plugin-google
+ * shotwell
+
+== Software and Support ==
+
+ * apport
+ * apport-gtk
+ * apport-symptoms
+ * gdb
+ * whoopsie
+
+== Office ==
+
+ * libreoffice-avmedia-backend-gstreamer
+ * libreoffice-calc
+ * libreoffice-gnome
+ * libreoffice-impress
+ * libreoffice-ogltrans
+ * libreoffice-pdfimport
+ * libreoffice-style-human
+ * libreoffice-writer
+ * ubuntu-mate-libreoffice-draw-icons
+
+== Compiz ==
+
+ * compiz [!armhf]
+ * compiz-core [!armhf]
+ * compiz-mate [!armhf]
+ * compiz-plugins [!armhf]
+ * compiz-plugins-default [!armhf]
+
+== Mobile Devices ==
+
+ * blueman
+ * exfat-fuse
+ * exfat-utils
+ * ideviceinstaller
+ * ifuse
+ * libgpod-common
+ * libimobiledevice-utils
+ * libmtp-runtime
+ * libplist-utils
+ * usbmuxd
+
+== DVD and BluRay ==
+
+ * libaacs0
+ * libbluray1
+ * libbluray-bdj
+ * libbluray-bin
+ * libbdplus0
+ * libdvdnav4
+ * libdvdread4
+
+== Power Management ==
+
+ * tlp
+ * tlp-rdw
+
+== Other ==
+
+ * ubuntu-mate-desktop # metapackage for everything here

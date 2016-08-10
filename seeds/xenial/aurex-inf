@@ -1,0 +1,56 @@
+Task-Metapackage: exclude-aurex-inf
+# 'exclude' prefix in metapackage name to avoid installation in update-lists script
+
+
+#aurex ciclos informatica
+#This seed provides addons to aurex desktop environment
+#for "ciclos formativos informatica".
+
+= common stuff =
+ * openssh-server
+ * aurex-update-manager
+
+= virtualization =
+ * aurex-virtualbox-5.1
+
+== kvm, libvirt ==
+ * libvirt-bin
+ * qemu-kvm
+ * virtinst
+ * virt-manager
+ * spice-client-gtk 
+ * python-spice-client-gtk
+
+= network tools =
+ * wireshark
+
+= development =
+ * (android-sdk-installer)
+ * (eclipse-jee-installer)
+ * (eclipse-adt-plugin)
+ * (android-studio-installer)
+ * gphpedit
+ * netbeans-8.0-installer
+ * mysql-client
+ * (geany)
+ * (geany-plugins)
+ * (sublimetext-installer)
+ * (xmlcopyeditor)
+ * (amaya)
+ * atom
+
+= other devel tools =
+ * freemind
+
+= Version Control =
+ * git
+ * git-svn
+ * svn
+ * bzr
+
+= Database tools =
+ * mysql-workbench
+
+= openvpn stuff =
+ * easy-rsa
+

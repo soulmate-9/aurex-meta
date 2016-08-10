@@ -1,0 +1,214 @@
+= Servers and Daemons =
+
+Database:
+
+ * mdbtools				# OOo2 supports the JET format
+ * postgresql-plperl-9.3
+ * postgresql-plpython-9.3
+ * postgresql-plpython3-9.3
+ * postgresql-pltcl-9.3
+
+Email:
+
+ * fetchmail
+ * procmail
+ * exim4
+ * exim4-daemon-heavy
+ * exim4-daemon-light
+ * exim4-doc-html
+ * mail-stack-delivery
+ * mailman
+
+Must also consider webmail and so on...
+
+VPN:
+
+ * strongswan # ipsec vpn - jpds/14.04 (LP: #1266066)
+ * strongswan-ike
+ * strongswan-plugin-dhcp
+ * strongswan-plugin-eap-md5
+ * strongswan-plugin-eap-mschapv2
+ * strongswan-plugin-eap-peap
+ * strongswan-plugin-eap-radius
+ * strongswan-plugin-eap-tls
+ * strongswan-plugin-eap-tnc
+ * strongswan-plugin-eap-ttls
+ * strongswan-plugin-gmp
+ * strongswan-plugin-ldap
+ * strongswan-plugin-mysql
+ * strongswan-plugin-openssl
+ * strongswan-plugin-pkcs11
+ * strongswan-plugin-radattr
+ * strongswan-plugin-sql
+ * strongswan-plugin-unbound
+ * strongswan-pt-tls-client
+ * strongswan-tnc-base
+ * strongswan-tnc-client
+ * strongswan-tnc-pdp
+ * strongswan-tnc-server
+
+Web servers:
+
+ * nginx
+
+Web applications:
+
+ * zope3-sandbox
+ * python-moinmoin      # moin (>= 1.5)
+ * python-django
+ * python-tickcount #ChuckShort - server-lucid-canonical-application-support
+ * python-openid #ChuckShort - server-lucid-canonical-application-support
+ * python-pastescript #ChuckShort - server-lucid-canonical-application-support
+ * python-pastedeploy #ChuckShort - server-lucid-canonical-application-support
+ * python-psycopg2
+ * python-posix-ipc
+ * memcached #ClintByrum - server-maverick-uds-web20-workloads
+ * libmemcached-dev #ClintByrum - server-maverick-uds-web20-workloads
+ * rabbitmq-server
+
+Printing:
+
+ * printer-driver-m2300w  # Driver for the Minolta magicolor 2300W/24000W color laser printers
+
+Utilities:
+
+ * graphviz
+ * logcheck		  # great security tool for any server
+ * logcheck-database	  # useful for above
+ * rrdtool
+ * john
+ * libmemcached-tools #ClintByrum - server-maverick-uds-web20-workloads
+ * nut # ChuckShort - ServerPackageReview
+ * nut-cgi
+ * nut-snmp
+ * powernap
+ * powernap-server
+
+Radius server:
+
+ * freeradius
+
+Authentication:
+
+ * sssd
+ * sssd-tools
+
+Backup:
+
+ * mtx
+
+Proxy:
+
+ * haproxy #ClintByrum server-maverick-uds-cloud-loadbalancing
+
+Configuration Management:
+
+ * etckeeper
+
+Monitoring:
+
+ * nagios3
+ * nagios3-common
+ * nagios3-doc
+ * monitoring-plugins-basic
+ * monitoring-plugins-standard
+ * nagios-plugins-basic    # transitional package: remove in Xenial+1
+ * nagios-plugins-standard # transitional package: remove in Xenial+1
+ * nagios-nrpe-server #ChuckShort - server lucid-canonical-application-support
+ * nagios-nrpe-plugin #ChuckShort - server lucid-canonical-application-support
+
+Storage:
+
+ * ceph
+ * radosgw
+ * python-ceph
+
+Other:
+
+ * sysvinit  # ScottJamesRemnant retain support for now
+ * samba-doc-pdf
+ * ibmasm-utils
+ * rabbitmq-server
+ * euca2tools
+ * unzip
+ * openvswitch
+ * openvswitch-switch-dpdk
+ * openssh-blacklist-extra
+ * lxc
+ * lxc-tests
+ * lua-lxc
+ * python3-lxc
+ * lxc2
+ * lxd
+ * lxd-client
+ * lxd-tools
+
+OpenStack:
+
+ * nova-api
+ * nova-network
+ * nova-objectstore
+ * nova-scheduler
+ * nova-volume
+ * nova-compute
+ * nova-compute-kvm
+ * nova-compute-lxc
+ * nova-compute-lxd # James Page LP: #1540597
+ * nova-vncproxy
+ * nova-cert
+ * nova-scheduler # James Page LP: #1180084
+
+ * swift-account
+ * swift-container
+ * swift-doc
+ * swift-object
+ * swift-proxy
+
+ * glance
+
+ * keystone
+
+ * python-keystoneclient
+ * python-cinderclient
+ * python-swiftclient
+ * python-glanceclient
+ * python-neutronclient
+
+ * ceilometer-collector
+ * ceilometer-api
+ * ceilometer-agent-compute
+ * ceilometer-agent-central
+
+ * openstack-dashboard
+
+ * cinder-volume
+ * cinder-api
+ * cinder-scheduler
+ * cinder-backup
+
+ * neutron-server
+ * neutron-l3-agent
+ * neutron-dhcp-agent
+ * neutron-openvswitch-agent
+ * neutron-linuxbridge-agent
+ * neutron-lbaas-agent
+ * neutron-metadata-agent
+ * neutron-vpn-agent
+
+ * heat-engine
+ * heat-api
+ * heat-api-cfn
+ * heat-api-cloudwatch
+
+Cloud:
+
+ * walinuxagent # BenHoward - windows azure enablement
+ * euca2ools
+ * hv-kvp-daemon-init
+ * cloud-utils
+ * joyent-mdata-client
+ * juju
+
+IPv6 tools:
+
+ * quagga                 # RobertCollins

@@ -1,0 +1,11 @@
+include platform.xenial
+feature no-follow-recommends
+core: desktop-common
+cloudtop: core
+desktop: core
+live: desktop live-common
+ship-live: boot live
+supported-desktop-extra: core cloudtop desktop ship-live supported-common
+# make sure supported remains the last entry
+supported: supported-desktop-extra
+

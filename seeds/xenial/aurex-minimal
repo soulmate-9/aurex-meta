@@ -1,0 +1,22 @@
+Task-Section: user
+Task-Description: aurex minimal
+Task-Extended-Description: This task provides the minimal aurex environment.
+Task-Key: aurex-minimal
+Task-Seeds: required minimal
+Task-Metapackage: aurex-minimal
+
+ * aurex-transmute
+
+= networking =
+ * bridge-utils
+ * vlan
+ * ifenslave
+
+= file system and disk support =
+ * fdisk
+ * lvm2
+ * dmsetup
+ * mdadm
+ * reiserfsprogs
+ * xfsprogs
+ * ntfs-3g

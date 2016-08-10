@@ -1,0 +1,99 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Ubuntu live CD
+Task-Extended-Description: This task provides the extra packages installed on the Ubuntu live CD. It is neither useful nor recommended to install this task in other environments.
+Task-Relevance: 2
+Task-Key: ubiquity-frontend-gtk
+Task-Test-new-install: skip show
+Task-Seeds: live-common
+
+
+== Languages ==
+
+The full rationale on how we choose the languages and what we install
+is at https://launchpad.net/bugs/1520278
+
+The ones currently installed on the live are:
+en, es, zh (simplified), pt, de, fr, it, ru
+
+This should install check-language-support --show-installed -l $LANG from
+default live.
+
+# Default languages for most applications we ship by default
+ * Languages: en es zh-hans pt de fr it ru
+ * language-pack-${Languages}
+ * language-pack-gnome-${Languages}
+
+# Dictionaries for LibreOffice
+## hyphenation and thesaurus
+ * Languages: en-us de fr it ru
+ * hyphen-${Languages}
+ * mythes-${Languages}
+ * mythes-en-au
+ * mythes-de-ch
+
+## hunspell dict
+ * Languages: en-ca en-us de-at de-ch de-de fr ru
+ * hunspell-${Languages}
+
+## myspell dict
+(for languages which don't provide a hunspell dictionary yet)
+ * Languages: en-au en-gb en-za es pt it
+ * myspell-${Languages}
+
+# Other Dictionaries
+ * Languages: american british spanish portuguese brazilian ngerman ogerman swiss french italian
+ * w${Languages}
+
+# Default apps having separates translations
+## Libreoffice l10n and help
+ * Languages: en-gb es zh-cn zh-tw pt pt-br de fr it ru
+ * libreoffice-l10n-${Languages}
+ * libreoffice-help-${Languages}
+ * libreoffice-l10n-en-za
+ * libreoffice-help-en-us
+ * openoffice.org-hyphenation
+
+## Firefox
+ * Languages: en es zh-hans pt de fr it ru
+ * firefox-locale-${Languages}
+
+## Thunderbird
+ * Languages: en en-gb en-us es es-ar es-es zh-cn zh-hans zh-tw pt pt-br pt-pt de fr it ru
+ * thunderbird-locale-${Languages}
+
+== Input methods ==
+ * fcitx
+ * fcitx-frontend-gtk2
+ * fcitx-frontend-gtk3
+ * fcitx-frontend-qt4
+ * fcitx-frontend-qt5
+ * fcitx-hangul
+ * fcitx-mozc
+ * fcitx-ui-classic
+ * fcitx-ui-qimpanel
+ * fcitx-table
+ * fcitx-pinyin
+ * fcitx-unikey
+ * fcitx-module-cloudpinyin
+
+== Fonts (zh-hans) ==
+
+ * fonts-noto-cjk
+ * fonts-arphic-uming
+ * fonts-arphic-ukai
+
+== Ubiquity components ==
+
+These packages make up the Ubiquity live installer.
+
+ * ubiquity-frontend-gtk
+ * ubiquity-ubuntu-artwork
+ * ubiquity-slideshow-ubuntu
+ * a11y-profile-manager
+
+== Misc ==
+
+ * gparted
+ * cifs-utils # Needed by casper for CIFS root=
+

@@ -1,0 +1,13 @@
+# The following packages are blacklisted.
+# If you add to this list explain why a package is blacklisted.
+
+# gnome-bluetooth is pulled in by network-manager-gnome and not required by
+# Ubuntu MATE.
+gnome-bluetooth
+
+# gnome-session isn't required by Ubuntu MATE.
+gnome-session
+
+# gnome-user-guide is recommended by Yelp and not
+# required for Ubuntu MATE.
+gnome-user-guide

@@ -1,0 +1,45 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Ubuntu MATE cloudtop
+Task-Extended-Description: This task provides the Ubuntu MATE desktop environment suitable for remote terminal servers.
+Task-Key: ubuntu-mate-cloudtop
+Task-Name: ubuntu-mate-cloudtop
+Task-Seeds: desktop-common core
+
+ * Feature: no-follow-recommends
+
+== Applications ==
+
+ * folder-color-caja
+ * hexchat
+ * libpurple-bin
+ * pidgin
+ * pidgin-libnotify
+ * pidgin-otr
+ * synapse
+ * thunderbird
+ * vlc
+ * vlc-plugin-notify
+ * ubuntu-mate-welcome
+
+== Software and Support ==
+
+ * apport
+ * apport-gtk
+ * apport-symptoms
+ * whoopsie
+
+== Office ==
+
+ * libreoffice-avmedia-backend-gstreamer
+ * libreoffice-calc
+ * libreoffice-gnome
+ * libreoffice-impress
+ * libreoffice-ogltrans
+ * libreoffice-pdfimport
+ * libreoffice-style-human
+ * libreoffice-writer
+
+== Other ==
+
+ * ubuntu-mate-cloudtop # metapackage for everything here

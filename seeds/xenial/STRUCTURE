@@ -1,0 +1,22 @@
+include xubuntu.xenial
+aurex-minimal:
+aurex-standard:
+aurex-desktop: aurex-minimal desktop
+aurex-xfce-desktop:
+aurex-inf:
+aurex-smr:
+aurex-asir:
+aurex-daw:
+aurex-supported:
+aurex-mods:
+aurex-secretaria:
+aurex-desktop-depinf: aurex-desktop aurex-minimal desktop
+aurex-desktop-secretaria: aurex-desktop aurex-minimal desktop
+ausias-netstation:
+ausias-printstation:
+ausias-classroom-student:
+ausias-classroom-teacher:
+ausias-desktop: aurex-desktop aurex-minimal desktop
+ausias-desktop-depinf:
+ausias-desktop-secretaria:
+supported: aurex-supported

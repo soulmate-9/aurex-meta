@@ -34,7 +34,7 @@ Description: The Ubuntu standard system
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
-Package: xubuntu-desktop
+Package: ubuntu-desktop
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
 Recommends: ${germinate:Recommends}
@@ -43,22 +43,6 @@ Description: The Ubuntu desktop system
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
-
-Package: xubuntu-core
-Architecture: any
-Depends: ${germinate:Depends}, ${misc:Depends}
-Recommends: ${germinate:Recommends}
-Description: Xubuntu core system
- This package depends on the core set of a functional Xubuntu desktop system
- .
- It is safe to remove this package if some of the included packages are
- not desired.
-
-Package: ubuntu-desktop
-Architecture: any
-Depends: xubuntu-desktop
-Description: The Ubuntu desktop system
- This package replaces standard ubuntu desktop with aurex xubuntu-desktop
 
 Package: aurex-minimal
 Architecture: any
@@ -97,9 +81,9 @@ Package: aurex-xfce-desktop
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
 Recommends: ${germinate:Recommends}
-Description: Aurex generic XFCE desktop system 
+Description: Aurex generic xfce desktop system
  This (meta)package depends on all of the packages for a generic
- aurex XFCE desktop system
+ aurex desktop system
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.

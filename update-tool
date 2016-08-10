@@ -102,11 +102,21 @@ expand_update_cfg(){
 	expand_variables "update.cfg.in" "update.cfg"
 }
 
+bzr_url(){
+	seed_block="$1"
+	if [ "$seed_block" = "ubuntu" ] || [ "$seed_block" = "platform" ] ;then
+		dev_group="ubuntu-core"
+	else
+		dev_group="${seed_block}"
+	fi
+	echo "lp:~${dev_group}-dev/ubuntu-seeds/${seed_block}.${CURRENT_DIST}"
+}
+
 update_seeds(){
 	TMP_DIR="$(mktemp -d)"
 	echo "Downloading seeds from launchpad ..."
 	for d in ubuntu platform xubuntu ubuntu-mate; do
-		bzr branch $BZR_BASE/${d}.${CURRENT_DIST} $TMP_DIR/bzr-${d}.${CURRENT_DIST}
+		bzr branch "$(bzr_url "$d")" $TMP_DIR/bzr-${d}.${CURRENT_DIST}
 	done
 
 	TIME_STAMP="$(date "+%Y%m%d-%H%M%S")"
@@ -133,6 +143,7 @@ update_seeds(){
 			echo "$d.$CURRENT_DIST: No changes found"
 		fi
 	done
+	mkdir -p seeds/$CURRENT_DIST
 	rm -fr $TMP_DIR
 }
 

@@ -1,0 +1,206 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: aurex desktop
+Task-Extended-Description: This task provides common stuff for the aurex desktop environment.
+Task-Key: aurex-desktop
+Task-Seeds: desktop-common desktop aurex-minimal aurex-standard
+Task-Metapackage: aurex-desktop
+
+= aurex stuff =
+ * aurex-transmute-gui
+ * aurex-default-settings
+ * aurex-keyring
+ * aurex-keyring
+
+= Wallpapers and themes =
+ * aurex-gtk-theme
+ * aurex-boot-theme
+ * aurex-icon-theme
+ * aurex-plymouth-theme
+ * aurex-lightdm-theme
+ * clearlooks-phenix-theme
+
+= XFCE environment =
+ * aurex-xfce-desktop
+
+= libreoffice =
+ * (libreoffice)
+ * (libreoffice-gnome)
+ * (libreoffice-style-tango)
+ * (libreoffice-style-human)
+ * (libreoffice-l10n-common)
+ * (libreoffice-pdfimport)
+ * (libreoffice-math)
+ * (libreoffice-ogltrans)
+ * (libreoffice-l10n-es)
+ * (libreoffice-help-es)
+ * (libreoffice-l10n-ca)
+ * (libreoffice-help-ca)
+ * (libreoffice-l10n-en-gb)
+ * (libreoffice-help-en-gb)
+== dictionaries, theasaurus and hyphenation
+ * (myspell-es)
+ * (myspell-en-gb)
+ * (myspell-ca)
+ 
+== viewers ==
+ * (aurex-powerpoint-viewer)
+
+= language support =
+ * language-pack-es
+ * language-pack-es-base
+ * language-pack-gnome-es
+ * language-pack-gnome-es-base
+ * (language-pack-ca)
+ * (language-pack-ca-base)
+ * (language-pack-gnome-ca)
+ * (language-pack-gnome-ca-base)
+ * (language-pack-en)
+ * (language-pack-en-base)
+ * (language-pack-gnome-en)
+ * (language-pack-gnome-en-base)
+
+= pdf support =
+ * evince
+ * acroread
+# maybe no longer needed when cups-pdf gets really fixed ...
+ * (aurex-cups-pdf)
+ * cups-pdf
+ * pdftk
+
+= cups =
+ * cups
+ * cups-bsd
+ * cups-client
+
+= traditional package managers =
+ * (synaptic)
+ * (gdebi)
+
+= multimedia and graphics =
+ * ubuntu-restricted-extras
+ * (gstreamer0.10-plugins-base-apps)
+ * (gstreamer0.10-pulseaudio)
+ * libdvdread4
+ * vlc
+ * (pulseaudio-equalizer)
+ * rhythmbox
+ * gthumb
+ * (gimp)
+ * (gimp-data)
+ * (gimp-data-extras)
+ * (inkscape)
+ * (sozi)
+ * (cheese)
+# to enable globus, add
+# ppa:gloobus-dev/gloobus-preview
+# * (gnome-sushi)
+# * (gloobus-preview)
+# * (gloobus-sushi)
+
+== screen capture ==
+ * (shutter)
+ * (libgoo-canvas-perl)
+ * (aurex-screenshot-settings)
+
+== extra codecs ==
+# * (gstreamer0.10-plugins-ugly)
+# * (gstreamer0.10-plugins-ffmpeg)
+# * (non-free-codecs)
+# * (libxine1-ffmpeg)
+# * (gxine mencoder)
+# * (totem-mozilla)
+# * (icedax)
+# * (tagtool)
+# * (easytag)
+# * (id3tool)
+# * (lame)
+# * (libmad0)
+# * (mpg321)
+# * (mpg123libjpeg-progs)
+# * (libdvdcss2)
+
+== flash ==
+# * flashplugin-installer
+# use partners equivalent to avoid download issues
+ * adobe-flashplugin
+
+= win emulation =
+ * (aurex-wine)
+ * (winetricks)
+
+= java =
+ * (oracle-java8-installer)
+ * (oracle-java8-set-default)
+
+= networking =
+# * aurex-openvpn-nm
+ * (network-manager-openvpn)
+ * (network-manager-openvpn-gnome)
+ * wireless-tools
+ * wpasupplicant
+
+= remote access =
+ * xnest
+ * (/^remmina-plugin/)
+
+= internet access =
+ * (chromium-browser)
+ * (chromium-browser-l10n)
+ * (firefox)
+ * (firefox-locale-es)
+ * (firefox-locale-en)
+ * (firefox-locale-ca)
+ * (xul-ext-ubufox)
+ * (filezilla)
+ * (aurex-certificates)
+
+= development =
+ * (bluegriffon)
+
+= fonts =
+ * (fonts-kacst-one)
+ * (fonts-khmeros-core)
+ * (fonts-lao)
+ * (fonts-liberation)
+ * (fonts-nanum)
+ * (fonts-opensymbol)
+ * (fonts-takao-pgothic)
+ * (fonts-thai-tlwg)
+ * (ttf-indic-fonts-core)
+ * (ttf-punjabi-fonts)
+ * (ttf-ubuntu-font-family)
+ * (ttf-wqy-microhei)
+ * (ttf-dejavu-core)
+ * (ttf-freefont)
+
+= tools =
+ * gparted
+ * (ophcrack)
+ * pm-utils
+== boot fix for EFI ==
+ * (boot-repair)
+
+= kernel =
+# * (linux-generic-lts-raring)
+# * (linux-signed-generic-lts-raring) [amd64]
+
+= other =
+# * nautilus-gksu
+# * (nautilus-refresh)
+# * (nautilus-advanced-menu)
+# * (nautilus-execute)
+# * (nautilus-gedit)
+# * (nautilus-multimedia-menu)
+# * (nautilus-open-as-root)
+# * (nautilus-open-terminal-here)
+# * (nautilus-wallpaper-changer)
+# * (nautilus-renamer)
+# * (nautilus-search)
+# * (nautilus-pdf-tools)
+ * (nemo)
+## add extensions here...
+ * (nemo-pdf-tools)
+
+ # for dropbox
+ * python-gpgme
