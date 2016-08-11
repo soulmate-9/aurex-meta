@@ -114,6 +114,16 @@ bzr_url(){
 
 update_seeds(){
 	TMP_DIR="$(mktemp -d)"
+	echo "Downloading base seeds ..."
+	NUM_CUTS="$(echo "$SEED_BASE_DIR" |sed -e "s%^/%%;s%/$%%" |tr "/" "\n" |wc -l)"
+	for d in ubuntu platform xubuntu ubuntu-mate; do
+		SEED_BASE="$SEED_BASE_URL/$SEED_BASE_DIR/$d.$CURRENT_DIST/"
+		# WARNING: Don't fogetthe last '/' in the URL -----------^
+		# or you will be downloading the complete ubuntu site !!!
+
+		(cd $TMP_DIR; wget -r -np -nH --cut-dirs=$NUM_CUTS $SEED_BASE ; find -name "index.html*" -exec rm {} \; )
+	done
+
 	echo "Downloading seeds from launchpad ..."
 	for d in ubuntu platform xubuntu ubuntu-mate; do
 		bzr branch "$(bzr_url "$d")" $TMP_DIR/bzr-${d}.${CURRENT_DIST}
@@ -121,6 +131,7 @@ update_seeds(){
 
 	TIME_STAMP="$(date "+%Y%m%d-%H%M%S")"
 	for d in ubuntu platform xubuntu ubuntu-mate; do
+		# merge
 		rsync -axC $TMP_DIR/bzr-$d.$CURRENT_DIST/ $TMP_DIR/$d.$CURRENT_DIST/
 		FIRST_TIME=""
 		if [ ! -d "seeds/$d.$CURRENT_DIST" ] ; then

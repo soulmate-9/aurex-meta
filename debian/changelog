@@ -1,3 +1,10 @@
+aurex-meta (2.206~aurex16.04.2) xenial; urgency=medium
+
+  * Download base seeds and merge with bazaar branches to solve
+    "missing" core seed in xubuntu
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 11 Aug 2016 10:32:27 +0200
+
 aurex-meta (2.206~aurex16.04.1) xenial; urgency=medium
 
     * First release for 'xenial'
