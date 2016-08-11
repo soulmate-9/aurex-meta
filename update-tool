@@ -138,8 +138,13 @@ update_seeds(){
 			mkdir -p "seeds/$d.$CURRENT_DIST"
 			FIRST_TIME=Y
 		fi
+		# mkdir -p seeds/base-$d.${CURRENT_DIST}
+		# rsync -ax $TMP_DIR/$d.$CURRENT_DIST/ seeds/base-$d.${CURRENT_DIST}/
 		rsync -axC seeds/$d.$CURRENT_DIST/ $TMP_DIR/current-$d.$CURRENT_DIST/
-		if ! diff -qr $TMP_DIR/current-$d.$CURRENT_DIST $TMP_DIR/$d.$CURRENT_DIST  >/dev/null ; then
+		if diff -qr $TMP_DIR/current-$d.$CURRENT_DIST $TMP_DIR/$d.$CURRENT_DIST  >/dev/null && diff -qr $TMP_DIR/$d.$CURRENT_DIST $TMP_DIR/current-$d.$CURRENT_DIST >/dev/null ; then
+			echo "$d.$CURRENT_DIST: No changes found"
+		else
+
 			if [ "$FIRST_TIME" ] ; then
 				echo "$d.$CURRENT_DIST: No previous seeds found. Copying seeds for first time"
 			else
@@ -148,10 +153,9 @@ update_seeds(){
 				rsync -axC seeds/$d.$CURRENT_DIST/ seeds/$d.$CURRENT_DIST.$TIME_STAMP/
 				echo "$d.$CURRENT_DIST: OLD seeds stored in $d.$CURRENT_DIST.$TIME_STAMP as backup."
 			fi
-			rsync -axC --delete $TMP_DIR/$d.$CURRENT_DIST/ seeds/$d.$CURRENT_DIST/
+		
+			rsync -ax --exclude=.git --delete $TMP_DIR/$d.$CURRENT_DIST/ seeds/$d.$CURRENT_DIST/
 			echo "$d.$CURRENT_DIST: updated."
-		else
-			echo "$d.$CURRENT_DIST: No changes found"
 		fi
 	done
 	mkdir -p seeds/$CURRENT_DIST

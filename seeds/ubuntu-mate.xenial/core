@@ -1,0 +1,260 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Ubuntu MATE minimal installation
+Task-Extended-Description: This task provides minimal packages for Ubuntu MATE desktop environment.
+Task-Key: ubuntu-mate-core
+Task-Name: ubuntu-mate-core
+Task-Seeds: desktop-common
+
+ * Feature: no-follow-recommends
+
+== Core ==
+
+ * accountsservice
+ * acpid [!armhf !arm64 !powerpc !ppc64el]
+ * colord
+ * dconf-cli
+ * dialog
+ * gdisk
+ * hwdata
+ * libnotify-bin
+ * ntp
+ * pm-utils
+ * policykit-desktop-privileges
+ * rtkit
+ * syslinux-utils [!armhf !arm64 !powerpc !ppc64el]
+ * toshset [!armhf !arm64 !powerpc !ppc64el]
+ * vbetool [!armhf !arm64 !powerpc !ppc64el]
+
+== X11 ==
+
+ * libegl1-mesa-drivers
+ * libfile-mimeinfo-perl    # Recommended by xdg-utils
+ * libnet-dbus-perl         # Recommended by xdg-utils
+ * libtxc-dxtn-s2tc0
+ * libx11-protocol-perl     # Recommended by xdg-utils
+ * x11-utils
+ * x11-xserver-utils
+ * xbitmaps
+ * xdg-user-dirs
+ * xdg-user-dirs-gtk
+ * xdg-utils
+ * xserver-xorg
+ * xserver-xorg-video-all
+ * xserver-xorg-input-all
+ * xterm
+
+== Display Manager ==
+
+ * lightdm
+ * lightdm-gtk-greeter
+ * ubuntu-mate-lightdm-theme
+
+== Desktop ==
+
+ * atril
+ * caja
+ * caja-gksu
+ * caja-open-terminal
+ * caja-sendto
+ * caja-wallpaper
+ * dconf-editor
+ * engrampa
+ * eom
+ * ffmpegthumbnailer
+ * firefox
+ * galculator
+ * gksu
+ * gnome-system-tools
+ * gucharmap
+ * gvfs
+ * gvfs-backends
+ * gvfs-fuse
+ * indicator-application-gtk2
+ * indicator-sound-gtk2
+ * libp11-kit-gnome-keyring
+ * librsvg2-common
+ * libwmf0.2-7-gtk
+ * marco
+ * mate-applets
+ * mate-desktop-environment-core
+ * mate-gnome-main-menu-applet
+ * mate-icon-theme
+ * mate-icon-theme-faenza
+ * mate-indicator-applet
+ * mate-media
+ * mate-menu
+ * mate-menus
+ * mate-netbook
+ * mate-netspeed
+ * mate-notification-daemon
+ * mate-optimus
+ * mate-polkit
+ * mate-power-manager
+ * mate-screensaver
+ * mate-sensors-applet
+ * mate-settings-daemon
+ * mate-system-monitor
+ * mate-terminal
+ * mate-themes
+ * mate-tweak
+ * mate-user-guide
+ * mate-utils
+ * mozo
+ * pinentry-gtk2
+ * pluma
+ * tilda
+ * xul-ext-ubufox
+ * yelp
+ * zenity
+
+== Top Menu ==
+
+ * libtopmenu-client-gtk2-0
+ * libtopmenu-client-gtk3-0
+ * libtopmenu-server-gtk2-0
+ * libtopmenu-server-gtk3-0
+ * mate-applet-topmenu
+ * topmenu-gtk-common
+ * topmenu-gtk2
+ * topmenu-gtk3
+
+== Accessibility ==
+
+ * a11y-profile-manager-indicator
+ * at-spi2-core
+ * brltty
+ * brltty-x11
+ * espeak
+ * gnome-orca
+ * mate-accessibility-profiles
+ * onboard
+ * onboard-data
+ * speech-dispatcher
+ * xbrlapi
+ * xcursor-themes
+ * xzoom
+
+== Input methods ==
+
+ * im-config
+ * language-selector-gnome
+
+== Key management and signing ==
+
+ * gnome-keyring
+ * libpam-gnome-keyring
+ * seahorse
+
+== Network ==
+
+ * avahi-autoipd
+ * avahi-discover
+ * avahi-dnsconfd
+ * avahi-utils
+ * crda
+ * ethtool
+ * gufw
+ * iproute
+ * iputils-arping
+ * iso-codes
+ * iw
+ * libavahi-compat-libdnssd1
+ * libnss-mdns
+ * libproxy1-plugin-gsettings
+ * libproxy1-plugin-networkmanager
+ * mobile-broadband-provider-info
+ * modemmanager
+ * network-manager
+ * network-manager-gnome
+ * network-manager-pptp-gnome
+ * samba-common-bin
+ * usb-modeswitch
+
+== Software and Support ==
+
+ * apturl
+ * gdebi
+ * ppa-purge
+ * python3-aptdaemon
+ * python3-aptdaemon.gtk3widgets
+ * python3-aptdaemon.pkcompat
+ * sessioninstaller
+ * software-properties-gtk
+ * ubuntu-release-upgrader-gtk
+ * snapd
+ * update-manager
+ * update-notifier
+
+== Multimedia ==
+
+ * gstreamer1.0-alsa
+ * gstreamer1.0-plugins-base
+ * gstreamer1.0-plugins-good
+ * gstreamer1.0-pulseaudio
+ * gstreamer1.0-tools
+ * gstreamer1.0-x
+ * pulseaudio-module-bluetooth
+ * pulseaudio-module-x11
+ * pulseaudio-utils
+
+== Sound Themes ==
+
+ * gnome-session-canberra
+ * libcanberra-pulse
+ * libcanberra-gtk-module
+ * libcanberra-gtk3-module
+ * ubuntu-sounds
+
+== Fonts ==
+
+ * fonts-liberation
+ * fonts-nanum
+ * fonts-noto
+ * fonts-noto-cjk
+ * fonts-noto-mono
+ * fonts-noto-unhinted  
+ * fonts-opendyslexic
+ * ttf-ubuntu-font-family
+
+== Printing ==
+
+ * cups-browsed
+ * cups-core-drivers
+ * cups-filters-core-drivers
+ * cups-pk-helper
+ * cups-ppdc
+ * ghostscript
+ * libpaper-utils
+ * printer-driver-gutenprint
+ * printer-driver-hpcups
+ * printer-driver-postscript-hp
+ * sane-utils
+ * simple-scan
+ * smbclient
+ * system-config-printer-gnome
+ * system-config-printer-udev
+
+== Settings and Themes==
+
+ * dmz-cursor-theme
+ * grub2-themes-ubuntu-mate [!armhf !arm64 !powerpc !ppc64el]
+ * plymouth-theme-ubuntu-mate-logo
+ * plymouth-theme-ubuntu-mate-text
+ * ubuntu-mate-artwork
+ * ubuntu-mate-default-settings
+ * unity-control-center-faces
+
+== Integration ==
+
+ * libqt5libqgtk2
+ * qt4-qtconfig
+
+== System Information ==
+
+ * hddtemp
+ * inxi
+
+== Other ==
+
+ * ubuntu-mate-core # metapackage for everything here
