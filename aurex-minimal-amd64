@@ -29,10 +29,8 @@ net-tools
 netbase
 netcat-openbsd
 ntfs-3g
-ntpdate
 passwd
 procps
-python-minimal
 python3
 reiserfsprogs
 resolvconf
@@ -42,7 +40,6 @@ tzdata
 ubuntu-keyring
 ubuntu-minimal
 udev
-upstart
 ureadahead
 vim-tiny
 vlan

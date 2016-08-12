@@ -1,10 +1,8 @@
 alien
 aurex-instant
 aurex-translive
-aurex-ubiquity-theme
 aurex-ubiquity-transmute
 cifs-utils
-dropbox
 firefox-locale-ca
 firefox-locale-de
 firefox-locale-en
@@ -41,11 +39,9 @@ language-pack-gnome-it-base
 language-pack-it
 language-pack-it-base
 ldap-utils
-libgarcon-1-0-dev
 libldap-2.4-2
 libldap-2.4-2-dbg
 libldap2-dev
-libpam-smbpass
 libreoffice-common
 libreoffice-help-ca
 libreoffice-help-de
@@ -60,7 +56,7 @@ libreoffice-l10n-en-gb
 libreoffice-l10n-es
 libreoffice-l10n-fr
 libreoffice-l10n-it
-libreoffice-style-crystal
+libreoffice-style-breeze
 libreoffice-style-elementary
 libreoffice-style-galaxy
 libreoffice-style-hicontrast
@@ -73,10 +69,8 @@ libsmbclient-dev
 libvirt-bin
 libvirt0
 libwbclient0
-multisystem
 mypaint
 nautilus-dropbox
-opera
 oracle-java7-installer
 oracle-java8-installer
 python-libvirt
@@ -85,7 +79,6 @@ samba
 samba-common
 samba-common-bin
 samba-dbg
-samba-doc
 slapd
 slapd-dbg
 slapd-smbk5pwd
@@ -94,9 +87,6 @@ unetbootin
 virt-manager
 virt-viewer
 virtinst
-virtualbox-4.2
-virtualbox-4.3
-virtualbox-5.0
 vsftpd
 winbind
 wine1.4

@@ -1,16 +1,11 @@
-atom
-aurex-update-manager
-aurex-virtualbox-5.0
 bzr
 easy-rsa
-freemind
 git
 git-svn
 gphpedit
 libvirt-bin
 mysql-client
 mysql-workbench
-netbeans-8.0-installer
 openssh-server
 python-spice-client-gtk
 qemu-kvm

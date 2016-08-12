@@ -12,11 +12,13 @@ ed
 ethtool
 file
 ftp
+glusterfs-client
 hdparm
 info
 iptables
 language-selector-common
 lhasa
+libpam-systemd
 logrotate
 lshw
 lsof
@@ -38,6 +40,7 @@ smbclient
 squashfs-tools
 sshfs
 strace
+systemd-sysv
 time
 traceroute
 tree

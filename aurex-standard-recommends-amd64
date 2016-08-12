@@ -8,6 +8,7 @@ curl
 friendly-recovery
 iputils-tracepath
 irqbalance
+ldap-utils
 manpages
 mlocate
 mpack
@@ -19,9 +20,6 @@ p7zip-full
 p7zip-rar
 plymouth
 plymouth-theme-ubuntu-text
-ppp
-pppconfig
-pppoeconf
 rar
 sharutils
 tcpdump

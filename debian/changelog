@@ -1,3 +1,9 @@
+aurex-meta (2.206~aurex16.04.3) UNRELEASED; urgency=medium
+
+  * Refreshed dependencies
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 13 Aug 2016 00:24:32 +0200
+
 aurex-meta (2.206~aurex16.04.2) xenial; urgency=medium
 
   * Download base seeds and merge with bazaar branches to solve

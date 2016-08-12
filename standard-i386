@@ -1,4 +1,3 @@
-aurex-standard
 busybox-static
 cpio
 cron
@@ -12,6 +11,7 @@ hdparm
 info
 iptables
 language-selector-common
+libpam-systemd
 logrotate
 lshw
 lsof
@@ -24,6 +24,7 @@ popularity-contest
 psmisc
 rsync
 strace
+systemd-sysv
 time
 usbutils
 wget
