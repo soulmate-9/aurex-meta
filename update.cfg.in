@@ -6,6 +6,8 @@ seeds: _@_SEED_LIST_@_
 metapackage_map/minimal: ubuntu-minimal
 metapackage_map/standard: ubuntu-standard
 metapackage_map/desktop: ubuntu-desktop
+metapackage_map/core: xubuntu-core
+metapackage_map/xdesktop: xubuntu-desktop
 architectures: i386 amd64
 dists: _@_DIST_LIST_@_
 seed_base: file://_@_CURRENT_DIR_@_/seeds/

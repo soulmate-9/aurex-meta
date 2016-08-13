@@ -1,8 +1,6 @@
 minimal ubuntu-minimal
 standard ubuntu-standard
 desktop ubuntu-desktop
-desktop xubuntu-desktop
-core xubuntu-core
 aurex-minimal aurex-minimal
 aurex-standard aurex-standard
 aurex-desktop aurex-desktop
@@ -23,3 +21,5 @@ ausias-desktop-depinf ausias-desktop-depinf
 aurex-secretaria aurex-secretaria
 aurex-desktop-secretaria aurex-desktop-secretaria
 ausias-desktop-secretaria ausias-desktop-secretaria
+core xubuntu-core
+xdesktop xubuntu-desktop

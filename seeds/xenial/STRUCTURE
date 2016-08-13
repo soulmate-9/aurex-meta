@@ -20,4 +20,5 @@ ausias-classroom-teacher:
 ausias-desktop: aurex-desktop aurex-minimal desktop
 ausias-desktop-depinf:
 ausias-desktop-secretaria:
+xdesktop:
 supported: aurex-supported
