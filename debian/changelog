@@ -1,4 +1,4 @@
-aurex-meta (2.206~aurex16.04.10) UNRELEASED; urgency=medium
+aurex-meta (2.206~aurex16.04.13) UNRELEASED; urgency=medium
 
   * Refreshed dependencies
   * Refreshed dependencies
@@ -36,8 +36,470 @@ aurex-meta (2.206~aurex16.04.10) UNRELEASED; urgency=medium
     secretaria, ausias-desktop
   * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
     secretaria, ausias-desktop
+  * Refreshed dependencies
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Refreshed dependencies
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Removed app-install-data-partner from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed apport-gtk from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed apt-offline from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed blueman from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed brltty from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed brltty-x11 from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed catfish from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed desktop-file-utils from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed espeak from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed evince from desktop-recommends
+  * Removed file-roller from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed firefox from desktop-recommends
+  * Removed fonts-liberation from desktop-recommends
+  * Removed fonts-nanum from desktop-recommends
+  * Removed fonts-noto-cjk from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed fonts-noto-hinted from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed fonts-opensymbol from desktop-recommends
+  * Removed gigolo from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed gnome-accessibility-themes from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed gnome-calculator from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed gnome-mines from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed gnome-software from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed gnome-sudoku from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed gnome-system-tools from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed gstreamer1.0-pulseaudio from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed gtk-theme-config from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed gvfs-backends from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed gvfs-fuse from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed im-config from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed indicator-messages from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed inxi from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed language-selector-gnome from aurex-desktop, aurex-desktop-
+    depinf, aurex-desktop-secretaria, ausias-desktop, desktop
+  * Removed libreoffice-calc from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed libreoffice-gtk from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed libreoffice-style-elementary from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed libreoffice-writer from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed libxfce4ui-utils from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed lightdm-gtk-greeter-settings from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed menulibre from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed mousepad from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed mugshot from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed network-manager-pptp from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed network-manager-pptp-gnome from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed onboard from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed orage from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed parole from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed pastebinit from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed pidgin from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed pidgin-otr from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed ristretto from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed simple-scan from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed speech-dispatcher from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed system-config-printer-gnome from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed thunar-archive-plugin from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed thunar-media-tags-plugin from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed thunderbird from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed transmission-gtk from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed tumbler from aurex-desktop, aurex-desktop-depinf, aurex-
+    desktop-secretaria, ausias-desktop, desktop
+  * Removed update-manager from aurex-desktop, aurex-desktop-depinf,
+    aurex-desktop-secretaria, ausias-desktop, desktop
+  * Removed update-notifier from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed whoopsie from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed xcursor-themes from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed xfburn from aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Removed xfce4-cpugraph-plugin from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-dict from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed xfce4-mailwatch-plugin from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-netload-plugin from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-notes-plugin from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-places-plugin from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-quicklauncher-plugin from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-systemload-plugin from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-taskmanager from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-verve-plugin from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-weather-plugin from aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Removed xfce4-xkb-plugin from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed xfpanel-switch from aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Removed xubuntu-community-wallpapers from aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Removed xul-ext-ubufox from desktop-recommends
+  * Removed zenity from aurex-desktop, aurex-desktop-depinf, aurex-
+    desktop-secretaria, ausias-desktop, desktop
+  * Moved evince to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Refreshed dependencies
+  * Added app-install-data-partner to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added apport-gtk to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added apt-offline to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added blueman to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added brltty to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added brltty-x11 to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added catfish to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added desktop-file-utils to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added espeak to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added evince to desktop-recommends
+  * Added file-roller to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added firefox to desktop-recommends
+  * Added fonts-liberation to desktop-recommends
+  * Added fonts-nanum to desktop-recommends
+  * Added fonts-noto-cjk to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added fonts-noto-hinted to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added fonts-opensymbol to desktop-recommends
+  * Added gigolo to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added gnome-accessibility-themes to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added gnome-calculator to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added gnome-mines to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added gnome-software to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added gnome-sudoku to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added gnome-system-tools to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added gstreamer1.0-pulseaudio to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added gtk-theme-config to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added gvfs-backends to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added gvfs-fuse to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added im-config to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added indicator-messages to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added inxi to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added language-selector-gnome to aurex-desktop, aurex-desktop-
+    depinf, aurex-desktop-secretaria, ausias-desktop, desktop
+  * Added libreoffice-calc to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added libreoffice-gtk to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added libreoffice-style-elementary to aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Added libreoffice-writer to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added libxfce4ui-utils to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added lightdm-gtk-greeter-settings to aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Added menulibre to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added mousepad to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added mugshot to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added network-manager-pptp to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added network-manager-pptp-gnome to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added onboard to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added orage to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added parole to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added pastebinit to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added pidgin to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added pidgin-otr to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added ristretto to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added simple-scan to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added speech-dispatcher to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added system-config-printer-gnome to aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Added thunar-archive-plugin to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added thunar-media-tags-plugin to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added thunderbird to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added transmission-gtk to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added tumbler to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop, desktop
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added update-manager to aurex-desktop, aurex-desktop-depinf, aurex-
+    desktop-secretaria, ausias-desktop, desktop
+  * Added update-notifier to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added whoopsie to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added xcursor-themes to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added xfburn to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added xfce4-cpugraph-plugin to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added xfce4-dict to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends, desktop-recommends
+  * Added xfce4-mailwatch-plugin to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added xfce4-netload-plugin to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added xfce4-notes-plugin to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added xfce4-places-plugin to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added xfce4-quicklauncher-plugin to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added xfce4-systemload-plugin to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends, desktop-recommends
+  * Added xfce4-taskmanager to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added xfce4-verve-plugin to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added xfce4-weather-plugin to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added xfce4-xkb-plugin to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added xfpanel-switch to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends
+  * Added xubuntu-community-wallpapers to aurex-desktop-depinf-
+    recommends, aurex-desktop-recommends, aurex-desktop-secretaria-
+    recommends, ausias-desktop-recommends, desktop-recommends
+  * Added xul-ext-ubufox to desktop-recommends
+  * Added zenity to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop, desktop
+  * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Moved evince to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends
 
- -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 13 Aug 2016 02:24:38 +0200
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 13 Aug 2016 09:04:36 +0200
 
 aurex-meta (2.206~aurex16.04.2) xenial; urgency=medium
 
