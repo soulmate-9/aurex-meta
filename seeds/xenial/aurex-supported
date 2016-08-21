@@ -57,6 +57,9 @@ Task-Metapackage: exclude-aurex-support
  * libreoffice-help-${Languages}
  * libreoffice-style-*
 
+= nemo extensions =
+ * nemo-terminal
+
 = dropbox =
 # * nautilus-dropbox
  * dropbox

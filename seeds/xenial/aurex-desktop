@@ -78,10 +78,11 @@ Task-Metapackage: aurex-desktop
  * (gdebi)
 
 = multimedia and graphics =
- * ubuntu-restricted-extras
+ * xubuntu-restricted-extras
  * (gstreamer0.10-plugins-base-apps)
  * (gstreamer0.10-pulseaudio)
- * libdvdread4
+# * libdvdread4
+ * (libdvd-pkg)
  * vlc
  * (pulseaudio-equalizer)
  * rhythmbox
@@ -201,6 +202,15 @@ Task-Metapackage: aurex-desktop
  * (nemo)
 ## add extensions here...
  * (nemo-pdf-tools)
+ * (nemo-audio-tab)
+ * (nemo-compare)
+ * (nemo-dropbox)
+ * (nemo-filename-repairer)
+ * (nemo-emblems)
+ * (nemo-fileroller)
+ * (nemo-image-converter)
+ * (nemo-media-columns)
+ * (nemo-share)
 
  # for dropbox
  * python-gpgme
