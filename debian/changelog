@@ -1,3 +1,9 @@
+aurex-meta (2.206~aurex16.04.15) xenial; urgency=medium
+
+  * Dummy upgrade
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 23 Aug 2016 19:47:16 +0200
+
 aurex-meta (2.206~aurex16.04.14) xenial; urgency=medium
 
   * Refreshed dependencies
