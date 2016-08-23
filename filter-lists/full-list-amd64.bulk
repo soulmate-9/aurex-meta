@@ -1,3 +1,5 @@
+# -> http://download.virtualbox.org/virtualbox/debian xenial
+virtualbox-5.0
 # -> http://localhost/aurex xenial
 aurex-asir
 aurex-daw
@@ -14,8 +16,6 @@ aurex-ubiquity-transmute
 aurex-xfce-desktop
 ausias-classroom-student
 ausias-classroom-teacher
-ausias-desktop-depinf
-ausias-desktop-secretaria
 germinate
 gtk2-engines-murrine
 python3-germinate
@@ -70,6 +70,8 @@ libwayland-egl1-mesa
 libwbclient0
 libxatracker2
 lightdm
+linux-headers-4.4.0-36
+linux-headers-4.4.0-36-lowlatency
 linux-libc-dev
 mesa-vdpau-drivers
 network-manager
@@ -251,6 +253,7 @@ brltty-x11
 bzr
 command-not-found
 command-not-found-data
+dkms
 dmidecode
 dnsutils
 dpkg-dev
@@ -1024,6 +1027,7 @@ libgeos-3.5.0
 libgeos-c1v5
 libgettextpo-dev
 libgettextpo0
+libgirara-gtk3-2
 libgirepository-1.0-1
 libgit2-24
 libgjs0e
@@ -1493,6 +1497,7 @@ libsasl2-modules-db:i386
 libsasl2-modules:i386
 libsbc1
 libschroedinger-1.0-0
+libsdl-ttf2.0-0
 libsdl1.2debian
 libsecret-1-0
 libsecret-common
@@ -1540,6 +1545,7 @@ libsvn-perl
 libsvn1
 libswresample-ffmpeg1
 libswscale-ffmpeg3
+libsynctex1
 libsys-hostname-long-perl
 libsz2
 libtag1v5
@@ -2174,6 +2180,8 @@ xz-utils
 yad
 yelp
 yelp-xsl
+zathura
+zathura-pdf-poppler
 zeitgeist
 zeitgeist-core
 zeitgeist-datahub

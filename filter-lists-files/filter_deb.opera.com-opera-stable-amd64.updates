@@ -1,7 +1,0 @@
-Name: filter_deb.opera.com-opera-stable-amd64
-Method: http://deb.opera.com/opera/
-Suite: stable
-Components:  contrib>contrib main>contrib multiverse>contrib non-free>contrib partner>contrib restricted>contrib universe>contrib
-Architectures: amd64 source
-FilterList: purge filter_deb.opera.com-opera-stable-amd64.list
-

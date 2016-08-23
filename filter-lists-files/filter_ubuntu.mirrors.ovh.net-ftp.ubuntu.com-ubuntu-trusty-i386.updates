@@ -1,7 +1,0 @@
-Name: filter_ubuntu.mirrors.ovh.net-ftp.ubuntu.com-ubuntu-trusty-i386
-Method: http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/
-Suite: trusty
-Components:  contrib>contrib main>contrib multiverse>contrib non-free>contrib partner>contrib restricted>contrib universe>contrib
-Architectures: i386 source
-FilterList: purge filter_ubuntu.mirrors.ovh.net-ftp.ubuntu.com-ubuntu-trusty-i386.list
-
