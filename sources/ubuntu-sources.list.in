@@ -25,6 +25,6 @@ deb _@_PARTNER_MIRROR_@_ xenial partner
 deb-src http://archive.canonical.com/ubuntu/ xenial partner
 
 # extras
-deb http://extras.ubuntu.com/ubuntu xenial main
-deb-src http://extras.ubuntu.com/ubuntu xenial main
+#deb http://extras.ubuntu.com/ubuntu xenial main
+#deb-src http://extras.ubuntu.com/ubuntu xenial main
 
