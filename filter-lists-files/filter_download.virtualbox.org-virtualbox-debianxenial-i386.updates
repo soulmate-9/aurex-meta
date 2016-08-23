@@ -1,0 +1,7 @@
+Name: filter_download.virtualbox.org-virtualbox-debianxenial-i386
+Method: http://download.virtualbox.org/virtualbox/debian
+Suite: xenial
+Components:  contrib>contrib main>contrib multiverse>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: i386 source
+FilterList: purge filter_download.virtualbox.org-virtualbox-debianxenial-i386.list
+

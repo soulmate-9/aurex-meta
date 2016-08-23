@@ -1,0 +1,4 @@
+base-files        install
+grub-common        install
+grub2-common        install
+sudo        install

@@ -1,0 +1,7 @@
+Name: filter_download.virtualbox.org-virtualbox-debianxenial-amd64
+Method: http://download.virtualbox.org/virtualbox/debian
+Suite: xenial
+Components:  contrib>contrib main>contrib multiverse>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: amd64 source
+FilterList: purge filter_download.virtualbox.org-virtualbox-debianxenial-amd64.list
+

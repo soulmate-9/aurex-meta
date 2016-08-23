@@ -1,0 +1,9 @@
+cinnamon-translations        install
+gir1.2-nemo-3.0        install
+libnemo-extension1        install
+nemo        install
+nemo-data        install
+nemo-dropbox        install
+nemo-fileroller        install
+nemo-terminal        install
+python-nemo        install
