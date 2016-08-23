@@ -1,6 +1,7 @@
 alien
 aurex-instant
 aurex-translive
+aurex-ubiquity-theme
 aurex-ubiquity-transmute
 cifs-utils
 firefox-locale-ca
@@ -71,6 +72,8 @@ libvirt0
 libwbclient0
 mypaint
 nautilus-dropbox
+nemo-dropbox
+nemo-terminal
 oracle-java7-installer
 oracle-java8-installer
 python-libvirt

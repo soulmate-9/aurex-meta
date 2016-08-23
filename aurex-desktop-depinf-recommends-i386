@@ -2,6 +2,7 @@ acpi-support
 app-install-data-partner
 apport-gtk
 apt-offline
+aurex-screenshot-settings
 avahi-daemon
 axel
 blueman
@@ -79,6 +80,7 @@ language-pack-gnome-en
 language-pack-gnome-en-base
 laptop-detect
 ldap-utils
+libdvd-pkg
 libgoo-canvas-perl
 libnss-mdns
 libreoffice
@@ -108,6 +110,16 @@ myspell-ca
 myspell-en-gb
 myspell-es
 nemo
+nemo-audio-tab
+nemo-compare
+nemo-dropbox
+nemo-emblems
+nemo-filename-repairer
+nemo-fileroller
+nemo-image-converter
+nemo-media-columns
+nemo-pdf-tools
+nemo-share
 network-manager-openvpn
 network-manager-openvpn-gnome
 network-manager-pptp

@@ -1,4 +1,4 @@
-aurex-meta (2.206~aurex16.04.13) UNRELEASED; urgency=medium
+aurex-meta (2.206~aurex16.04.14) xenial; urgency=medium
 
   * Refreshed dependencies
   * Refreshed dependencies
@@ -498,8 +498,69 @@ aurex-meta (2.206~aurex16.04.13) UNRELEASED; urgency=medium
   * Moved evince to aurex-desktop-depinf-recommends, aurex-desktop-
     recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
     recommends
+  * Refreshed dependencies
+  * Added aurex-boot-theme to aurex-desktop, aurex-desktop-depinf, aurex-
+    desktop-secretaria, ausias-desktop
+  * Added aurex-default-settings to aurex-desktop, aurex-desktop-depinf,
+    aurex-desktop-secretaria, ausias-desktop
+  * Added aurex-gtk-theme to aurex-desktop, aurex-desktop-depinf, aurex-
+    desktop-secretaria, ausias-desktop
+  * Added aurex-icon-theme to aurex-desktop, aurex-desktop-depinf, aurex-
+    desktop-secretaria, ausias-desktop
+  * Added aurex-lightdm-theme to aurex-desktop, aurex-desktop-depinf,
+    aurex-desktop-secretaria, ausias-desktop
+  * Added aurex-plymouth-theme to aurex-desktop, aurex-desktop-depinf,
+    aurex-desktop-secretaria, ausias-desktop
+  * Added aurex-screenshot-settings to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends
+  * Added aurex-ubiquity-theme to aurex-supported
+  * Added libdvd-pkg to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends
+  * Added nemo-audio-tab to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends
+  * Added nemo-compare to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends
+  * Added nemo-dropbox to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, aurex-supported,
+    ausias-desktop-recommends
+  * Added nemo-emblems to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends
+  * Added nemo-filename-repairer to aurex-desktop-depinf-recommends,
+    aurex-desktop-recommends, aurex-desktop-secretaria-recommends,
+    ausias-desktop-recommends
+  * Added nemo-fileroller to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends
+  * Added nemo-image-converter to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends
+  * Added nemo-media-columns to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends
+  * Added nemo-pdf-tools to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends
+  * Added nemo-share to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends
+  * Added nemo-terminal to aurex-supported
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added xubuntu-restricted-extras to aurex-desktop, aurex-desktop-
+    depinf, aurex-desktop-secretaria, ausias-desktop
+  * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Removed libdvdread4 from aurex-desktop, aurex-desktop-depinf, aurex-
+    desktop-secretaria, ausias-desktop
+  * Removed ubuntu-restricted-extras from aurex-desktop, aurex-desktop-
+    depinf, aurex-desktop-secretaria, ausias-desktop
 
- -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 13 Aug 2016 09:04:36 +0200
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 23 Aug 2016 19:03:42 +0200
 
 aurex-meta (2.206~aurex16.04.2) xenial; urgency=medium
 
