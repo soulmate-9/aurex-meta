@@ -1,3 +1,20 @@
+aurex-meta (2.206~aurex16.04.18) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Refreshed dependencies
+  * Added aurex-virtualbox-5.1 to aurex-asir, aurex-daw, aurex-inf,
+    aurex-secretaria, aurex-smr
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 24 Aug 2016 10:41:27 +0200
+
 aurex-meta (2.206~aurex16.04.16) xenial; urgency=medium
 
   * Refreshed dependencies
