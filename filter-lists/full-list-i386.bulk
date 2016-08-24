@@ -1,14 +1,22 @@
 # -> http://download.virtualbox.org/virtualbox/debian xenial
 virtualbox-5.0
+virtualbox-5.1
 # -> http://localhost/aurex xenial
+aurex-asir
+aurex-cache
+aurex-daw
 aurex-instant
 aurex-minimal
+aurex-secretaria
+aurex-smr
 aurex-standard
 aurex-translive
 aurex-translive-theme
 aurex-transmute
 aurex-ubiquity-theme
 aurex-ubiquity-transmute
+aurex-virtualbox-5.1
+aurex-virtualbox-common
 aurex-xfce-desktop
 ausias-classroom-student
 ausias-classroom-teacher
@@ -58,7 +66,10 @@ libwbclient0
 libxatracker2
 lightdm
 linux-headers-4.4.0-36
+linux-headers-4.4.0-36-generic
 linux-headers-4.4.0-36-lowlatency
+linux-headers-generic
+linux-image-4.4.0-36-lowlatency
 linux-libc-dev
 mesa-vdpau-drivers
 network-manager

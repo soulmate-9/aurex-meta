@@ -46,7 +46,10 @@ libwbclient0        install
 libxatracker2        install
 lightdm        install
 linux-headers-4.4.0-36        install
+linux-headers-4.4.0-36-generic        install
 linux-headers-4.4.0-36-lowlatency        install
+linux-headers-generic        install
+linux-image-4.4.0-36-lowlatency        install
 linux-libc-dev        install
 mesa-vdpau-drivers        install
 network-manager        install
