@@ -1,3 +1,9 @@
+aurex-meta (2.206~aurex16.04.19) xenial; urgency=medium
+
+  * Refreshed dependencies
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 24 Aug 2016 13:46:44 +0200
+
 aurex-meta (2.206~aurex16.04.18) xenial; urgency=medium
 
   * Refreshed dependencies

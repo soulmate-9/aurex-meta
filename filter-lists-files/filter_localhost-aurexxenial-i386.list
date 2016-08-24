@@ -1,9 +1,5 @@
-aurex-asir        install
-aurex-daw        install
 aurex-instant        install
 aurex-minimal        install
-aurex-secretaria        install
-aurex-smr        install
 aurex-standard        install
 aurex-translive        install
 aurex-translive-theme        install

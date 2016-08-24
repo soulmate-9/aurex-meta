@@ -1,12 +1,8 @@
 # -> http://download.virtualbox.org/virtualbox/debian xenial
 virtualbox-5.0
 # -> http://localhost/aurex xenial
-aurex-asir
-aurex-daw
 aurex-instant
 aurex-minimal
-aurex-secretaria
-aurex-smr
 aurex-standard
 aurex-translive
 aurex-translive-theme
