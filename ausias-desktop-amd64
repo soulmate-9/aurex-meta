@@ -13,6 +13,8 @@ aurex-plymouth-theme
 aurex-transmute
 aurex-transmute-gui
 aurex-xfce-desktop
+ausias-cc-default-settings
+ausias-papercut-client
 bc
 bridge-utils
 ca-certificates
@@ -54,7 +56,6 @@ printer-driver-pnm2ppa
 python-gpgme
 reiserfsprogs
 rfkill
-rhythmbox
 rpm
 screen
 smbclient
