@@ -85,7 +85,7 @@ Task-Metapackage: aurex-desktop
  * (libdvd-pkg)
  * vlc
  * (pulseaudio-equalizer)
- * rhythmbox
+ * parole
  * gthumb
  * (gimp)
  * (gimp-data)
