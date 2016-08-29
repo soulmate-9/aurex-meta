@@ -51,7 +51,6 @@ libgcc1:i386        install
 libgmp10:i386        install
 libgpg-error0:i386        install
 libhogweed4:i386        install
-libidn11:i386        install
 libjson-c2:i386        install
 libkmod2:i386        install
 liblocale-gettext-perl        install
@@ -65,7 +64,6 @@ libncursesw5:i386        install
 libnettle6:i386        install
 libnewt0.52:i386        install
 libnih1:i386        install
-libp11-kit0:i386        install
 libpam-modules-bin        install
 libpam-modules:i386        install
 libpam-runtime        install

@@ -1,4 +1,6 @@
 base-files        install
 grub-common        install
 grub2-common        install
+libp11-kit0:i386        install
+libssl1.0.0:i386        install
 sudo        install

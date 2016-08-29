@@ -2,8 +2,15 @@ cinnamon-translations        install
 gir1.2-nemo-3.0        install
 libnemo-extension1        install
 nemo        install
+nemo-audio-tab        install
+nemo-compare        install
 nemo-data        install
 nemo-dropbox        install
+nemo-emblems        install
+nemo-filename-repairer        install
 nemo-fileroller        install
+nemo-image-converter        install
+nemo-media-columns        install
+nemo-share        install
 nemo-terminal        install
 python-nemo        install

@@ -32,13 +32,13 @@ libfuse2:amd64        install
 libgcrypt20:amd64        install
 libgnutls-openssl27:amd64        install
 libgnutls30:amd64        install
+libidn11:amd64        install
 libisc-export160        install
 libklibc        install
 libmount1:amd64        install
 libpython3.5-minimal:amd64        install
 libpython3.5-stdlib:amd64        install
 libsmartcols1:amd64        install
-libssl1.0.0:amd64        install
 libstdc++6:amd64        install
 libsystemd0:amd64        install
 libtasn1-6:amd64        install

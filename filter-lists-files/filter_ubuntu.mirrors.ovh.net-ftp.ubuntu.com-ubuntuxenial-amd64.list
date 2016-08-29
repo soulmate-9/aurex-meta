@@ -51,7 +51,6 @@ libgcc1:amd64        install
 libgmp10:amd64        install
 libgpg-error0:amd64        install
 libhogweed4:amd64        install
-libidn11:amd64        install
 libjson-c2:amd64        install
 libkmod2:amd64        install
 liblocale-gettext-perl        install
@@ -65,7 +64,6 @@ libncursesw5:amd64        install
 libnettle6:amd64        install
 libnewt0.52:amd64        install
 libnih1:amd64        install
-libp11-kit0:amd64        install
 libpam-modules-bin        install
 libpam-modules:amd64        install
 libpam-runtime        install

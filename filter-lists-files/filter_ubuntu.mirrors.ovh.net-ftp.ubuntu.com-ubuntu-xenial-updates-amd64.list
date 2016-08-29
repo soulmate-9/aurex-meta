@@ -5,6 +5,8 @@ apport        install
 apport-gtk        install
 appstream        install
 apt-transport-https        install
+apturl        install
+apturl-common        install
 bash-completion        install
 bind9-host        install
 brltty        install
@@ -26,6 +28,7 @@ gir1.2-gst-plugins-base-1.0        install
 gir1.2-gstreamer-1.0        install
 gir1.2-gtk-3.0        install
 gir1.2-packagekitglib-1.0        install
+gir1.2-poppler-0.18        install
 glib-networking        install
 glib-networking-common        install
 glib-networking-services        install
@@ -33,8 +36,13 @@ gnome-menus        install
 gnome-software        install
 gnome-software-common        install
 gstreamer1.0-libav        install
+gstreamer1.0-plugins-bad        install
+gstreamer1.0-plugins-bad-faad        install
+gstreamer1.0-plugins-bad-videoparsers        install
 gstreamer1.0-plugins-base        install
 gstreamer1.0-plugins-good        install
+gstreamer1.0-plugins-ugly        install
+gstreamer1.0-plugins-ugly-amr        install
 gstreamer1.0-pulseaudio        install
 gstreamer1.0-x        install
 gvfs        install
@@ -44,6 +52,7 @@ gvfs-common        install
 gvfs-daemons        install
 gvfs-fuse        install
 gvfs-libs        install
+hunspell-en-gb        install
 indicator-bluetooth        install
 kpartx        install
 kpartx-boot        install
@@ -60,6 +69,7 @@ libbind9-140        install
 libboost-date-time1.58.0        install
 libboost-filesystem1.58.0        install
 libboost-iostreams1.58.0        install
+libboost-python1.58.0        install
 libboost-random1.58.0        install
 libboost-system1.58.0        install
 libboost-thread1.58.0        install
@@ -76,6 +86,7 @@ libglib2.0-bin        install
 libglib2.0-data        install
 libgnome-menu-3-0        install
 libgnutls30:i386        install
+libgstreamer-plugins-bad1.0-0        install
 libgstreamer-plugins-base1.0-0        install
 libgstreamer-plugins-good1.0-0        install
 libgstreamer1.0-0        install
@@ -86,6 +97,7 @@ libisc160        install
 libisccc140        install
 libisccfg140        install
 libjavascriptcoregtk-1.0-0        install
+libjavascriptcoregtk-3.0-0        install
 libjpeg-progs        install
 libjpeg9        install
 libkf5plasma5        install
@@ -98,10 +110,6 @@ libllvm3.8        install
 libllvm3.8:i386        install
 liblwres141        install
 libnautilus-extension1a        install
-libnm-gtk-common        install
-libnm-gtk0        install
-libnma-common        install
-libnma0        install
 libpackagekit-glib2-16        install
 libpam-systemd        install
 libplymouth4        install
@@ -125,7 +133,6 @@ libqt5widgets5        install
 libqt5xml5        install
 librados2        install
 librbd1        install
-libssl1.0.0:i386        install
 libsystemd0:i386        install
 libudev1:i386        install
 libunity-control-center1        install
@@ -137,21 +144,22 @@ libupower-glib3        install
 libuuid1:i386        install
 libwebkitgtk-1.0-0        install
 libwebkitgtk-1.0-common        install
-libwhoopsie0        install
+libwebkitgtk-3.0-0        install
+libwebkitgtk-3.0-common        install
 libwnck-common        install
 libwnck22        install
 light-locker-settings        install
 lshw        install
 mdadm        install
 mtr-tiny        install
+myspell-en-gb        install
 nautilus        install
 nautilus-data        install
-network-manager-gnome        install
-openssl        install
 plasma-framework        install
 plymouth        install
 plymouth-label        install
 plymouth-theme-ubuntu-text        install
+plymouth-themes        install
 poppler-utils        install
 printer-driver-brlaser        install
 python-bzrlib        install
@@ -169,7 +177,6 @@ shared-mime-info        install
 slapd        install
 slapd-dbg        install
 slapd-smbk5pwd        install
-snapd        install
 software-properties-common        install
 software-properties-gtk        install
 ubiquity        install
@@ -190,8 +197,9 @@ vim        install
 vim-runtime        install
 virt-manager        install
 virtinst        install
-whoopsie        install
 xbrlapi        install
 xinit        install
+xnest        install
 xserver-common        install
+xserver-xephyr        install
 xserver-xorg-core        install

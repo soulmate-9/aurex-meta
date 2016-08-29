@@ -1,0 +1,7 @@
+Name: filter_nilarimogard-webupd8-ubuntuxenial-i386
+Method: http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu
+Suite: xenial
+Components:  contrib>contrib main>contrib multiverse>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: i386 source
+FilterList: purge filter_nilarimogard-webupd8-ubuntuxenial-i386.list
+

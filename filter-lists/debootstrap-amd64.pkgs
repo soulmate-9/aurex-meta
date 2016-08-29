@@ -88,7 +88,7 @@ ii  libgnutls-openssl27:amd64  3.4.10-4ubuntu1.1
 ii  libgnutls30:amd64          3.4.10-4ubuntu1.1
 ii  libgpg-error0:amd64        1.21-2ubuntu1
 ii  libhogweed4:amd64          3.2-1
-ii  libidn11:amd64             1.32-3ubuntu1
+ii  libidn11:amd64             1.32-3ubuntu1.1
 ii  libisc-export160           1:9.10.3.dfsg.P4-8ubuntu1
 ii  libjson-c2:amd64           0.11-4ubuntu2
 ii  libklibc                   2.0.4-8ubuntu1.16.04.1
@@ -105,7 +105,7 @@ ii  libncursesw5:amd64         6.0+20160213-1ubuntu1
 ii  libnettle6:amd64           3.2-1
 ii  libnewt0.52:amd64          0.52.18-1ubuntu2
 ii  libnih1:amd64              1.0.3-4.3ubuntu1
-ii  libp11-kit0:amd64          0.23.2-3
+ii  libp11-kit0:amd64          0.23.2-5~ubuntu16.04.1
 ii  libpam-modules:amd64       1.1.8-3.2ubuntu2
 ii  libpam-modules-bin         1.1.8-3.2ubuntu2
 ii  libpam-runtime             1.1.8-3.2ubuntu2
@@ -127,7 +127,7 @@ ii  libslang2:amd64            2.3.0-2ubuntu1
 ii  libsmartcols1:amd64        2.27.1-6ubuntu3.1
 ii  libsqlite3-0:amd64         3.11.0-1ubuntu1
 ii  libss2:amd64               1.42.13-1ubuntu1
-ii  libssl1.0.0:amd64          1.0.2g-1ubuntu4.2
+ii  libssl1.0.0:amd64          1.0.2g-1ubuntu4.3
 ii  libstdc++6:amd64           5.4.0-6ubuntu1~16.04.2
 ii  libsystemd0:amd64          229-4ubuntu7
 ii  libtasn1-6:amd64           4.7-3ubuntu0.16.04.1
@@ -177,7 +177,7 @@ ii  sysvinit-utils             2.88dsf-59.3ubuntu2
 ii  tar                        1.28-2.1
 ii  tzdata                     2016f-0ubuntu0.16.04
 ii  ubuntu-keyring             2012.05.19
-ii  ubuntu-minimal             2.206~aurex16.04.19
+ii  ubuntu-minimal             2.206~aurex16.04.20
 ii  ucf                        3.0036
 ii  udev                       229-4ubuntu7
 ii  ureadahead                 0.100.0-19

@@ -1,0 +1,7 @@
+Name: filter_archive.canonical.com-ubuntuxenial-amd64
+Method: http://archive.canonical.com/ubuntu
+Suite: xenial
+Components:  contrib>contrib main>contrib multiverse>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: amd64 source
+FilterList: purge filter_archive.canonical.com-ubuntuxenial-amd64.list
+
