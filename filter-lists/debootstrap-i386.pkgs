@@ -53,7 +53,7 @@ ii  klibc-utils               2.0.4-8ubuntu1.16.04.1
 ii  kmod                      22-1ubuntu4
 ii  less                      481-2.1ubuntu0.1
 ii  libacl1:i386              2.2.52-3
-ii  libapparmor1:i386         2.10.95-0ubuntu2.2
+ii  libapparmor1:i386         2.10.95-0ubuntu2.3
 ii  libapt-inst2.0:i386       1.2.12~ubuntu16.04.1
 ii  libapt-pkg5.0:i386        1.2.12~ubuntu16.04.1
 ii  libasprintf0v5:i386       0.19.7-2ubuntu3

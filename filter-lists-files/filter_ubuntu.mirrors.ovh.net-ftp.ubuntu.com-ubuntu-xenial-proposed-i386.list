@@ -1,7 +1,4 @@
-cups-browsed        install
-cups-filters        install
-cups-filters-core-drivers        install
-gnome-session-bin        install
+apparmor        install
 gnome-settings-daemon-schemas        install
 gnome-sudoku        install
 grub-pc        install
@@ -10,9 +7,8 @@ indicator-power        install
 libaccount-plugin-1.0-0        install
 libaccount-plugin-generic-oauth        install
 libaccount-plugin-google        install
-libcupsfilters1        install
+libapparmor-perl        install
 libegl1-mesa        install
-libfontembed1        install
 libgbm1        install
 libgl1-mesa-dri        install
 libgl1-mesa-glx        install
@@ -29,7 +25,6 @@ libnm0        install
 libnma-common        install
 libnma0        install
 libosmesa6        install
-libpanel-applet0        install
 libsmbclient        install
 libsmbclient-dev        install
 libvirt-bin        install
@@ -39,11 +34,11 @@ libwbclient0        install
 libwhoopsie0        install
 libxatracker2        install
 lightdm        install
-linux-headers-4.4.0-36        install
-linux-headers-4.4.0-36-generic        install
-linux-headers-4.4.0-36-lowlatency        install
+linux-headers-4.4.0-37        install
+linux-headers-4.4.0-37-generic        install
+linux-headers-4.4.0-37-lowlatency        install
 linux-headers-generic        install
-linux-image-4.4.0-36-lowlatency        install
+linux-image-4.4.0-37-lowlatency        install
 linux-libc-dev        install
 mesa-vdpau-drivers        install
 network-manager        install
@@ -63,7 +58,6 @@ smbclient        install
 snap-confine        install
 snapd        install
 ubuntu-core-launcher        install
-ubuntu-mono        install
 unity-control-center-signon        install
 whoopsie        install
 winbind        install

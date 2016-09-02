@@ -58,10 +58,7 @@ ardis-icons
 radiance-colors
 radiance-flat-colors
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ xenial-proposed
-cups-browsed
-cups-filters
-cups-filters-core-drivers
-gnome-session-bin
+apparmor
 gnome-settings-daemon-schemas
 gnome-sudoku
 grub-pc
@@ -70,9 +67,8 @@ indicator-power
 libaccount-plugin-1.0-0
 libaccount-plugin-generic-oauth
 libaccount-plugin-google
-libcupsfilters1
+libapparmor-perl
 libegl1-mesa
-libfontembed1
 libgbm1
 libgl1-mesa-dri
 libgl1-mesa-glx
@@ -89,7 +85,6 @@ libnm0
 libnma-common
 libnma0
 libosmesa6
-libpanel-applet0
 libsmbclient
 libsmbclient-dev
 libvirt-bin
@@ -99,11 +94,11 @@ libwbclient0
 libwhoopsie0
 libxatracker2
 lightdm
-linux-headers-4.4.0-36
-linux-headers-4.4.0-36-generic
-linux-headers-4.4.0-36-lowlatency
+linux-headers-4.4.0-37
+linux-headers-4.4.0-37-generic
+linux-headers-4.4.0-37-lowlatency
 linux-headers-generic
-linux-image-4.4.0-36-lowlatency
+linux-image-4.4.0-37-lowlatency
 linux-libc-dev
 mesa-vdpau-drivers
 network-manager
@@ -123,7 +118,6 @@ smbclient
 snap-confine
 snapd
 ubuntu-core-launcher
-ubuntu-mono
 unity-control-center-signon
 whoopsie
 winbind
@@ -133,6 +127,9 @@ chromium-browser
 chromium-browser-l10n
 chromium-codecs-ffmpeg-extra
 cpp-5
+cups-browsed
+cups-filters
+cups-filters-core-drivers
 curl
 dnsmasq-base
 dosfstools
@@ -148,13 +145,13 @@ firefox-locale-it
 fontconfig
 fontconfig-config
 fonts-opensymbol
-fwupd
 g++-5
 gcc-5
 gcj-5-jre-lib
 gimp
 gimp-data
 gir1.2-soup-2.4
+gnome-session-bin
 imagemagick
 imagemagick-6.q16
 imagemagick-common
@@ -186,18 +183,13 @@ libasan2
 libatomic1
 libcc1-0
 libcilkrts5
+libcupsfilters1
 libcurl3
 libcurl3-gnutls
-libdfu1
-libdrm-amdgpu1
-libdrm-intel1
-libdrm-nouveau2
-libdrm-radeon1
-libdrm2
 libecryptfs1
 libexpat1-dev
 libfontconfig1
-libfwupd1
+libfontembed1
 libgcc-5-dev
 libgcj16
 libgd3
@@ -222,6 +214,7 @@ libnspr4
 libnss3
 libnss3-1d
 libnss3-nssdb
+libpanel-applet0
 libpq5
 libpurple-bin
 libpurple0
@@ -299,14 +292,13 @@ qemu-system-common
 qemu-system-x86
 qemu-utils
 thunderbird
+ubuntu-mono
 uno-libs3
 ure
 wget
-xserver-xorg-video-intel
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ xenial-updates
 accountsservice
 adwaita-icon-theme
-apparmor
 apport
 apport-gtk
 appstream
@@ -327,6 +319,7 @@ dpkg-dev
 file-roller
 fonts-noto-cjk
 fuse
+fwupd
 gdb
 gdbserver
 gir1.2-gmenu-3.0
@@ -368,7 +361,6 @@ language-selector-common
 language-selector-gnome
 ldap-utils
 libaccountsservice0
-libapparmor-perl
 libappstream-glib8
 libappstream3
 libbind9-140
@@ -382,8 +374,15 @@ libboost-thread1.58.0
 libbrlapi0.6
 libccid
 libdebian-installer4
+libdfu1
 libdns162
 libdpkg-perl
+libdrm-amdgpu1
+libdrm-intel1
+libdrm-nouveau2
+libdrm-radeon1
+libdrm2
+libfwupd1
 libgail-3-0
 libgif7
 libglib2.0-0
@@ -502,6 +501,7 @@ xnest
 xserver-common
 xserver-xephyr
 xserver-xorg-core
+xserver-xorg-video-intel
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ xenial
 acl
 acpi-support
@@ -2401,9 +2401,9 @@ zip
 base-files
 grub-common
 grub2-common
+libapparmor1:i386
 libp11-kit0:i386
 libssl1.0.0:i386
-sudo
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu xenial-updates
 apt
 apt-utils
@@ -2428,7 +2428,6 @@ isc-dhcp-common
 keyboard-configuration
 klibc-utils
 less
-libapparmor1:i386
 libapt-inst2.0:i386
 libapt-pkg5.0:i386
 libblkid1:i386
@@ -2456,6 +2455,7 @@ lsb-release
 mount
 python3.5
 python3.5-minimal
+sudo
 systemd
 systemd-sysv
 tzdata

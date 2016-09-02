@@ -21,7 +21,6 @@ isc-dhcp-common        install
 keyboard-configuration        install
 klibc-utils        install
 less        install
-libapparmor1:amd64        install
 libapt-inst2.0:amd64        install
 libapt-pkg5.0:amd64        install
 libblkid1:amd64        install
@@ -49,6 +48,7 @@ lsb-release        install
 mount        install
 python3.5        install
 python3.5-minimal        install
+sudo        install
 systemd        install
 systemd-sysv        install
 tzdata        install

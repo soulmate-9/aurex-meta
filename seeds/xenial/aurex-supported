@@ -59,6 +59,7 @@ Task-Metapackage: exclude-aurex-support
 
 = nemo extensions =
  * nemo-terminal
+ * nemo-dropbox
 
 = dropbox =
 # * nautilus-dropbox

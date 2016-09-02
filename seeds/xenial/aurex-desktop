@@ -204,7 +204,6 @@ Task-Metapackage: aurex-desktop
  * (nemo-pdf-tools)
  * (nemo-audio-tab)
  * (nemo-compare)
- * (nemo-dropbox)
  * (nemo-filename-repairer)
  * (nemo-emblems)
  * (nemo-fileroller)
