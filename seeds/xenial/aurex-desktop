@@ -181,6 +181,7 @@ Task-Metapackage: aurex-desktop
  * pm-utils
 == boot fix for EFI ==
  * (boot-repair)
+ * (gksu)
 
 = kernel =
 # * (linux-generic-lts-raring)
