@@ -8,6 +8,7 @@ axel
 blueman
 bluez
 bluez-cups
+boot-repair
 brltty
 brltty-x11
 cabextract
@@ -52,6 +53,7 @@ gigolo
 gimp
 gimp-data
 gimp-data-extras
+gksu
 gnome-accessibility-themes
 gnome-calculator
 gnome-mines
