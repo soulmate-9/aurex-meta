@@ -21,6 +21,7 @@ at-spi2-core        install
 attr        install
 augeas-lenses        install
 autoconf        install
+autofs        install
 automake        install
 autopoint        install
 autotools-dev        install
@@ -68,6 +69,7 @@ cups-pdf        install
 cups-pk-helper        install
 cups-ppdc        install
 cups-server-common        install
+davfs2        install
 dbus        install
 dbus-x11        install
 dc        install
@@ -176,6 +178,7 @@ foomatic-db-compressed-ppds        install
 freepats        install
 friendly-recovery        install
 ftp        install
+fusioninventory-agent        install
 fwupdate        install
 fwupdate-signed        install
 g++        install
@@ -367,6 +370,7 @@ iso-codes        install
 iw        install
 java-common        install
 javascript-common        install
+jfsutils        install
 kde-config-screenlocker        install
 kerneloops-daemon        install
 keyutils        install
@@ -443,6 +447,7 @@ libavutil-ffmpeg54        install
 libbabeltrace-ctf1        install
 libbabeltrace1        install
 libbabl-0.1-0        install
+libbasicobjects0        install
 libbasicusageenvironment1        install
 libbdplus0        install
 libbison-dev        install
@@ -504,6 +509,7 @@ libcogl-pango20        install
 libcogl-path20        install
 libcogl20        install
 libcolamd2.9.1        install
+libcollection4        install
 libcolord2        install
 libcolorhug2        install
 libcommon-sense-perl        install
@@ -537,6 +543,7 @@ libdconf1        install
 libde265-0        install
 libdee-1.0-4        install
 libdevmapper-event1.02.1        install
+libdhash1        install
 libdigest-hmac-perl        install
 libdirectfb-1.2-9        install
 libdjvulibre-text        install
@@ -772,6 +779,7 @@ libijs-0.35        install
 libilmbase12        install
 libindicator3-7        install
 libindicator7        install
+libini-config5        install
 libinput10        install
 libio-html-perl        install
 libio-pty-perl        install
@@ -971,7 +979,9 @@ libmwaw-0.3-3        install
 libmysqlcppconn7v5        install
 libmythes-1.2-0        install
 libnatpmp1        install
+libneon27        install
 libneon27-gnutls        install
+libnet-cups-perl        install
 libnet-dbus-perl        install
 libnet-dns-perl        install
 libnet-domain-tld-perl        install
@@ -1033,6 +1043,8 @@ libotr5        install
 libp11-kit-gnome-keyring        install
 libpagemaker-0.0-0        install
 libpam-gnome-keyring        install
+libpam-pwquality        install
+libpam-script        install
 libpango-1.0-0        install
 libpango-perl        install
 libpangocairo-1.0-0        install
@@ -1043,9 +1055,11 @@ libpangoxft-1.0-0        install
 libpaper-utils        install
 libpaper1        install
 libparse-debianchangelog-perl        install
+libparse-edid-perl        install
 libparted-fs-resize0        install
 libparted2        install
 libpath-class-perl        install
+libpath-utils1        install
 libpcap0.8        install
 libpci3        install
 libpciaccess0        install
@@ -1068,6 +1082,8 @@ libpolkit-gobject-1-0        install
 libpolkit-qt5-1-1        install
 libportaudio2        install
 libpostproc-ffmpeg53        install
+libproc-daemon-perl        install
+libproc-pid-file-perl        install
 libproc-processtable-perl        install
 libproc-simple-perl        install
 libproj9        install
@@ -1125,6 +1141,7 @@ libraw15        install
 librdf0        install
 librdmacm1        install
 libreadline5        install
+libref-array1        install
 libresid-builder0c2a        install
 librest-0.7-0        install
 librevenge-0.0-0        install
@@ -1143,6 +1160,7 @@ libsane-hpaio        install
 libsasl2-2        install
 libsasl2-modules        install
 libsasl2-modules-db        install
+libsasl2-modules-gssapi-mit        install
 libsbc1        install
 libschroedinger-1.0-0        install
 libsdl-image1.2        install
@@ -1169,6 +1187,7 @@ libsnappy1v5        install
 libsndfile1        install
 libsnmp-base        install
 libsnmp30        install
+libsocket-getaddrinfo-perl        install
 libsocket6-perl        install
 libsodium18        install
 libsonic0        install
@@ -1210,6 +1229,7 @@ libtdb1        install
 libtelepathy-glib0        install
 libterm-readkey-perl        install
 libtext-levenshtein-perl        install
+libtext-template-perl        install
 libthai-data        install
 libthai0        install
 libtheora0        install
@@ -1232,6 +1252,7 @@ libudisks2-0        install
 libumfpack5.7.1        install
 libunique-1.0-0        install
 libunistring0        install
+libuniversal-require-perl        install
 libupnp6        install
 liburcu4        install
 liburi-perl        install
@@ -1383,6 +1404,7 @@ libxml-sax-base-perl        install
 libxml-sax-expat-perl        install
 libxml-sax-perl        install
 libxml-simple-perl        install
+libxml-treepp-perl        install
 libxml-twig-perl        install
 libxml-xpathengine-perl        install
 libxmu6        install
@@ -1657,9 +1679,12 @@ qtchooser        install
 qtcore4-l10n        install
 qttranslations5-l10n        install
 qtwayland5        install
+quota        install
+quotatool        install
 rar        install
 rarian-compat        install
 rdate        install
+reiser4progs        install
 reiserfsprogs        install
 remmina        install
 remmina-common        install
@@ -1711,6 +1736,7 @@ synaptic        install
 syslinux        install
 syslinux-common        install
 syslinux-legacy        install
+syslinux-utils        install
 system-config-printer-common        install
 system-config-printer-gnome        install
 system-config-printer-udev        install

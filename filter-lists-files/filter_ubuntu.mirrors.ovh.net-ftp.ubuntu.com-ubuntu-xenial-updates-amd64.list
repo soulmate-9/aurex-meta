@@ -1,4 +1,3 @@
-accountsservice        install
 adwaita-icon-theme        install
 apport        install
 apport-gtk        install
@@ -61,8 +60,6 @@ language-pack-en-base        install
 language-selector-common        install
 language-selector-gnome        install
 ldap-utils        install
-libaccountsservice0        install
-libappstream-glib8        install
 libappstream3        install
 libbind9-140        install
 libboost-date-time1.58.0        install

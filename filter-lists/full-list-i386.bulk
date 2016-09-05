@@ -8,9 +8,14 @@ virtualbox-5.0
 virtualbox-5.1
 # -> http://localhost/aurex xenial
 aurex-asir
+aurex-atspi-fix
 aurex-boot-theme
 aurex-boot-theme-graphics
 aurex-cache
+aurex-cc-autofs
+aurex-cc-netshares
+aurex-cc-sssd
+aurex-cc-switch
 aurex-ctrl-alt-del
 aurex-daw
 aurex-default-associations
@@ -18,6 +23,7 @@ aurex-default-settings
 aurex-desktop
 aurex-desktop-depinf
 aurex-desktop-secretaria
+aurex-fs-utils
 aurex-gtk-bookmarks-settings
 aurex-gtk-theme
 aurex-icon-theme
@@ -26,8 +32,10 @@ aurex-keyring
 aurex-lightdm-theme
 aurex-minimal
 aurex-nice-boot-settings
+aurex-pam-quota
 aurex-passwd
 aurex-plymouth-theme
+aurex-samba4-passwd
 aurex-screenshot-settings
 aurex-secretaria
 aurex-smr
@@ -38,11 +46,21 @@ aurex-transmute
 aurex-transmute-gui
 aurex-ubiquity-theme
 aurex-ubiquity-transmute
+aurex-unplugged-theme
 aurex-usb-power-fixes
 aurex-virtualbox-5.1
 aurex-virtualbox-common
 aurex-wallpaper-theme
 aurex-xfce-desktop
+ausias-cc-default-settings
+ausias-cc-extra-settings
+ausias-classroom-student
+ausias-classroom-teacher
+ausias-desktop
+ausias-desktop-depinf
+ausias-desktop-secretaria
+ausias-fusioninventory-agent
+ausias-papercut-client
 germinate
 gtk2-engines-murrine
 python3-germinate
@@ -58,16 +76,17 @@ ardis-icons
 radiance-colors
 radiance-flat-colors
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ xenial-proposed
+accountsservice
 apparmor
-gnome-settings-daemon-schemas
-gnome-sudoku
 grub-pc
 grub-pc-bin
 indicator-power
 libaccount-plugin-1.0-0
 libaccount-plugin-generic-oauth
 libaccount-plugin-google
+libaccountsservice0
 libapparmor-perl
+libappstream-glib8
 libegl1-mesa
 libgbm1
 libgl1-mesa-dri
@@ -75,6 +94,7 @@ libgl1-mesa-glx
 libglapi-mesa
 libgles1-mesa
 libgles2-mesa
+libipa-hbac0
 liblightdm-gobject-1-0
 libnm-glib-vpn1
 libnm-glib4
@@ -84,9 +104,14 @@ libnm-util2
 libnm0
 libnma-common
 libnma0
+libnss-sss
 libosmesa6
+libpam-sss
 libsmbclient
 libsmbclient-dev
+libsss-idmap0
+libsss-nss-idmap0
+libsss-sudo
 libvirt-bin
 libvirt0
 libwayland-egl1-mesa
@@ -107,6 +132,7 @@ openssl
 p11-kit
 p11-kit-modules
 python-samba
+python-sss
 samba
 samba-common
 samba-common-bin
@@ -117,6 +143,15 @@ samba-vfs-modules
 smbclient
 snap-confine
 snapd
+sssd
+sssd-ad
+sssd-ad-common
+sssd-common
+sssd-ipa
+sssd-krb5
+sssd-krb5-common
+sssd-ldap
+sssd-proxy
 ubuntu-core-launcher
 unity-control-center-signon
 whoopsie
@@ -152,6 +187,8 @@ gimp
 gimp-data
 gir1.2-soup-2.4
 gnome-session-bin
+gnome-settings-daemon-schemas
+gnome-sudoku
 imagemagick
 imagemagick-6.q16
 imagemagick-common
@@ -297,7 +334,6 @@ uno-libs3
 ure
 wget
 # -> http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/ xenial-updates
-accountsservice
 adwaita-icon-theme
 apport
 apport-gtk
@@ -360,8 +396,6 @@ language-pack-en-base
 language-selector-common
 language-selector-gnome
 ldap-utils
-libaccountsservice0
-libappstream-glib8
 libappstream3
 libbind9-140
 libboost-date-time1.58.0
@@ -526,6 +560,7 @@ at-spi2-core
 attr
 augeas-lenses
 autoconf
+autofs
 automake
 autopoint
 autotools-dev
@@ -573,6 +608,7 @@ cups-pdf
 cups-pk-helper
 cups-ppdc
 cups-server-common
+davfs2
 dbus
 dbus-x11
 dc
@@ -681,6 +717,7 @@ foomatic-db-compressed-ppds
 freepats
 friendly-recovery
 ftp
+fusioninventory-agent
 fwupdate
 fwupdate-signed
 g++
@@ -872,6 +909,7 @@ iso-codes
 iw
 java-common
 javascript-common
+jfsutils
 kde-config-screenlocker
 kerneloops-daemon
 keyutils
@@ -948,6 +986,7 @@ libavutil-ffmpeg54
 libbabeltrace-ctf1
 libbabeltrace1
 libbabl-0.1-0
+libbasicobjects0
 libbasicusageenvironment1
 libbdplus0
 libbison-dev
@@ -1009,6 +1048,7 @@ libcogl-pango20
 libcogl-path20
 libcogl20
 libcolamd2.9.1
+libcollection4
 libcolord2
 libcolorhug2
 libcommon-sense-perl
@@ -1042,6 +1082,7 @@ libdconf1
 libde265-0
 libdee-1.0-4
 libdevmapper-event1.02.1
+libdhash1
 libdigest-hmac-perl
 libdirectfb-1.2-9
 libdjvulibre-text
@@ -1277,6 +1318,7 @@ libijs-0.35
 libilmbase12
 libindicator3-7
 libindicator7
+libini-config5
 libinput10
 libio-html-perl
 libio-pty-perl
@@ -1476,7 +1518,9 @@ libmwaw-0.3-3
 libmysqlcppconn7v5
 libmythes-1.2-0
 libnatpmp1
+libneon27
 libneon27-gnutls
+libnet-cups-perl
 libnet-dbus-perl
 libnet-dns-perl
 libnet-domain-tld-perl
@@ -1538,6 +1582,8 @@ libotr5
 libp11-kit-gnome-keyring
 libpagemaker-0.0-0
 libpam-gnome-keyring
+libpam-pwquality
+libpam-script
 libpango-1.0-0
 libpango-perl
 libpangocairo-1.0-0
@@ -1548,9 +1594,11 @@ libpangoxft-1.0-0
 libpaper-utils
 libpaper1
 libparse-debianchangelog-perl
+libparse-edid-perl
 libparted-fs-resize0
 libparted2
 libpath-class-perl
+libpath-utils1
 libpcap0.8
 libpci3
 libpciaccess0
@@ -1573,6 +1621,8 @@ libpolkit-gobject-1-0
 libpolkit-qt5-1-1
 libportaudio2
 libpostproc-ffmpeg53
+libproc-daemon-perl
+libproc-pid-file-perl
 libproc-processtable-perl
 libproc-simple-perl
 libproj9
@@ -1630,6 +1680,7 @@ libraw15
 librdf0
 librdmacm1
 libreadline5
+libref-array1
 libresid-builder0c2a
 librest-0.7-0
 librevenge-0.0-0
@@ -1648,6 +1699,7 @@ libsane-hpaio
 libsasl2-2
 libsasl2-modules
 libsasl2-modules-db
+libsasl2-modules-gssapi-mit
 libsbc1
 libschroedinger-1.0-0
 libsdl-image1.2
@@ -1674,6 +1726,7 @@ libsnappy1v5
 libsndfile1
 libsnmp-base
 libsnmp30
+libsocket-getaddrinfo-perl
 libsocket6-perl
 libsodium18
 libsonic0
@@ -1715,6 +1768,7 @@ libtdb1
 libtelepathy-glib0
 libterm-readkey-perl
 libtext-levenshtein-perl
+libtext-template-perl
 libthai-data
 libthai0
 libtheora0
@@ -1737,6 +1791,7 @@ libudisks2-0
 libumfpack5.7.1
 libunique-1.0-0
 libunistring0
+libuniversal-require-perl
 libupnp6
 liburcu4
 liburi-perl
@@ -1888,6 +1943,7 @@ libxml-sax-base-perl
 libxml-sax-expat-perl
 libxml-sax-perl
 libxml-simple-perl
+libxml-treepp-perl
 libxml-twig-perl
 libxml-xpathengine-perl
 libxmu6
@@ -2162,9 +2218,12 @@ qtchooser
 qtcore4-l10n
 qttranslations5-l10n
 qtwayland5
+quota
+quotatool
 rar
 rarian-compat
 rdate
+reiser4progs
 reiserfsprogs
 remmina
 remmina-common
@@ -2216,6 +2275,7 @@ synaptic
 syslinux
 syslinux-common
 syslinux-legacy
+syslinux-utils
 system-config-printer-common
 system-config-printer-gnome
 system-config-printer-udev
@@ -2592,6 +2652,7 @@ zlib1g:i386
 oracle-java7-installer
 oracle-java8-installer
 oracle-java8-set-default
+oracle-java9-installer
 # -> http://ppa.launchpad.net/webupd8team/nemo/ubuntu xenial
 cinnamon-translations
 gir1.2-nemo-3.0
@@ -2609,3 +2670,8 @@ nemo-media-columns
 nemo-share
 nemo-terminal
 python-nemo
+# -> http://ppa.launchpad.net/yannubuntu/boot-repair/ubuntu xenial
+boot-repair
+boot-sav
+boot-sav-extra
+glade2script

@@ -28,6 +28,8 @@ gimp        install
 gimp-data        install
 gir1.2-soup-2.4        install
 gnome-session-bin        install
+gnome-settings-daemon-schemas        install
+gnome-sudoku        install
 imagemagick        install
 imagemagick-6.q16        install
 imagemagick-common        install

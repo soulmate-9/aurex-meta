@@ -177,7 +177,7 @@ ii  sysvinit-utils             2.88dsf-59.3ubuntu2
 ii  tar                        1.28-2.1
 ii  tzdata                     2016f-0ubuntu0.16.04
 ii  ubuntu-keyring             2012.05.19
-ii  ubuntu-minimal             2.206~aurex16.04.20
+ii  ubuntu-minimal             2.206~aurex16.04.22
 ii  ucf                        3.0036
 ii  udev                       229-4ubuntu7
 ii  ureadahead                 0.100.0-19
