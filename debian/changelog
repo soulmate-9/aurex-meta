@@ -1,3 +1,13 @@
+aurex-meta (2.206~aurex16.04.23) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added ausias-printers-centro to ausias-classroom-student, ausias-
+    classroom-teacher, ausias-desktop, ausias-printstation
+  * Added ausias-printers-depinf to ausias-desktop-depinf
+  * Added ausias-printers-secretaria to ausias-desktop-secretaria
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 06 Sep 2016 16:25:08 +0200
+
 aurex-meta (2.206~aurex16.04.22) xenial; urgency=medium
 
   * Refreshed dependencies
