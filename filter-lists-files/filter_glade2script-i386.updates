@@ -1,0 +1,7 @@
+Name: filter_glade2script-i386
+Method: glade2script
+Suite: glade2script
+Components:  contrib>contrib main>contrib multiverse>contrib partner>contrib restricted>contrib universe>contrib
+Architectures: i386 source
+FilterList: purge filter_glade2script-i386.list
+
