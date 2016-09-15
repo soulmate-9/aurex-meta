@@ -3,14 +3,12 @@ chromium-browser        install
 chromium-browser-l10n        install
 chromium-codecs-ffmpeg-extra        install
 cpp-5        install
-cups-browsed        install
-cups-filters        install
-cups-filters-core-drivers        install
 curl        install
 dnsmasq-base        install
 dosfstools        install
 ecryptfs-utils        install
 eog        install
+file-roller        install
 firefox        install
 firefox-locale-ca        install
 firefox-locale-de        install
@@ -27,10 +25,9 @@ gcc-5-base:i386        install
 gcj-5-jre-lib        install
 gimp        install
 gimp-data        install
+gir1.2-javascriptcoregtk-4.0        install
 gir1.2-soup-2.4        install
-gnome-session-bin        install
-gnome-settings-daemon-schemas        install
-gnome-sudoku        install
+gir1.2-webkit2-4.0        install
 imagemagick        install
 imagemagick-6.q16        install
 imagemagick-common        install
@@ -62,7 +59,6 @@ libasan2        install
 libatomic1        install
 libcc1-0        install
 libcilkrts5        install
-libcupsfilters1        install
 libcurl3        install
 libcurl3-gnutls        install
 libecryptfs1        install
@@ -70,7 +66,6 @@ libexpat1-dev        install
 libexpat1:i386        install
 libfontconfig1        install
 libfontconfig1:i386        install
-libfontembed1        install
 libgcc-5-dev        install
 libgcj16        install
 libgcrypt20:i386        install
@@ -86,6 +81,7 @@ libimage-magick-perl        install
 libimage-magick-q16-perl        install
 libimobiledevice6        install
 libitm1        install
+libjavascriptcoregtk-4.0-18        install
 libksba8        install
 liblsan0        install
 libmagick++-6.q16-5v5        install
@@ -99,7 +95,6 @@ libnspr4        install
 libnss3        install
 libnss3-1d        install
 libnss3-nssdb        install
-libpanel-applet0        install
 libpq5        install
 libpurple-bin        install
 libpurple0        install
@@ -156,6 +151,8 @@ libtevent0        install
 libtsan0        install
 libubsan0        install
 libusbmuxd4        install
+libwebkit2gtk-4.0-37        install
+libwebkit2gtk-4.0-37-gtk2        install
 libxen-4.6        install
 libxenstore3.0        install
 libxml2        install
@@ -181,7 +178,6 @@ qemu-system-common        install
 qemu-system-x86        install
 qemu-utils        install
 thunderbird        install
-ubuntu-mono        install
 uno-libs3        install
 ure        install
 wget        install

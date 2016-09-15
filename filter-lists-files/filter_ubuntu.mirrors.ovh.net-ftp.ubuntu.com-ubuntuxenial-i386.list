@@ -19,7 +19,6 @@ gcc-6-base:i386        install
 gettext-base        install
 gzip        install
 hostname        install
-ifupdown        install
 initscripts        install
 insserv        install
 iproute2        install

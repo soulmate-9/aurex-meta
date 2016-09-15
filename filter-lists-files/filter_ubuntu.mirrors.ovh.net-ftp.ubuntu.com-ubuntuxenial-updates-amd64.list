@@ -1,5 +1,3 @@
-apt        install
-apt-utils        install
 bash        install
 bsdutils        install
 console-setup        install
@@ -11,18 +9,12 @@ gcc-5-base:amd64        install
 gnupg        install
 gpgv        install
 grep        install
-init        install
-init-system-helpers        install
 initramfs-tools        install
 initramfs-tools-bin        install
 initramfs-tools-core        install
-isc-dhcp-client        install
-isc-dhcp-common        install
 keyboard-configuration        install
 klibc-utils        install
 less        install
-libapt-inst2.0:amd64        install
-libapt-pkg5.0:amd64        install
 libblkid1:amd64        install
 libdns-export162        install
 libexpat1:amd64        install
@@ -35,6 +27,7 @@ libidn11:amd64        install
 libisc-export160        install
 libklibc        install
 libmount1:amd64        install
+libp11-kit0:amd64        install
 libpython3.5-minimal:amd64        install
 libpython3.5-stdlib:amd64        install
 libsmartcols1:amd64        install

@@ -1,6 +1,14 @@
+apt        install
+apt-utils        install
 base-files        install
 grub-common        install
 grub2-common        install
+ifupdown        install
+init        install
+init-system-helpers        install
+isc-dhcp-client        install
+isc-dhcp-common        install
 libapparmor1:amd64        install
-libp11-kit0:amd64        install
+libapt-inst2.0:amd64        install
+libapt-pkg5.0:amd64        install
 libssl1.0.0:amd64        install

@@ -238,6 +238,8 @@ geany-plugin-webhelper        install
 geany-plugin-xmlsnippets        install
 geany-plugins        install
 geany-plugins-common        install
+gedit        install
+gedit-common        install
 genisoimage        install
 geoclue        install
 geoclue-ubuntu-geoip        install
@@ -265,7 +267,6 @@ gir1.2-gtk-vnc-2.0        install
 gir1.2-gtkclutter-1.0        install
 gir1.2-gtksource-3.0        install
 gir1.2-ibus-1.0        install
-gir1.2-javascriptcoregtk-4.0        install
 gir1.2-json-1.0        install
 gir1.2-libosinfo-1.0        install
 gir1.2-libvirt-glib-1.0        install
@@ -276,7 +277,6 @@ gir1.2-spice-client-glib-2.0        install
 gir1.2-spice-client-gtk-3.0        install
 gir1.2-udisks-2.0        install
 gir1.2-vte-2.91        install
-gir1.2-webkit2-4.0        install
 gir1.2-wnck-3.0        install
 git        install
 git-man        install
@@ -770,8 +770,6 @@ libgupnp-igd-1.0-4        install
 libgusb2        install
 libgutenprint2        install
 libgvnc-1.0-0        install
-libgweather-3-6        install
-libgweather-common        install
 libgxps2        install
 libhcrypto4-heimdal        install
 libhcrypto4-heimdal:i386        install
@@ -834,7 +832,6 @@ libiw30        install
 libjack-jackd2-0        install
 libjack-jackd2-0:i386        install
 libjasper1        install
-libjavascriptcoregtk-4.0-18        install
 libjbig0        install
 libjbig0:i386        install
 libjbig2dec0        install
@@ -1127,6 +1124,7 @@ libpcre3:i386        install
 libpcrecpp0v5        install
 libpcsclite1        install
 libpeas-1.0-0        install
+libpeas-1.0-0-python3loader        install
 libpeas-common        install
 libperl4-corelibs-perl        install
 libperl5.22        install
@@ -1379,8 +1377,6 @@ libwavpack1        install
 libwayland-client0        install
 libwayland-cursor0        install
 libwayland-server0        install
-libwebkit2gtk-4.0-37        install
-libwebkit2gtk-4.0-37-gtk2        install
 libwebp5        install
 libwebpmux1        install
 libwebrtc-audio-processing-0        install
@@ -1575,7 +1571,6 @@ mousetweaks        install
 mpack        install
 mscompress        install
 msr-tools        install
-mtools        install
 mugshot        install
 mypaint        install
 mypaint-data        install
