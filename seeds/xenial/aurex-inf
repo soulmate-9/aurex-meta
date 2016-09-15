@@ -20,6 +20,9 @@ Task-Metapackage: exclude-aurex-inf
  * virt-manager
  * spice-client-gtk 
  * python-spice-client-gtk
+ * virt-viewer
+ * ssh-askpass-gnome
+ * python-guestf
 
 = network tools =
  * wireshark

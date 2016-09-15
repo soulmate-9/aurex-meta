@@ -12,6 +12,8 @@ openssh-server
 python-spice-client-gtk
 qemu-kvm
 spice-client-gtk
+ssh-askpass-gnome
 virt-manager
+virt-viewer
 virtinst
 wireshark
