@@ -30,7 +30,7 @@ Task-Metapackage: exclude-aurex-inf
  * (eclipse-adt-plugin)
  * (android-studio-installer)
  * gphpedit
- * netbeans-8.0-installer
+ * netbeans-installer
  * mysql-client
  * (geany)
  * (geany-plugins)

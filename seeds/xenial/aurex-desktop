@@ -188,6 +188,7 @@ Task-Metapackage: aurex-desktop
 # * (linux-signed-generic-lts-raring) [amd64]
 
 = other =
+ * (gedit)
 # * nautilus-gksu
 # * (nautilus-refresh)
 # * (nautilus-advanced-menu)

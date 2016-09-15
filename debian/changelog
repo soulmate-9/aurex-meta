@@ -1,3 +1,20 @@
+aurex-meta (2.206~aurex16.04.24) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added eclipse-adt-plugin to aurex-asir-recommends, aurex-daw-
+    recommends, aurex-inf-recommends, aurex-smr-recommends
+  * Added eclipse-jee-installer to aurex-asir-recommends, aurex-daw-
+    recommends, aurex-inf-recommends, aurex-smr-recommends
+  * Added gedit to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, aurex-desktop-secretaria-recommends, ausias-desktop-
+    recommends
+  * Added netbeans-installer to aurex-asir, aurex-daw, aurex-inf, aurex-
+    smr
+  * Added sublimetext-installer to aurex-asir-recommends, aurex-daw-
+    recommends, aurex-inf-recommends, aurex-smr-recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 15 Sep 2016 02:29:16 +0200
+
 aurex-meta (2.206~aurex16.04.23) xenial; urgency=medium
 
   * Refreshed dependencies
