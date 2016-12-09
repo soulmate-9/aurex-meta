@@ -22,6 +22,7 @@ Task-Metapackage: aurex-standard
  * (curl)
  * sshfs
  * traceroute
+ * ntpdate
 
 = ldap client tools =
  * (ldap-utils)

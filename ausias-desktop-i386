@@ -51,6 +51,7 @@ memtest86+
 netcat
 nfs-common
 ntfs-3g
+ntpdate
 openprinting-ppds
 ophcrack-cli
 pdftk

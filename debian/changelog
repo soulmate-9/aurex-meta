@@ -1,4 +1,12 @@
-aurex-meta (2.206~aurex16.04.27) UNRELEASED; urgency=medium
+aurex-meta (2.206~aurex16.04.28) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added ntpdate to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, aurex-standard, ausias-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 09 Dec 2016 11:39:32 +0100
+
+aurex-meta (2.206~aurex16.04.27) xenial; urgency=medium
 
   * Refreshed dependencies
   * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-

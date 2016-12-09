@@ -28,6 +28,7 @@ mc
 mime-support
 netcat
 nfs-common
+ntpdate
 ophcrack-cli
 parted
 pciutils
