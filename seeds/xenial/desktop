@@ -96,6 +96,7 @@ Basic network services and Windows integration.
  * (menulibre) # menu editor
  * (mugshot) # user config
  * (gtk-theme-config)
+ * (usb-creator-gtk)
 
 === LibreOffice ===
  * (libreoffice-style-elementary) [!powerpc !armhf]

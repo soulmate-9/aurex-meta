@@ -1,3 +1,28 @@
+aurex-meta (2.206~aurex16.04.27) UNRELEASED; urgency=medium
+
+  * Refreshed dependencies
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added usb-creator-gtk to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, aurex-desktop-secretaria-recommends, ausias-
+    desktop-recommends, desktop-recommends, desktopx-recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 09 Dec 2016 08:48:31 +0100
+
+aurex-meta (2.206~aurex16.04.26) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added acroread to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added aurex-update-manager to aurex-asir, aurex-daw, aurex-inf,
+    aurex-secretaria, aurex-smr
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+  * Added zip to aurex-desktop, aurex-desktop-depinf, aurex-desktop-
+    secretaria, ausias-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 05 Dec 2016 13:13:31 +0100
+
 aurex-meta (2.206~aurex16.04.25) xenial; urgency=medium
 
   * Refreshed dependencies
