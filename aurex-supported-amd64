@@ -82,6 +82,7 @@ samba
 samba-common
 samba-common-bin
 samba-dbg
+self-service-password
 slapd
 slapd-dbg
 slapd-smbk5pwd

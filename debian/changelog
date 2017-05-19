@@ -1,3 +1,10 @@
+aurex-meta (2.206~aurex16.04.29) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added self-service-password to aurex-supported [amd64]
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 19 May 2017 16:28:00 +0200
+
 aurex-meta (2.206~aurex16.04.28) xenial; urgency=medium
 
   * Refreshed dependencies
