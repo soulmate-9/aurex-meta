@@ -96,8 +96,13 @@ Task-Metapackage: exclude-aurex-support
  * winbind
  * samba-dbg
  * libwbclient0
-
 # TODO: system-config-samba ntfs-config 
+
+= self-service-password =
+ * self-service-password [amd64]
+ * ausias-self-service-password-settings [amd64]
+ * ausias-self-service-password-artwork [amd64]
+
 = graphics =
  * (gnome-sushi)
  * mypaint
