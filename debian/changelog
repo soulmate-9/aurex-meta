@@ -1,3 +1,9 @@
+soulmeta-meta (9.1+soulmate17.09.05) stretch; urgency=medium
+
+  * First stretch release
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 04 Sep 2017 23:06:45 +0000
+
 aurex-meta (2.206~aurex16.04.29) xenial; urgency=medium
 
   * Refreshed dependencies

@@ -22,7 +22,7 @@ list_components(){
 }
 
 sed_rules(){
-        for v in $(sed -ne "/^[^=]\+=/s%=.*$%%;p" ./aurex-meta.conf) ; do
+        for v in $(sed -ne "/^[^=]\+=/s%=.*$%%;p" ./soulmate-meta.conf) ; do
                 V="$(eval "echo $(eval "echo -n '$';echo -n $v")")"
                 echo "s%_@_${v}_@_%${V}%g;"
         done
@@ -457,7 +457,7 @@ usage(){
 # variables
 TARGET_DIR=""
 CHROOT_DIR=""
-. ./aurex-meta.conf
+. ./soulmate-meta.conf
 SOURCES_BASEDIR=./sources
 SOURCES_REGEX="^deb[[:blank:]]\+\([^[:blank:]]\+\)[[:blank:]]\+\([^[:blank:]]\+\)[[:blank:]]\+\(.*\)$"
 SOURCES_SRC_REGEX="^.*deb-src[[:blank:]]\+\([^[:blank:]]\+\)[[:blank:]]\+\([^[:blank:]]\+\)[[:blank:]]\+\(.*\)$"

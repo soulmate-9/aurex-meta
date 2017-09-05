@@ -121,3 +121,92 @@ Description: Soulmate generic desktop system
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
+
+Package: soulmate-smr
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex smr extensions
+ This (meta)package depends on the packages for the smr aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: soulmate-asir
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex asir extensions
+ This (meta)package depends on the packages for the asir aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: soulmate-daw
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex daw extensions
+ This (meta)package depends on the packages for the daw aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-classroom-teacher
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex classroom teacher extensions
+ This (meta)package depends on the packages for the classroom teacher aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-classroom-student
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex classroom student extensions
+ This (meta)package depends on the packages for the classroom student aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-desktop
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: The CIPFP Ausias March intranet desktop
+ This (meta)package extends aurex desktop to provide acces to the CIPFP
+ Ausias March intranet services (auth, shares, printing).
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: soulmate-desktop-depinf
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex desktop for 'depinf' teachers
+ This (meta)package depends on the packages for the depinf aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-desktop-depinf
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ausias depinf extensions
+ This (meta)package depends on the packages for the 'depinf' extensions
+ to access CIPFP Ausias March intranet services (auth, shares, printing).
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+

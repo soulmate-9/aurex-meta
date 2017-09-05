@@ -1,0 +1,8 @@
+# -------------
+# soulmate sources
+# -------------
+# contrib component excluded
+
+deb _@_SM_MIRROR_@_ stretch main
+deb-src _@_SM_MIRROR_@_ stretch main
+
