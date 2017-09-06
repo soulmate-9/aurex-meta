@@ -81,6 +81,17 @@ Depends: sm-meta-debian-core, samba, samba-common-bin, smbclient, ttf-dejavu, tt
 Description: Set of packages required to run MATE
  Set of packages required to run the MATE Desktop Environment.
 
+Package: debian-mate-default-settings
+Architecture: all
+Depends: sm-meta-debian-mate
+Description: Override default Debian settings for MATE
+ This package replaces Debian settings for MATE
+
+Package: desktop-base
+Architecture: all
+Description: common files for the soulmate Desktop
+ This package replaces Debian desktop-base
+
 Package: sm-fonts
 Architecture: all
 Recommends: fonts-noto-cjk, fonts-noto-hinted, fonts-nanum, fonts-opensymbol, fonts-liberation, fonts-kacst-one, fonts-khmeros-core, fonts-lao, fonts-liberation, fonts-nanum, fonts-opensymbol, fonts-takao-pgothic, fonts-thai-tlwg, ttf-indic-fonts-core, ttf-punjabi-fonts, ttf-ubuntu-font-family, ttf-wqy-microhei, ttf-dejavu-core, ttf-freefont
