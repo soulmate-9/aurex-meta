@@ -123,7 +123,7 @@ Description: Soulmate java packages
  Java packages required to tun soulmate desktop
 
 Package: sm-supported
-Architecture: all
+Architecture: any
 Recommends: oracle-java7-installer, oracle-java8-installer, libvirt-bin, libvirt0, python-libvirt, virt-manager, virt-viewer, virtinst, qemu-kvm, quemu, virtualbox-4.3, virtualbox-5.0, germinate, dropbox, ldap-utils, opera, samba, samba-common-bin, samba-common, smbclient, swat, samba-doc, cifs-utils, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, samba-dbg, self-service-password [amd64], ausias-self-service-password-settings [amd64], ausias-self-service-password-artwork, mypaint, mypaint-data-hires, italc2-master, italc2-client, libitalc2, vsftpd, alien, unetbootin, multisystem, yad
 Description: Soulmate supported packages
  Just a dummy package to reference additional packages supported in soulmate
