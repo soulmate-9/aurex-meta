@@ -89,9 +89,9 @@ expand_update_cfg(){
 			fi
 		done
 	done
-	ARCHIVE_URL_LIST="$UBUNTU_MIRROR"
+	ARCHIVE_URL_LIST="$DEBIAN_MIRROR"
 	for m in $MIRROR_LIST; do
-		[ "$m" = "$UBUNTU_MIRROR" ] || ARCHIVE_URL_LIST="$ARCHIVE_URL_LIST,${m%/}/"
+		[ "$m" = "$DEBIAN_MIRROR" ] || ARCHIVE_URL_LIST="$ARCHIVE_URL_LIST,${m%/}/"
 	done
 
 	ARCHIVE_EXCEPTIONS="$(cat "$EXCEPT_FILE" |tr "\n" " ")"
@@ -190,7 +190,7 @@ do_debootstrap(){
 		CHROOT_DIR="$TARGET_DIR/$CURRENT_DIST-$a"
 		rm -fr "$CHROOT_DIR"
 		mkdir -p "$CHROOT_DIR"
-		debootstrap  --arch=$a "$CURRENT_DIST" "$CHROOT_DIR" "$UBUNTU_MIRROR"
+		debootstrap  --arch=$a "$CURRENT_DIST" "$CHROOT_DIR" "$DEBIAN_MIRROR"
 	done
 }
 
@@ -244,9 +244,10 @@ prepare_chroot(){
 			echo "chroot: run custom cmd"
 			$CHROOT_CMD $CUSTOM_DEBOOSTRAP_CMD || true
 		fi
-		echo "chroot: update & dist-upgrade"
+		echo "chroot: update & upgrade"
 		$CHROOT_CMD apt-get update || true 
-		$CHROOT_CMD apt-get --allow-unauthenticated -y dist-upgrade || true
+		#$CHROOT_CMD apt-get --allow-unauthenticated -y dist-upgrade || true
+		$CHROOT_CMD apt-get --allow-unauthenticated -y upgrade || true
 		$CHROOT_CMD dpkg -l |sed -ne "/^ii/s%\(^ii[[:blank:]]\+[^[:blank:]]\+[[:blank:]]\+[^[:blank:]]\+\).*$%\1%p" > $DEBOOTSTRAP_BULK
 		chroot_umounts
 	done
@@ -278,10 +279,11 @@ update_lists(){
 		: > /tmp/aurex-meta-metapackages-$a.log
 		for s in $SEED_LIST ; do
 			echo "Processing seed: $s"
-			meta="$(sed -ne "/^$s /s%^.* %%p" metapackage-map)"
+#			meta="$(sed -ne "/^$s /s%^.* %%p" metapackage-map)"
+			meta="$s"
 			if [ "$meta" ] && [ "${meta%%-*}" != "exclude" ] ; then
 				echo "   Simulate installation of metapackage $meta"
-				meta_list=$(cat ${s}-${a} ${s}-recommends-${a} |sort -u)
+				#meta_list=$(cat ${s}-${a} ${s}-recommends-${a} |sort -u)
 				#$APT_CMD --install-recommends install $meta |sed -ne "/$INST_REG_EX/{s%$INST_REG_EX%\3 \1 \2%;p}" >> $TMP_FILE
 				$APT_CMD --install-recommends install $meta |tee -a /tmp/aurex-meta-metapackages-$a.log | sed -ne "/$INST_REG_EX/{s%$INST_REG_EX%\3 \1 \2%;p}" >> $TMP_FILE
 		#		echo "==> $APT_CMD install $meta $meta_list" >> /tmp/aurex-meta-metapackages-$a.log 
@@ -511,7 +513,7 @@ case "$ACTION" in
 		;;
 	update-lists)
 		[ $(id -u) -eq 0 ] || die "root privileges required"
-		[ -r "metapackage-map" ] || die "metapackage-map file not found"
+		# [ -r "metapackage-map" ] || die "metapackage-map file not found"
 		configure_chroot
 		if [ -z "$TARGET_DIR" ] ; then
 			TARGET_DIR="$(mktemp -d)"
