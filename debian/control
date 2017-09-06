@@ -13,7 +13,7 @@ Description: Minimal soulmate network tools
 
 Package: sm-minimal-fs
 Architecture: all
-Depends:  fdisk, lvm2, dmsetup, mdadm, reiserfsprogs, xfsprogs, ntfs-3g, zfsutils-linux
+Depends:  lvm2, dmsetup, mdadm, reiserfsprogs, xfsprogs, ntfs-3g, zfsutils-linux
 Description: Minimal soulmate filesystem tools
  Minimal set of packages related to filesystems required to run soulmate
 
