@@ -1,7 +1,0 @@
-Name: filter_ravefinity-project-ppa-ubuntuxenial-i386
-Method: http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu
-Suite: xenial
-Components:  contrib>contrib main>contrib multiverse>contrib partner>contrib restricted>contrib universe>contrib
-Architectures: i386 source
-FilterList: purge filter_ravefinity-project-ppa-ubuntuxenial-i386.list
-

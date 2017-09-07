@@ -1,7 +1,0 @@
-Name: filter_localhost-aurexxenial-amd64
-Method: http://localhost/aurex
-Suite: xenial
-Components:  contrib>contrib main>contrib multiverse>contrib partner>contrib restricted>contrib universe>contrib
-Architectures: amd64 source
-FilterList: purge filter_localhost-aurexxenial-amd64.list
-

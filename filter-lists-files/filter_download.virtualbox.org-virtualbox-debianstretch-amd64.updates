@@ -1,0 +1,7 @@
+Name: filter_download.virtualbox.org-virtualbox-debianstretch-amd64
+Method: http://download.virtualbox.org/virtualbox/debian
+Suite: stretch
+Components:  contrib>contrib import>contrib jessie>contrib main>contrib non-free>contrib pve-no-subscription>contrib stretch>contrib upstream>contrib
+Architectures: amd64 source
+FilterList: purge filter_download.virtualbox.org-virtualbox-debianstretch-amd64.list
+

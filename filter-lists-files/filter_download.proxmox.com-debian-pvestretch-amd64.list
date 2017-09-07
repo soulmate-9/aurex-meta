@@ -1,0 +1,16 @@
+dmeventd        install
+dmsetup        install
+grub-common        install
+iproute2        install
+libdevmapper-event1.02.1        install
+libdevmapper1.02.1:amd64        install
+liblvm2app2.2        install
+liblvm2cmd2.02        install
+libnvpair1linux        install
+libuutil1linux        install
+libzfs2linux        install
+libzpool2linux        install
+lvm2        install
+pve-headers-4.10.11-1-pve        install
+zfs-zed        install
+zfsutils-linux        install

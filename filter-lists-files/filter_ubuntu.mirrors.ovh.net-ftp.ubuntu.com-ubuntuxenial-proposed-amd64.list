@@ -1,6 +1,0 @@
-coreutils        install
-grub-common        install
-grub2-common        install
-less        install
-libssl1.0.0:amd64        install
-openssl        install

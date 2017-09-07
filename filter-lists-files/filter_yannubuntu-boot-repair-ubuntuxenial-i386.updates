@@ -1,7 +1,7 @@
 Name: filter_yannubuntu-boot-repair-ubuntuxenial-i386
 Method: http://ppa.launchpad.net/yannubuntu/boot-repair/ubuntu
 Suite: xenial
-Components:  contrib>contrib main>contrib multiverse>contrib partner>contrib restricted>contrib universe>contrib
+Components:  contrib>contrib import>contrib jessie>contrib main>contrib non-free>contrib pve-no-subscription>contrib stretch>contrib upstream>contrib
 Architectures: i386 source
 FilterList: purge filter_yannubuntu-boot-repair-ubuntuxenial-i386.list
 

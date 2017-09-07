@@ -1,7 +1,7 @@
-Name: filter_glade2script-i386
-Method: glade2script
-Suite: glade2script
+Name: filter_ftp.debian.org-debianstretch-i386
+Method: http://ftp.debian.org/debian
+Suite: stretch
 Components:  contrib>contrib import>contrib jessie>contrib main>contrib non-free>contrib pve-no-subscription>contrib stretch>contrib upstream>contrib
 Architectures: i386 source
-FilterList: purge filter_glade2script-i386.list
+FilterList: purge filter_ftp.debian.org-debianstretch-i386.list
 
