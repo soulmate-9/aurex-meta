@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.09.13) stretch; urgency=medium
+
+  * Replaced depends on qemu-kvm with pve-qemu-kvm
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 08 Sep 2017 19:26:58 +0000
+
 soulmate-meta (9.1+soulmate17.09.12) stretch; urgency=medium
 
   * Dummy upgrade
