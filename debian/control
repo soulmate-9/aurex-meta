@@ -147,7 +147,7 @@ Description: Soulmate-inf virtualization packages
 
 Package: sm-inf-dev
 Architecture: all
-Depends: build-essential, git, git-svn, svn, bzr, gphpedit, netbeans-installer, mysql-client, atom
+Depends: build-essential, git, git-svn, svn, bzr, gphpedit, netbeans-installer, default-mysql-client, atom
 Recommends: android-sdk-installer, eclipse-jee-installer, eclipse-adt-plugin, android-studio-installer, geany, geany-plugins, sublimetext-installer, xmlcopyeditor, amaya
 Description: Soulmate-inf development tools
  Development tools for soulmate-inf metapackage
