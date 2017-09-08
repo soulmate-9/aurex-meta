@@ -1,4 +1,4 @@
-soulmate-meta (9.1+soulmate17.09.11) UNRELEASED; urgency=medium
+soulmate-meta (9.1+soulmate17.09.11) stretch; urgency=medium
 
   * Obsolete libvirt-bin package replaced with libvirt-daemon-system & libvirt-clients
 
