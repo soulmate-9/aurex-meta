@@ -124,7 +124,7 @@ Description: Soulmate java packages
 
 Package: sm-supported
 Architecture: any
-Recommends: oracle-java7-installer, oracle-java8-installer, libvirt-bin, libvirt0, python-libvirt, virt-manager, virt-viewer, virtinst, qemu-kvm, quemu, virtualbox-4.3, virtualbox-5.0, germinate, dropbox, ldap-utils, opera, samba, samba-common-bin, samba-common, smbclient, swat, samba-doc, cifs-utils, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, samba-dbg, self-service-password [amd64], ausias-self-service-password-settings [amd64], ausias-self-service-password-artwork, mypaint, mypaint-data-hires, italc2-master, italc2-client, libitalc2, vsftpd, alien, unetbootin, multisystem, yad
+Recommends: oracle-java7-installer, oracle-java8-installer, libvirt-bin, libvirt0, python-libvirt, virt-manager, virt-viewer, virtinst, qemu-kvm, quemu, virtualbox-4.3, virtualbox-5.0, germinate, dropbox, ldap-utils, opera, samba, samba-common-bin, samba-common, smbclient, swat, samba-doc, cifs-utils, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, samba-dbg, self-service-password [amd64], ausias-self-service-password-settings [amd64], ausias-self-service-password-artwork, mypaint, mypaint-data-hires, italc2-master, italc2-client, libitalc2, vsftpd, alien, unetbootin, multisystem, yad, atom
 Description: Soulmate supported packages
  Just a dummy package to reference additional packages supported in soulmate
 
@@ -138,3 +138,30 @@ Description: Soulmate generic desktop system
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
+
+Package: sm-inf-virt
+Architecture: all
+Depends: soulmate-virtualbox-5.1, libvirt-bin, qemu-kvm, virtinst, virt-manager, spice-client-gtk, python-spice-client-gtk, virt-viewer, ssh-askpass-gnome, python-guestfs, soulmate-pve [amd64]
+Description: Soulmate-inf virtualization packages
+ Virtualization required packages for soulmate-inf metapackage
+
+Package: sm-inf-dev
+Architecture: any
+Depends: build-essential, git, git-svn, svn, bzr, gphpedit, netbeans-installer, mysql-client, atom
+Recommends: android-sdk-installer, eclipse-jee-installer, eclipse-adt-plugin, android-studio-installer, geany, geany-plugins, sublimetext-installer, xmlcopyeditor, amaya
+Description: Soulmate-inf development tools
+ Development tools for soulmate-inf metapackage
+
+Package: sm-inf-misc
+Architecture: any
+Depends: openssh-server, soulmate-update-manager, easy-rsa, wireshark
+Recommends: freemind
+Description: Soulmate-inf miscellaneous tools
+ Miscellaneous packages for soulmate-inf metapackage
+
+Package: soulmate-inf
+Architecture: any
+Depends: sm-inf-virt, sm-inf-dev, sm-inf-misc
+Description: Soulmate for Ciclos Informatica
+ This (meta)package depends on all of the packages required for
+ using soulmate desktop in Ciclos Formativos Informatica
