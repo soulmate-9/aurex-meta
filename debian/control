@@ -141,7 +141,7 @@ Description: Soulmate generic desktop system
 
 Package: sm-inf-virt
 Architecture: any
-Depends: aurex-virtualbox-5.1, libvirt-daemon-system, libvirt-clients, qemu-kvm, virtinst, virt-manager, spice-client-gtk, gir1.2-spice-client-gtk-3.0, virt-viewer, ssh-askpass-gnome, python-guestfs, soulmate-pve [amd64]
+Depends: aurex-virtualbox-5.1, libvirt-daemon-system, libvirt-clients, pve-qemu-kvm, virtinst, virt-manager, spice-client-gtk, gir1.2-spice-client-gtk-3.0, virt-viewer, ssh-askpass-gnome, python-guestfs, soulmate-pve [amd64]
 Description: Soulmate-inf virtualization packages
  Virtualization required packages for soulmate-inf metapackage
 
