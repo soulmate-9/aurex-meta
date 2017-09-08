@@ -1,0 +1,3 @@
+deb http://cloud.ausiasmarch.net/aurex/ xenial main
+deb-src http://cloud.ausiasmarch.net/aurex/ xenial main
+
