@@ -129,7 +129,7 @@ Description: Soulmate supported packages
  Just a dummy package to reference additional packages supported in soulmate
 
 Package: soulmate-desktop
-Architecture: any
+Architecture: all
 Depends: sm-meta-debian-core, sm-meta-debian-mate, sm-fonts, sm-office, sm-multimedia, sm-inet, sm-java, zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi
 Recommends: file-roller, hplip, xsane, shutter, libgoo-canvas-perl, wine, winetricks, network-manager-openvpn, network-manager-openvpn-gnome, gparted, ophcrack, pm-utils, boot-repair
 Description: Soulmate generic desktop system
@@ -140,27 +140,27 @@ Description: Soulmate generic desktop system
  it not be removed.
 
 Package: sm-inf-virt
-Architecture: all
+Architecture: any
 Depends: soulmate-virtualbox-5.1, libvirt-bin, qemu-kvm, virtinst, virt-manager, spice-client-gtk, python-spice-client-gtk, virt-viewer, ssh-askpass-gnome, python-guestfs, soulmate-pve [amd64]
 Description: Soulmate-inf virtualization packages
  Virtualization required packages for soulmate-inf metapackage
 
 Package: sm-inf-dev
-Architecture: any
+Architecture: all
 Depends: build-essential, git, git-svn, svn, bzr, gphpedit, netbeans-installer, mysql-client, atom
 Recommends: android-sdk-installer, eclipse-jee-installer, eclipse-adt-plugin, android-studio-installer, geany, geany-plugins, sublimetext-installer, xmlcopyeditor, amaya
 Description: Soulmate-inf development tools
  Development tools for soulmate-inf metapackage
 
 Package: sm-inf-misc
-Architecture: any
+Architecture: all
 Depends: openssh-server, soulmate-update-manager, easy-rsa, wireshark
 Recommends: freemind
 Description: Soulmate-inf miscellaneous tools
  Miscellaneous packages for soulmate-inf metapackage
 
 Package: soulmate-inf
-Architecture: any
+Architecture: all
 Depends: sm-inf-virt, sm-inf-dev, sm-inf-misc
 Description: Soulmate for Ciclos Informatica
  This (meta)package depends on all of the packages required for
