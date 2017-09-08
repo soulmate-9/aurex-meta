@@ -1,3 +1,6 @@
+# -> http://cloud.ausiasmarch.net/aurex xenial
+ausias-self-service-password-artwork
+gtk2-engines-murrine
 # -> http://download.proxmox.com/debian/pve stretch
 dmeventd
 dmsetup
@@ -24,7 +27,6 @@ accountsservice
 acl
 adduser
 adwaita-icon-theme
-albatross-gtk-theme
 alien
 alsa-utils
 ant
@@ -50,8 +52,6 @@ base-passwd
 bash
 bc
 binutils
-blackbird-gtk-theme
-bluebird-gtk-theme
 bridge-utils
 bsdmainutils
 bsdutils
@@ -263,7 +263,6 @@ gnupg-agent
 gparted
 gpgv
 grep
-greybird-gtk-theme
 groff-base
 gsettings-desktop-schemas
 gsfonts
@@ -275,7 +274,6 @@ gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-x
 gtk-update-icon-cache
-gtk2-engines-murrine
 gtk2-engines-pixbuf
 guile-2.0-libs
 gvfs
@@ -1413,7 +1411,6 @@ modemmanager
 mount
 mpack
 multiarch-support
-murrine-themes
 mypaint
 mypaint-data
 myspell-ca

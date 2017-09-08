@@ -141,14 +141,14 @@ Description: Soulmate generic desktop system
 
 Package: sm-inf-virt
 Architecture: any
-Depends: aurex-virtualbox-5.1, libvirt-bin, qemu-kvm, virtinst, virt-manager, spice-client-gtk, python-spice-client-gtk, virt-viewer, ssh-askpass-gnome, python-guestfs, soulmate-pve [amd64]
+Depends: aurex-virtualbox-5.1, libvirt-daemon-system, libvirt-clients, qemu-kvm, virtinst, virt-manager, spice-client-gtk, gir1.2-spice-client-gtk-3.0, virt-viewer, ssh-askpass-gnome, python-guestfs, soulmate-pve [amd64]
 Description: Soulmate-inf virtualization packages
  Virtualization required packages for soulmate-inf metapackage
 
 Package: sm-inf-dev
 Architecture: all
-Depends: build-essential, git, git-svn, svn, bzr, gphpedit, netbeans-installer, default-mysql-client, atom
-Recommends: android-sdk-installer, eclipse-jee-installer, eclipse-adt-plugin, android-studio-installer, geany, geany-plugins, sublimetext-installer, xmlcopyeditor, amaya
+Depends: build-essential, git, git-svn, subversion, bzr, gphpedit, netbeans-installer, default-mysql-client, atom
+Recommends: android-sdk, eclipse-jee-installer, eclipse-adt-plugin, android-studio-installer, geany, geany-plugins, sublimetext-installer, xmlcopyeditor, amaya
 Description: Soulmate-inf development tools
  Development tools for soulmate-inf metapackage
 
