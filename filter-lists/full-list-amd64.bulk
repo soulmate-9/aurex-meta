@@ -241,6 +241,7 @@ gir1.2-libosinfo-1.0
 gir1.2-libvirt-glib-1.0
 gir1.2-pango-1.0
 gir1.2-polkit-1.0
+gir1.2-secret-1
 gir1.2-spice-client-glib-2.0
 gir1.2-spice-client-gtk-3.0
 gir1.2-udisks-2.0
@@ -327,6 +328,7 @@ keyutils
 kmod
 krb5-locales
 ldap-utils
+less
 lhasa
 liba52-0.7.4
 libaa1
@@ -535,6 +537,7 @@ libencode-locale-perl
 libeot0
 libepoxy0
 libept1.5.0
+liberror-perl
 libestr0
 libetonyek-0.1-1
 libevdev2
@@ -1797,6 +1800,8 @@ chromium-shell
 chromium-widevine
 dnsutils
 file
+git
+git-man
 imagemagick
 imagemagick-6-common
 imagemagick-6.q16
@@ -1857,6 +1862,8 @@ samba-vfs-modules
 smbclient
 thunderbird
 winbind
+# -> http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial
+atom
 # -> http://ppa.launchpad.net/webupd8team/java/ubuntu xenial
 oracle-java7-installer
 oracle-java8-installer

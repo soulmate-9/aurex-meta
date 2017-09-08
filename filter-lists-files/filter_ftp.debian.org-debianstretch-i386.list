@@ -220,6 +220,7 @@ gir1.2-libosinfo-1.0        install
 gir1.2-libvirt-glib-1.0        install
 gir1.2-pango-1.0        install
 gir1.2-polkit-1.0        install
+gir1.2-secret-1        install
 gir1.2-spice-client-glib-2.0        install
 gir1.2-spice-client-gtk-3.0        install
 gir1.2-udisks-2.0        install
@@ -307,6 +308,7 @@ keyutils        install
 kmod        install
 krb5-locales        install
 ldap-utils        install
+less        install
 lhasa        install
 liba52-0.7.4        install
 libaa1        install
@@ -496,6 +498,7 @@ libencode-locale-perl        install
 libeot0        install
 libepoxy0        install
 libept1.5.0        install
+liberror-perl        install
 libestr0        install
 libetonyek-0.1-1        install
 libevdev2        install

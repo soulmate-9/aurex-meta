@@ -7,6 +7,8 @@ chromium-shell        install
 chromium-widevine        install
 dnsutils        install
 file        install
+git        install
+git-man        install
 imagemagick        install
 imagemagick-6-common        install
 imagemagick-6.q16        install
