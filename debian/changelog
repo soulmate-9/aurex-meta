@@ -1,6 +1,8 @@
 soulmate-meta (9.1+soulmate17.09.19) stretch; urgency=medium
 
   * Proxmox and KVM dependencies splitted in 2 metapackages
+  * The current way to install both of them is by installing
+    soulmate-inf soulmate-kvm pve-manager at the same time
 
  -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 09 Sep 2017 07:23:52 +0000
 
