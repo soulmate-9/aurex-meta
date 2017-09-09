@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.09.19) stretch; urgency=medium
+
+  * Proxmox and KVM dependencies splitted in 2 metapackages
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 09 Sep 2017 07:23:52 +0000
+
 soulmate-meta (9.1+soulmate17.09.18) stretch; urgency=medium
 
   * Removed pve-qemu-kvm (replaced by new soulmate-pve binaries)
