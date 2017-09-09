@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.09.18) stretch; urgency=medium
+
+  * Removed pve-qemu-kvm (replaced by new soulmate-pve binaries)
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 09 Sep 2017 01:26:36 +0000
+
 soulmate-meta (9.1+soulmate17.09.17) stretch; urgency=medium
 
   * fixed sm-inf-virt 
