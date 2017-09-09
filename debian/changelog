@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.09.16) stretch; urgency=medium
+
+  * pve related packages moved out of sm-inf-virt
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 09 Sep 2017 00:00:55 +0000
+
 soulmate-meta (9.1+soulmate17.09.15) stretch; urgency=medium
 
   * Force installation of soulmate-pve before sm-inf-virt 

@@ -141,7 +141,7 @@ Description: Soulmate generic desktop system
 
 Package: sm-inf-virt
 Architecture: any
-Depends: aurex-virtualbox-5.1, pve-qemu-system-x86 [amd64], libvirt-daemon-system, libvirt-clients, pve-qemu-kvm, virtinst, virt-manager, spice-client-gtk, gir1.2-spice-client-gtk-3.0, virt-viewer, ssh-askpass-gnome, python-guestfs
+Depends: aurex-virtualbox-5.1, libvirt-daemon-system, libvirt-clients, pve-qemu-kvm, virtinst, virt-manager, spice-client-gtk, gir1.2-spice-client-gtk-3.0, virt-viewer, ssh-askpass-gnome, python-guestfs
 Description: Soulmate-inf virtualization packages
  Virtualization required packages for soulmate-inf metapackage
 
@@ -161,7 +161,7 @@ Description: Soulmate-inf miscellaneous tools
 
 Package: soulmate-inf
 Architecture: any
-Depends: soulmate-pve [amd64], sm-inf-virt, sm-inf-dev, sm-inf-misc
+Depends: soulmate-pve [amd64], pve-qemu-system-x86 [amd64], pve-qemu-kvm, sm-inf-virt, sm-inf-dev, sm-inf-misc
 Description: Soulmate for Ciclos Informatica
  This (meta)package depends on all of the packages required for
  using soulmate desktop in Ciclos Formativos Informatica
