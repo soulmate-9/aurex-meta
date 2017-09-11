@@ -1413,6 +1413,7 @@ libqmi-glib5
 libqmi-proxy
 libqpdf17
 libqt4-dbus
+libqt4-network
 libqt4-opengl
 libqt4-svg
 libqt4-xml
@@ -2216,6 +2217,9 @@ zip
 zipalign
 zlib1g:amd64
 zlib1g:i386
+# -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu xenial
+unetbootin
+unetbootin-translations
 # -> http://localhost/soulmate stretch
 ausias-classroom-student
 ausias-classroom-teacher

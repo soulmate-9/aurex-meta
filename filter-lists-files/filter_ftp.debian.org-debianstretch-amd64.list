@@ -1308,6 +1308,7 @@ libqmi-glib5        install
 libqmi-proxy        install
 libqpdf17        install
 libqt4-dbus        install
+libqt4-network        install
 libqt4-opengl        install
 libqt4-svg        install
 libqt4-xml        install
