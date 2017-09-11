@@ -278,7 +278,7 @@ update_lists(){
 		TMP_FILE="$(tempfile)"
 		: > /tmp/aurex-meta-metapackages-$a.log
 		for s in $SEED_LIST ; do
-			echo "Processing seed: $s"
+			echo "Arch: $a. Processing seed: $s"
 #			meta="$(sed -ne "/^$s /s%^.* %%p" metapackage-map)"
 			meta="$s"
 			if [ "$meta" ] && [ "${meta%%-*}" != "exclude" ] ; then
