@@ -172,4 +172,83 @@ Depends: libvirt-daemon-system, libvirt-clients, virtinst, virt-manager, spice-c
 Description: Soulmate kvm virtualization packages
  KVM virtualization required packages for soulmate
 
+Package: sm-ausias-netstation
+Architecture: all
+Depends: unattended-upgrades, ausias-cc-default-settings
+Description: Soulmate addons for Ausias March Intranet
+ This seed provides addons to soulmate desktop environment
+ for network workstations in Ausias March Intranet
+
+Package: sm-ausias-printstation
+Architecture: all
+Depends: ausias-papercut-client, ausias-printers-centro
+Description: Soulmate printing addons for Ausias March Intranet
+ This seed provides addons to soulmate desktop environment
+ to allow printing in Ausias March Intranet
+
+Package: soulmate-smr
+Architecture: all
+Depends: soulmate-inf 
+Description: Soulmate smr extensions
+ This (meta)package depends on the packages for the smr soulmate
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed. 
+ This (meta)package depends on all of the packages required for
+ using soulmate desktop in Ciclos Formativos Informatica
+
+Package: soulmate-asir
+Architecture: all
+Depends: soulmate-inf
+Description: Soulmate asir extensions
+ This (meta)package depends on the packages for the asir soulmate
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed. 
+ This (meta)package depends on all of the packages required for
+ using soulmate desktop in Ciclos Formativos Informatica
+
+Package: soulmate-daw
+Architecture: all
+Depends: soulmate-inf
+Description: Soulmate daw extensions
+ This (meta)package depends on the packages for the daw soulmate
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed. 
+ This (meta)package depends on all of the packages required for
+ using soulmate desktop in Ciclos Formativos Informatica
+
+Package: ausias-classroom-teacher
+Architecture: any
+Depends: sm-ausias-netstation, sm-ausias-printstation
+Description: soulmate classroom teacher extensions
+ This (meta)package depends on the packages for the classroom teacher soulmate
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-classroom-student
+Architecture: any
+Depends: sm-ausias-netstation, sm-ausias-printstation
+Description: soulmate classroom student extensions
+ This (meta)package depends on the packages for the classroom student soulmate
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-desktop
+Architecture: any
+Depends: soulmate-desktop, sm-ausias-netstation, sm-ausias-printstation
+Description: The CIPFP Ausias March intranet desktop
+ This (meta)package extends soulmate desktop to provide acces to the CIPFP
+ Ausias March intranet services (auth, shares, printing).
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
 
