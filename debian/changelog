@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.09.21) stretch; urgency=medium
+
+  * Added unetbootin sources
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 11 Sep 2017 11:12:20 +0000
+
 soulmate-meta (9.1+soulmate17.09.20) stretch; urgency=medium
 
   * Added sm-ausias-netstation and sm-ausias-printstation metapackages
