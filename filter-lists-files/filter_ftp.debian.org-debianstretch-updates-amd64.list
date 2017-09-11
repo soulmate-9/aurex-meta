@@ -1,0 +1,11 @@
+bind9-host        install
+dns-root-data        install
+dnsutils        install
+libbind9-140        install
+libdns-export162        install
+libdns162        install
+libisc-export160        install
+libisc160        install
+libisccc140        install
+libisccfg140        install
+liblwres141        install

@@ -1,0 +1,7 @@
+Name: filter_cloud.ausiasmarch.net-aurexxenial-amd64
+Method: http://cloud.ausiasmarch.net/aurex
+Suite: xenial
+Components:  contrib>contrib import>contrib jessie>contrib main>contrib non-free>contrib pve-no-subscription>contrib stretch>contrib upstream>contrib
+Architectures: amd64 source
+FilterList: purge filter_cloud.ausiasmarch.net-aurexxenial-amd64.list
+
