@@ -65,11 +65,10 @@ Description: Soulmate standard system
 
 Package: sm-meta-debian-core
 Architecture: all
-Conflicts: mint-meta-debian, mint-meta-common, mint-meta-debian-core
+Conflicts: mint-meta-debian, mint-meta-common, mint-meta-debian-core, lightdm, lightdm-gtk-greeter
 Replaces: mint-meta-debian, mint-meta-common, mint-meta-debian-core
 Provides: mint-meta-debian-core
 Depends: soulmate-keyring, mint-info, mint-artwork-debian, debian-system-adjustments, fortunes-husse, grub2-theme-mint, mint-search-addon, mint-translations, mintbackup, mintinstall, mintinstall-icons, mintnanny, mintsystem, mintupdate, mint-mirrors, mintsources, mintupload, p7zip, command-not-found, inxi, fonts-noto, mdm, mint-mdm-themes
-Conflicts: lightdm, lightdm-gtk-greeter
 Description: Core soulmate packages
  Core soulmate packages
 
