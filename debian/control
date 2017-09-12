@@ -35,7 +35,7 @@ Description: Soulmate minimal system
 
 Package: sm-standard-net
 Architecture: all
-Depends:  sm-minimal-net, tcpdump, dnsutils, ftp, iptables, rsync, wget, axel, netcat, nfs-common, smbclient, cifs-utils, glusterfs-client, sshfs, traceroute, ntpdate, ldap-utils
+Depends:  sm-minimal-net, tcpdump, dnsutils, ftp, iptables, rsync, wget, axel, netcat, nfs-common, smbclient, cifs-utils, glusterfs-client, sshfs, traceroute, ntpdate, ldap-utils, screen
 Recommends: openssh-client, curl
 Description: Standard soulmate network tools
  Standard set of packages related to networking required to run soulmate
