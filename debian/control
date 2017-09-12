@@ -48,7 +48,7 @@ Description: Standard soulmate filesystem tools
 
 Package: sm-standard-misc
 Architecture: all
-Depends: sm-minimal-misc, zip, unzip, unrar, arj, lhasa, cabextract, rpm, squashfs-tools, debconf-utils, ophcrack-cli
+Depends: sm-minimal-misc, zip, unzip, unrar, arj, lhasa, cabextract, rpm, squashfs-tools, debconf-utils, ophcrack-cli, tree, vim, bash-completion
 Recommends: rar, unace, p7zip-full, p7zip-rar, sharutils, uudeview, mpack, cabextract
 Description: Standard soulmate miscellaneous tools
  Standard set of miscellaneous packages required to run soulmate
@@ -68,7 +68,8 @@ Architecture: all
 Conflicts: mint-meta-debian, mint-meta-common, mint-meta-debian-core
 Replaces: mint-meta-debian, mint-meta-common, mint-meta-debian-core
 Provides: mint-meta-debian-core
-Depends: soulmate-keyring, mint-info, mint-artwork-debian, debian-system-adjustments, fortunes-husse, grub2-theme-mint, mint-search-addon, mint-translations, mintbackup, mintinstall, mintinstall-icons, mintnanny, mintsystem, mintupdate, mint-mirrors, mintsources, mintupload, mintwelcome, p7zip, command-not-found, inxi, fonts-noto
+Depends: soulmate-keyring, mint-info, mint-artwork-debian, debian-system-adjustments, fortunes-husse, grub2-theme-mint, mint-search-addon, mint-translations, mintbackup, mintinstall, mintinstall-icons, mintnanny, mintsystem, mintupdate, mint-mirrors, mintsources, mintupload, p7zip, command-not-found, inxi, fonts-noto, mdm, mint-mdm-themes
+Conflicts: lightdm, lightdm-gtk-greeter
 Description: Core soulmate packages
  Core soulmate packages
 
@@ -77,7 +78,7 @@ Architecture: all
 Conflicts: mint-meta-debian-mate
 Replaces: mint-meta-debian-mate
 Provides: mint-meta-debian-mate
-Depends: sm-meta-debian-core, samba, samba-common-bin, smbclient, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, gdebi, pidgin, thunderbird, fonts-droid|fonts-droid-fallback, fonts-liberation, mintstick, hexchat, xdg-user-dirs-gtk, caja, mate-control-center, mate-desktop, mate-icon-theme, mate-menus, mate-notification-daemon, mate-panel, mate-session-manager, mate-settings-daemon, marco, mint-artwork-mate, mate-terminal, mate-media, python-mate-menu, mintmenu, mintdesktop, caja-folder-color-switcher, mate-user-guide
+Depends: sm-meta-debian-core, samba, samba-common-bin, smbclient, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, gdebi, pidgin, thunderbird, fonts-droid|fonts-droid-fallback, fonts-liberation, mintstick, hexchat, xdg-user-dirs-gtk, caja, caja-extensions-common, caja-open-terminal, mate-control-center, mate-desktop, mate-icon-theme, mate-menus, mate-notification-daemon, mate-panel, mate-session-manager, mate-settings-daemon, marco, mint-artwork-mate, mate-terminal, mate-media, python-mate-menu, mintmenu, mintdesktop, caja-folder-color-switcher, mate-user-guide, mint-themes, mint-backgrounds-sarah
 Description: Set of packages required to run MATE
  Set of packages required to run the MATE Desktop Environment.
 
@@ -96,7 +97,13 @@ Package: sm-fonts
 Architecture: all
 Recommends: fonts-noto-cjk, fonts-noto-hinted, fonts-nanum, fonts-opensymbol, fonts-liberation, fonts-kacst-one, fonts-khmeros-core, fonts-lao, fonts-liberation, fonts-nanum, fonts-opensymbol, fonts-takao-pgothic, fonts-thai-tlwg, ttf-indic-fonts-core, ttf-punjabi-fonts, ttf-ubuntu-font-family, ttf-wqy-microhei, ttf-dejavu-core, ttf-freefont
 Description: Soulmate font packages
- Font packages required to tun soulmate desktop
+ Font packages required to run soulmate desktop
+
+Package: sm-extra-fonts
+Architecture: all
+Recommends: fonts-cantarell, fonts-gubbi, fonts-indic, fonts-knda, fonts-lklug-sinhala, fonts-lohit-orya, fonts-navilu, fonts-orya, fonts-orya-extra, fonts-pagul, fonts-sil-padauk, fonts-tibetan-machine
+Description: Soulmate extra font packages
+ Extra font packages for soulmate desktop
 
 Package: sm-office
 Architecture: all
@@ -106,7 +113,7 @@ Description: Soulmate office packages
 
 Package: sm-multimedia
 Architecture: all
-Recommends: libdvd-pkg, vlc, gimp, gimp-data, gimp-data-extras, inkscape, sozi, cheese
+Recommends: libdvd-pkg, vlc, gimp, gimp-data, gimp-data-extras, inkscape, sozi, cheese, media-player-info, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio
 Description: Soulmate mulimedia packages
  Multimedia packages required to tun soulmate desktop
 
@@ -130,8 +137,8 @@ Description: Soulmate supported packages
 
 Package: soulmate-desktop
 Architecture: all
-Depends: sm-meta-debian-core, sm-meta-debian-mate, sm-fonts, sm-office, sm-multimedia, sm-inet, sm-java, zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi
-Recommends: file-roller, hplip, xsane, shutter, libgoo-canvas-perl, wine, winetricks, network-manager-openvpn, network-manager-openvpn-gnome, gparted, ophcrack, pm-utils, boot-repair
+Depends: sm-meta-debian-core, sm-meta-debian-mate, sm-fonts, sm-extra-fonts, sm-office, sm-multimedia, sm-inet, sm-java, zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi, system-config-printer
+Recommends: file-roller, hplip, xsane, shutter, libgoo-canvas-perl, wine, winetricks, network-manager-openvpn, network-manager-openvpn-gnome, gparted, ophcrack, pm-utils, boot-repair, gnome-font-viewer
 Description: Soulmate generic desktop system
  This (meta)package depends on all of the packages for a generic
  soulmate desktop system
