@@ -34,9 +34,7 @@ sublimetext-2-installer
 sublimetext-installer
 # -> http://download.proxmox.com/debian/pve jessie
 pve-headers-4.4.10-1-pve
-pve-headers-4.4.76-1-pve
 pve-kernel-4.4.10-1-pve
-pve-kernel-4.4.76-1-pve
 # -> http://download.proxmox.com/debian/pve stretch
 corosync
 criu
@@ -520,6 +518,7 @@ gstreamer1.0-plugins-good
 gstreamer1.0-pulseaudio
 gstreamer1.0-x
 gtk-update-icon-cache
+gtk2-engines
 gtk2-engines-pixbuf
 guile-2.0-libs
 gvfs
@@ -1934,6 +1933,7 @@ make
 man-db
 manpages
 manpages-dev
+mate-themes
 mawk
 mc
 mc-data
@@ -2350,6 +2350,7 @@ sm-standard-fs
 sm-standard-misc
 sm-standard-net
 sm-supported
+soulmate-artwork
 soulmate-asir
 soulmate-daw
 soulmate-default-settings
@@ -2362,6 +2363,7 @@ soulmate-minimal
 soulmate-pve
 soulmate-smr
 soulmate-standard
+soulmate-themes
 soulmate-transmute
 xresprobe
 # -> http://packages.linuxmint.com betsy
@@ -2373,6 +2375,7 @@ caja-open-terminal
 cinnamon-desktop-data
 cinnamon-session
 cinnamon-session-common
+dmz-cursor-theme
 firefox
 firefox-l10n-ca
 firefox-l10n-en-gb
@@ -2422,7 +2425,6 @@ mate-terminal-common
 mate-user-guide
 mdm
 mint-artwork-debian
-mint-artwork-mate
 mint-backgrounds-debian
 mint-backgrounds-sarah
 mint-backgrounds-serena

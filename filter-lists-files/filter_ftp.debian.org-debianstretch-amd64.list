@@ -411,6 +411,7 @@ gstreamer1.0-plugins-good        install
 gstreamer1.0-pulseaudio        install
 gstreamer1.0-x        install
 gtk-update-icon-cache        install
+gtk2-engines        install
 gtk2-engines-pixbuf        install
 guile-2.0-libs        install
 gvfs        install
@@ -1825,6 +1826,7 @@ make        install
 man-db        install
 manpages        install
 manpages-dev        install
+mate-themes        install
 mawk        install
 mc        install
 mc-data        install

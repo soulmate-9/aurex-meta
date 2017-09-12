@@ -6,6 +6,7 @@ caja-open-terminal        install
 cinnamon-desktop-data        install
 cinnamon-session        install
 cinnamon-session-common        install
+dmz-cursor-theme        install
 firefox        install
 firefox-l10n-ca        install
 firefox-l10n-en-gb        install
@@ -55,7 +56,6 @@ mate-terminal-common        install
 mate-user-guide        install
 mdm        install
 mint-artwork-debian        install
-mint-artwork-mate        install
 mint-backgrounds-debian        install
 mint-backgrounds-sarah        install
 mint-backgrounds-serena        install

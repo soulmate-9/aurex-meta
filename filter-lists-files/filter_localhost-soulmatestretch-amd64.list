@@ -30,6 +30,7 @@ sm-standard-fs        install
 sm-standard-misc        install
 sm-standard-net        install
 sm-supported        install
+soulmate-artwork        install
 soulmate-asir        install
 soulmate-daw        install
 soulmate-default-settings        install
@@ -42,5 +43,6 @@ soulmate-minimal        install
 soulmate-pve        install
 soulmate-smr        install
 soulmate-standard        install
+soulmate-themes        install
 soulmate-transmute        install
 xresprobe        install
