@@ -136,7 +136,7 @@ Description: Soulmate supported packages
 
 Package: soulmate-desktop
 Architecture: all
-Depends: sm-meta-debian-core, sm-meta-debian-mate, sm-fonts, sm-extra-fonts, sm-office, sm-multimedia, sm-inet, sm-java, zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi, system-config-printer
+Depends: soulmate-default-setting, sm-meta-debian-core, sm-meta-debian-mate, sm-fonts, sm-extra-fonts, sm-office, sm-multimedia, sm-inet, sm-java, zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi, system-config-printer
 Recommends: file-roller, hplip, xsane, shutter, libgoo-canvas-perl, wine, winetricks, network-manager-openvpn, network-manager-openvpn-gnome, gparted, ophcrack, pm-utils, boot-repair, gnome-font-viewer
 Description: Soulmate generic desktop system
  This (meta)package depends on all of the packages for a generic

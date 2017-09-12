@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.09.24) stretch; urgency=medium
+
+  * Added dependency on soulmate-default-setting
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 12 Sep 2017 00:54:27 +0000
+
 soulmate-meta (9.1+soulmate17.09.23) stretch; urgency=medium
 
   * Minor additions
