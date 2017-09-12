@@ -1,6 +1,7 @@
 ausias-classroom-student        install
 ausias-classroom-teacher        install
 ausias-desktop        install
+debian-system-adjustments        install
 desktop-base        install
 distro-transmute        install
 fusioninventory-agent        install
@@ -10,6 +11,7 @@ python-webkit        install
 python3-germinate        install
 sm-ausias-netstation        install
 sm-ausias-printstation        install
+sm-extra-fonts        install
 sm-fonts        install
 sm-inet        install
 sm-inf-dev        install
@@ -29,6 +31,7 @@ sm-standard-net        install
 sm-supported        install
 soulmate-asir        install
 soulmate-daw        install
+soulmate-default-settings        install
 soulmate-desktop        install
 soulmate-gtk-bookmarks-settings        install
 soulmate-inf        install

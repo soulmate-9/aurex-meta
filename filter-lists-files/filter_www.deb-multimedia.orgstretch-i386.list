@@ -1,5 +1,6 @@
 gstreamer1.0-libav        install
 gstreamer1.0-plugins-bad        install
+gstreamer1.0-plugins-ugly        install
 libaacs0        install
 libasound2-plugins        install
 libass9        install

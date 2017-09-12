@@ -5,6 +5,7 @@ chromium-l10n        install
 chromium-shell        install
 chromium-widevine        install
 file        install
+gir1.2-soup-2.4        install
 git        install
 git-man        install
 git-svn        install
