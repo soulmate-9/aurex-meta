@@ -77,7 +77,7 @@ Architecture: all
 Conflicts: mint-meta-debian-mate
 Replaces: mint-meta-debian-mate
 Provides: mint-meta-debian-mate
-Depends: sm-meta-debian-core, samba, samba-common-bin, smbclient, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, gdebi, pidgin, thunderbird, fonts-droid|fonts-droid-fallback, fonts-liberation, mintstick, hexchat, xdg-user-dirs-gtk, caja, caja-extensions-common, caja-open-terminal, mate-control-center, mate-desktop, mate-icon-theme, mate-menus, mate-notification-daemon, mate-panel, mate-session-manager, mate-settings-daemon, marco, mint-artwork-mate, mate-terminal, mate-media, python-mate-menu, mintmenu, mintdesktop, caja-folder-color-switcher, mate-user-guide, mint-themes, mint-backgrounds-sarah
+Depends: sm-meta-debian-core, samba, samba-common-bin, smbclient, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, gdebi, pidgin, thunderbird, fonts-droid|fonts-droid-fallback, fonts-liberation, mintstick, hexchat, xdg-user-dirs-gtk, caja, caja-extensions-common, caja-open-terminal, mate-control-center, mate-desktop, mate-icon-theme, mate-menus, mate-notification-daemon, mate-panel, mate-session-manager, mate-settings-daemon, marco, soulmate-artwork, mate-terminal, mate-media, python-mate-menu, mintmenu, mintdesktop, caja-folder-color-switcher, mate-user-guide, mint-themes, mint-backgrounds-sarah, soulmate-themes
 Description: Set of packages required to run MATE
  Set of packages required to run the MATE Desktop Environment.
 
@@ -136,7 +136,7 @@ Description: Soulmate supported packages
 
 Package: soulmate-desktop
 Architecture: all
-Depends: soulmate-default-settings, sm-meta-debian-core, sm-meta-debian-mate, sm-fonts, sm-extra-fonts, sm-office, sm-multimedia, sm-inet, sm-java, zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi, system-config-printer
+Depends: soulmate-minimal, soulmate-standard, soulmate-default-settings, sm-meta-debian-core, sm-meta-debian-mate, sm-fonts, sm-extra-fonts, sm-office, sm-multimedia, sm-inet, sm-java, zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi, system-config-printer
 Recommends: file-roller, hplip, xsane, shutter, libgoo-canvas-perl, wine, winetricks, network-manager-openvpn, network-manager-openvpn-gnome, gparted, ophcrack, pm-utils, boot-repair, gnome-font-viewer
 Description: Soulmate generic desktop system
  This (meta)package depends on all of the packages for a generic
@@ -167,7 +167,7 @@ Description: Soulmate-inf miscellaneous tools
 
 Package: soulmate-inf
 Architecture: all
-Depends: sm-inf-virt, sm-inf-dev, sm-inf-misc
+Depends: sm-inf-virt, sm-inf-dev, sm-inf-misc, soulmate-desktop
 Description: Soulmate for Ciclos Informatica
  This (meta)package depends on all of the packages required for
  using soulmate desktop in Ciclos Formativos Informatica
