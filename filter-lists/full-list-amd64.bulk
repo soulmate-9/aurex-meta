@@ -32,6 +32,11 @@ netbeans-8.1-installer
 netbeans-installer
 sublimetext-2-installer
 sublimetext-installer
+# -> http://download.proxmox.com/debian/pve jessie
+pve-headers-4.4.10-1-pve
+pve-headers-4.4.76-1-pve
+pve-kernel-4.4.10-1-pve
+pve-kernel-4.4.76-1-pve
 # -> http://download.proxmox.com/debian/pve stretch
 corosync
 criu
@@ -75,7 +80,6 @@ pve-docs
 pve-firewall
 pve-firmware
 pve-ha-manager
-pve-headers-4.10.11-1-pve
 pve-kernel-4.10.17-3-pve
 pve-libspice-server1
 pve-manager
