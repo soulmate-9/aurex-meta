@@ -81,7 +81,7 @@ Description: software-properties-gtk soulmate package
 
 Package: sm-caja-base
 Architecture: all
-Depends: caja (=1.18.3-2+soulmate1.is.1.16.6+1.1), caja-common (=1.18.3-2+soulmate1.is.1.16.6+1.1), caja-extensions-common (=1.16.0-1), caja-open-terminal (=1.18.1-2+soulmate.is.1.16.0+1.1), gir1.2-caja (=1.18.3-2+soulmate1.is.1.16.6+1.1), libcaja-extension1 (=1.18.3-2+soulmate1.is.1.16.6+1.1), python-caja (=1.18.1-2+soulmate.is.1.16.0+1.1), python-caja-common (=1.18.1-2+soulmate.is.1.16.0+1.1)
+Depends: caja (=1.18.3-2+soulmate1.is.1.16.6+1.1), caja-common (=1.18.3-2+soulmate1.is.1.16.6+1.1), caja-extensions-common (=1.18.1-2+soulmate.is.1.16.0+1.1), caja-open-terminal (=1.18.1-2+soulmate.is.1.16.0+1.1), gir1.2-caja (=1.18.3-2+soulmate1.is.1.16.6+1.1), libcaja-extension1 (=1.18.3-2+soulmate1.is.1.16.6+1.1), python-caja (=1.18.0-2+soulmate.is.1.16.0+1.1), python-caja-common (=1.18.0-2+soulmate.is.1.16.0+1.1)
 Description: Caja packages required to run soulmate
  Set of specific versions of caja packages required to run soulmate
  Desktop Environment.
