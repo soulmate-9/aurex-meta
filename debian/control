@@ -72,12 +72,29 @@ Depends: soulmate-keyring, mint-info, mint-artwork-debian, debian-system-adjustm
 Description: Core soulmate packages
  Core soulmate packages
 
+Package: sm-software-properties
+Architecture: all
+Depends: software-properties-gtk, python-apt
+Conflicts: mintsources
+Description: software-properties-gtk soulmate package
+ Soulmate compatible software-properties-gtk
+
+Package: sm-caja-base
+Architecture: all
+Depends: caja (=1.16.6-1), caja-common (=1.16.6-1), caja-extensions-common (=1.16.0-1), caja-open-terminal (=1.16.0-1), gir1.2-caja (=1.16.6-1), libcaja-extension1 (=1.16.6-1), python-caja (=1.16.0-1), python-caja-common (=1.16.0-1)
+Description: Caja packages required to run soulmate
+ Set of specific versions of caja packages required to run soulmate
+ Desktop Environment.
+ .
+ This package prevents for upgrade caja packages to avoid Desktop redraw
+ issues experimented with version 1.18.3-1+betsy
+ 
 Package: sm-meta-debian-mate
 Architecture: all
 Conflicts: mint-meta-debian-mate
 Replaces: mint-meta-debian-mate
 Provides: mint-meta-debian-mate
-Depends: sm-meta-debian-core, samba, samba-common-bin, smbclient, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, gdebi, pidgin, thunderbird, fonts-droid|fonts-droid-fallback, fonts-liberation, mintstick, hexchat, xdg-user-dirs-gtk, caja, caja-extensions-common, caja-open-terminal, mate-control-center, mate-desktop, mate-icon-theme, mate-menus, mate-notification-daemon, mate-panel, mate-session-manager, mate-settings-daemon, marco, soulmate-artwork, mate-terminal, mate-media, python-mate-menu, mintmenu, mintdesktop, caja-folder-color-switcher, mate-user-guide, mint-themes, mint-backgrounds-sarah, soulmate-themes
+Depends: sm-meta-debian-core, samba, samba-common-bin, smbclient, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, gdebi, pidgin, thunderbird, fonts-droid|fonts-droid-fallback, fonts-liberation, mintstick, hexchat, xdg-user-dirs-gtk, sm-caja-base, mate-control-center, mate-desktop, mate-icon-theme, mate-menus, mate-notification-daemon, mate-panel, mate-session-manager, mate-settings-daemon, marco, soulmate-artwork, mate-terminal, mate-media, python-mate-menu, mintmenu, mintdesktop, caja-folder-color-switcher, mate-user-guide, mint-themes, mint-backgrounds-sarah, soulmate-themes
 Description: Set of packages required to run MATE
  Set of packages required to run the MATE Desktop Environment.
 

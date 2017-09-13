@@ -1,3 +1,10 @@
+soulmate-meta (9.1+soulmate17.09.29) stretch; urgency=medium
+
+  * Added sm-caja-base binary package to force explicit version number in
+    caja related packages to fix desktop redrawn issues with v. 1.18 (betsy)
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 13 Sep 2017 11:36:53 +0000
+
 soulmate-meta (9.1+soulmate17.09.28) stretch; urgency=medium
 
   * Added screen
