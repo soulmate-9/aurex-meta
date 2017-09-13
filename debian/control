@@ -25,7 +25,7 @@ Description: Minimal soulmate miscellaneous tools
 
 Package: soulmate-minimal
 Architecture: any
-Depends: sm-minimal-net, sm-minimal-fs, sm-minimal-misc
+Depends: sm-minimal-net (= ${binary:Version}), sm-minimal-fs (= ${binary:Version}), sm-minimal-misc (= ${binary:Version})
 Description: Soulmate minimal system
  This (meta)package depends on all of the packages for a
  minimal soulmate system
@@ -35,27 +35,27 @@ Description: Soulmate minimal system
 
 Package: sm-standard-net
 Architecture: all
-Depends:  sm-minimal-net, tcpdump, dnsutils, ftp, iptables, rsync, wget, axel, netcat, nfs-common, smbclient, cifs-utils, glusterfs-client, sshfs, traceroute, ntpdate, ldap-utils, screen
+Depends:  sm-minimal-net (= ${binary:Version}), tcpdump, dnsutils, ftp, iptables, rsync, wget, axel, netcat, nfs-common, smbclient, cifs-utils, glusterfs-client, sshfs, traceroute, ntpdate, ldap-utils, screen
 Recommends: openssh-client, curl
 Description: Standard soulmate network tools
  Standard set of packages related to networking required to run soulmate
 
 Package: sm-standard-fs
 Architecture: all
-Depends: sm-minimal-fs, dosfstools, parted, gdisk, mc, cdrdao
+Depends: sm-minimal-fs (= ${binary:Version}), dosfstools, parted, gdisk, mc, cdrdao
 Description: Standard soulmate filesystem tools
  Standard set of packages related to filesystem required to run soulmate
 
 Package: sm-standard-misc
 Architecture: all
-Depends: sm-minimal-misc, zip, unzip, unrar, arj, lhasa, cabextract, rpm, squashfs-tools, debconf-utils, ophcrack-cli, tree, vim, bash-completion
+Depends: sm-minimal-misc (= ${binary:Version}), zip, unzip, unrar, arj, lhasa, cabextract, rpm, squashfs-tools, debconf-utils, ophcrack-cli, tree, vim, bash-completion
 Recommends: rar, unace, p7zip-full, p7zip-rar, sharutils, uudeview, mpack, cabextract
 Description: Standard soulmate miscellaneous tools
  Standard set of miscellaneous packages required to run soulmate
 
 Package: soulmate-standard
 Architecture: any
-Depends: sm-standard-net, sm-standard-fs, sm-standard-misc
+Depends: sm-standard-net (= ${binary:Version}), sm-standard-fs (= ${binary:Version}), sm-standard-misc (= ${binary:Version})
 Description: Soulmate standard system
  This (meta)package depends on all of the packages in the standard
  soulmate system
@@ -94,13 +94,13 @@ Architecture: all
 Conflicts: mint-meta-debian-mate
 Replaces: mint-meta-debian-mate
 Provides: mint-meta-debian-mate
-Depends: sm-meta-debian-core, samba, samba-common-bin, smbclient, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, gdebi, pidgin, thunderbird, fonts-droid|fonts-droid-fallback, fonts-liberation, mintstick, hexchat, xdg-user-dirs-gtk, sm-caja-base, mate-control-center, mate-desktop, mate-icon-theme, mate-menus, mate-notification-daemon, mate-panel, mate-session-manager, mate-settings-daemon, marco, soulmate-artwork, mate-terminal, mate-media, python-mate-menu, mintmenu, mintdesktop, caja-folder-color-switcher, mate-user-guide, mint-themes, mint-backgrounds-sarah, soulmate-themes
+Depends: sm-meta-debian-core (= ${binary:Version}), samba, samba-common-bin, smbclient, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, gdebi, pidgin, thunderbird, fonts-droid|fonts-droid-fallback, fonts-liberation, mintstick, hexchat, xdg-user-dirs-gtk, sm-caja-base (= ${binary:Version}), mate-control-center, mate-desktop, mate-icon-theme, mate-menus, mate-notification-daemon, mate-panel, mate-session-manager, mate-settings-daemon, marco, soulmate-artwork, mate-terminal, mate-media, python-mate-menu, mintmenu, mintdesktop, caja-folder-color-switcher, mate-user-guide, mint-themes, mint-backgrounds-sarah, soulmate-themes
 Description: Set of packages required to run MATE
  Set of packages required to run the MATE Desktop Environment.
 
 Package: debian-mate-default-settings
 Architecture: all
-Depends: sm-meta-debian-mate
+Depends: sm-meta-debian-mate (= ${binary:Version})
 Description: Override default Debian settings for MATE
  This package replaces Debian settings for MATE
 
@@ -153,7 +153,7 @@ Description: Soulmate supported packages
 
 Package: soulmate-desktop
 Architecture: all
-Depends: soulmate-minimal, soulmate-standard, soulmate-default-settings, sm-meta-debian-core, sm-meta-debian-mate, sm-fonts, sm-extra-fonts, sm-office, sm-multimedia, sm-inet, sm-java, zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi, system-config-printer
+Depends: soulmate-minimal (= ${binary:Version}), soulmate-standard (= ${binary:Version}), soulmate-default-settings, sm-meta-debian-core (= ${binary:Version}), sm-meta-debian-mate (= ${binary:Version}), sm-fonts (= ${binary:Version}), sm-extra-fonts (= ${binary:Version}), sm-office (= ${binary:Version}), sm-multimedia (= ${binary:Version}), sm-inet (= ${binary:Version}), sm-java (= ${binary:Version}), zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi, system-config-printer
 Recommends: file-roller, hplip, xsane, shutter, libgoo-canvas-perl, wine, winetricks, network-manager-openvpn, network-manager-openvpn-gnome, gparted, ophcrack, pm-utils, boot-repair, gnome-font-viewer
 Description: Soulmate generic desktop system
  This (meta)package depends on all of the packages for a generic
@@ -184,7 +184,7 @@ Description: Soulmate-inf miscellaneous tools
 
 Package: soulmate-inf
 Architecture: all
-Depends: sm-inf-virt, sm-inf-dev, sm-inf-misc, soulmate-desktop
+Depends: sm-inf-virt (= ${binary:Version}), sm-inf-dev (= ${binary:Version}), sm-inf-misc (= ${binary:Version}), soulmate-desktop (= ${binary:Version})
 Description: Soulmate for Ciclos Informatica
  This (meta)package depends on all of the packages required for
  using soulmate desktop in Ciclos Formativos Informatica
@@ -211,7 +211,7 @@ Description: Soulmate printing addons for Ausias March Intranet
 
 Package: soulmate-smr
 Architecture: all
-Depends: soulmate-inf 
+Depends: soulmate-inf (= ${binary:Version})
 Description: Soulmate smr extensions
  This (meta)package depends on the packages for the smr soulmate
  desktop system
@@ -223,7 +223,7 @@ Description: Soulmate smr extensions
 
 Package: soulmate-asir
 Architecture: all
-Depends: soulmate-inf
+Depends: soulmate-inf (= ${binary:Version})
 Description: Soulmate asir extensions
  This (meta)package depends on the packages for the asir soulmate
  desktop system
@@ -235,7 +235,7 @@ Description: Soulmate asir extensions
 
 Package: soulmate-daw
 Architecture: all
-Depends: soulmate-inf
+Depends: soulmate-inf (= ${binary:Version})
 Description: Soulmate daw extensions
  This (meta)package depends on the packages for the daw soulmate
  desktop system
@@ -247,7 +247,7 @@ Description: Soulmate daw extensions
 
 Package: ausias-classroom-teacher
 Architecture: any
-Depends: sm-ausias-netstation, sm-ausias-printstation
+Depends: sm-ausias-netstation (= ${binary:Version}), sm-ausias-printstation (= ${binary:Version})
 Description: soulmate classroom teacher extensions
  This (meta)package depends on the packages for the classroom teacher soulmate
  desktop system
@@ -257,7 +257,7 @@ Description: soulmate classroom teacher extensions
 
 Package: ausias-classroom-student
 Architecture: any
-Depends: sm-ausias-netstation, sm-ausias-printstation
+Depends: sm-ausias-netstation (= ${binary:Version}), sm-ausias-printstation (= ${binary:Version})
 Description: soulmate classroom student extensions
  This (meta)package depends on the packages for the classroom student soulmate
  desktop system
@@ -267,7 +267,7 @@ Description: soulmate classroom student extensions
 
 Package: ausias-desktop
 Architecture: any
-Depends: soulmate-desktop, sm-ausias-netstation, sm-ausias-printstation
+Depends: soulmate-desktop (= ${binary:Version}), sm-ausias-netstation (= ${binary:Version}), sm-ausias-printstation (= ${binary:Version})
 Description: The CIPFP Ausias March intranet desktop
  This (meta)package extends soulmate desktop to provide acces to the CIPFP
  Ausias March intranet services (auth, shares, printing).
