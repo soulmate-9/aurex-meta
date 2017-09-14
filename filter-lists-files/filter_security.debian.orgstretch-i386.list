@@ -13,6 +13,7 @@ imagemagick        install
 imagemagick-6-common        install
 imagemagick-6.q16        install
 libaugeas0        install
+libbluetooth3        install
 libexpat1        install
 libexpat1-dev        install
 libgcrypt20:i386        install
@@ -36,6 +37,8 @@ libsoup2.4-1        install
 libsvn-perl        install
 libsvn1        install
 libwbclient0        install
+libxen-4.8        install
+libxenstore3.0        install
 libxml2        install
 libxml2-utils        install
 lightning        install
@@ -63,5 +66,6 @@ samba-libs        install
 samba-vfs-modules        install
 smbclient        install
 subversion        install
+tcpdump        install
 thunderbird        install
 winbind        install

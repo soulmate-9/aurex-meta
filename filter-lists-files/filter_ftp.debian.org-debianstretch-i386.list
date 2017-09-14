@@ -553,7 +553,6 @@ libbindex-java        install
 libblas-common        install
 libblas3        install
 libblkid1:i386        install
-libbluetooth3        install
 libbluray1        install
 libbonobo2-0        install
 libbonobo2-common        install
@@ -1449,6 +1448,7 @@ libudev1:i386        install
 libudisks2-0        install
 libumfpack5        install
 libunique-1.0-0        install
+libunique-3.0-0        install
 libunistring0:i386        install
 libuniversal-require-perl        install
 libupnp6        install
@@ -1564,8 +1564,6 @@ libxcomposite1        install
 libxcursor1        install
 libxdamage1        install
 libxdmcp6        install
-libxen-4.8        install
-libxenstore3.0        install
 libxerces-c3.1        install
 libxerces2-java        install
 libxext6        install
@@ -1855,6 +1853,7 @@ rpm2cpio        install
 rsync        install
 rsyslog        install
 sane-utils        install
+screen        install
 scrub        install
 seabios        install
 sed        install
@@ -1905,7 +1904,6 @@ tasksel-data        install
 tcl-expect        install
 tcl8.6        install
 tcpd        install
-tcpdump        install
 tdb-tools        install
 testng        install
 tk8.6        install

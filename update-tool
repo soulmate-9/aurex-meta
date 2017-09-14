@@ -278,9 +278,17 @@ update_lists(){
 		TMP_FILE="$(tempfile)"
 		: > /tmp/aurex-meta-metapackages-$a.log
 		for s in $SEED_LIST ; do
+			# each seed may be a comma separated list
+			# each element may contain architecture between brackets []
 			echo "Arch: $a. Processing seed: $s"
 #			meta="$(sed -ne "/^$s /s%^.* %%p" metapackage-map)"
-			meta="$s"
+			meta=""
+			for p in $(echo "$s" |tr "," " "); do
+				tarch="$(echo "$p" |sed -ne "/\[.*\]$/{s%^.*\[%%;s%\]%%;p}")"
+				if [ -z "$tarch" ] || [ "$tarch" = "$a" ] ; then	
+					meta="$meta ${p%[*}"
+				fi
+			done
 			if [ "$meta" ] && [ "${meta%%-*}" != "exclude" ] ; then
 				echo "   Simulate installation of metapackage $meta"
 				#meta_list=$(cat ${s}-${a} ${s}-recommends-${a} |sort -u)

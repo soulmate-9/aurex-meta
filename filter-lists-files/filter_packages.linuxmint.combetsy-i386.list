@@ -1,8 +1,4 @@
-caja        install
-caja-common        install
-caja-extensions-common        install
 caja-folder-color-switcher        install
-caja-open-terminal        install
 cinnamon-desktop-data        install
 cinnamon-session        install
 cinnamon-session-common        install
@@ -13,12 +9,10 @@ firefox-l10n-en-gb        install
 firefox-l10n-es        install
 folder-color-switcher        install
 fortunes-husse        install
-gir1.2-caja        install
 gir1.2-mate-desktop        install
 gir1.2-mate-panel        install
 grub2-theme-mint        install
 iso-flag-png        install
-libcaja-extension1        install
 libmarco-private1        install
 libmate-desktop-2-17        install
 libmate-menu2        install
@@ -86,8 +80,6 @@ mintsystem        install
 mintupdate        install
 mintupload        install
 mozo        install
-python-caja        install
-python-caja-common        install
 python-mate-menu        install
 python-sexy        install
 python3-xapp        install
