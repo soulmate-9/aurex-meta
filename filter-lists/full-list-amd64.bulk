@@ -34,7 +34,9 @@ sublimetext-2-installer
 sublimetext-installer
 # -> http://download.proxmox.com/debian/pve jessie
 pve-headers-4.4.10-1-pve
+pve-headers-4.4.76-1-pve
 pve-kernel-4.4.10-1-pve
+pve-kernel-4.4.76-1-pve
 # -> http://download.proxmox.com/debian/pve stretch
 corosync
 criu
@@ -466,7 +468,6 @@ gimp-data-extras
 gir1.2-appindicator3-0.1
 gir1.2-atk-1.0
 gir1.2-freedesktop
-gir1.2-gdkpixbuf-2.0
 gir1.2-glib-2.0
 gir1.2-gnomekeyring-1.0
 gir1.2-gtk-3.0
@@ -937,8 +938,6 @@ libgd-perl
 libgdata-common
 libgdata22
 libgdbm3:amd64
-libgdk-pixbuf2.0-0
-libgdk-pixbuf2.0-common
 libgeoclue-2-0
 libgeoip1
 libgeronimo-interceptor-3.0-spec-java
@@ -1593,7 +1592,6 @@ libsepol1:amd64
 libserd-0-0
 libserf-1-1
 libserializer-java
-libservlet3.1-java
 libsexy2
 libshine3
 libshine3:i386
@@ -1689,7 +1687,6 @@ libtinfo5:amd64
 libtinfo5:i386
 libtirpc1
 libtk8.6
-libtomcat8-java
 libtool
 libtsan0
 libtsk13
@@ -2368,6 +2365,7 @@ soulmate-keyring
 soulmate-kvm
 soulmate-minimal
 soulmate-pve
+soulmate-pve-kernel
 soulmate-smr
 soulmate-standard
 soulmate-themes
@@ -2468,6 +2466,7 @@ chromium-l10n
 chromium-shell
 chromium-widevine
 file
+gir1.2-gdkpixbuf-2.0
 gir1.2-soup-2.4
 git
 git-man
@@ -2483,6 +2482,8 @@ libexpat1:i386
 libgcrypt20:amd64
 libgcrypt20:i386
 libgd3
+libgdk-pixbuf2.0-0
+libgdk-pixbuf2.0-common
 libimage-magick-perl
 libimage-magick-q16-perl
 libmagic-mgc
@@ -2495,12 +2496,14 @@ libmariadbclient18
 libmspack0
 libpq5
 libraw15
+libservlet3.1-java
 libsmbclient
 libsmbclient-dev
 libsoup-gnome2.4-1
 libsoup2.4-1
 libsvn-perl
 libsvn1
+libtomcat8-java
 libwbclient0
 libxen-4.8
 libxenstore3.0

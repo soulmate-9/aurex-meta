@@ -5,6 +5,7 @@ chromium-l10n        install
 chromium-shell        install
 chromium-widevine        install
 file        install
+gir1.2-gdkpixbuf-2.0        install
 gir1.2-soup-2.4        install
 git        install
 git-man        install
@@ -18,6 +19,8 @@ libexpat1        install
 libexpat1-dev        install
 libgcrypt20:i386        install
 libgd3        install
+libgdk-pixbuf2.0-0        install
+libgdk-pixbuf2.0-common        install
 libimage-magick-perl        install
 libimage-magick-q16-perl        install
 libmagic-mgc        install
@@ -30,12 +33,14 @@ libmariadbclient18        install
 libmspack0        install
 libpq5        install
 libraw15        install
+libservlet3.1-java        install
 libsmbclient        install
 libsmbclient-dev        install
 libsoup-gnome2.4-1        install
 libsoup2.4-1        install
 libsvn-perl        install
 libsvn1        install
+libtomcat8-java        install
 libwbclient0        install
 libxen-4.8        install
 libxenstore3.0        install

@@ -353,7 +353,6 @@ gimp-data-extras        install
 gir1.2-appindicator3-0.1        install
 gir1.2-atk-1.0        install
 gir1.2-freedesktop        install
-gir1.2-gdkpixbuf-2.0        install
 gir1.2-glib-2.0        install
 gir1.2-gnomekeyring-1.0        install
 gir1.2-gtk-3.0        install
@@ -780,8 +779,6 @@ libgd-perl        install
 libgdata-common        install
 libgdata22        install
 libgdbm3:i386        install
-libgdk-pixbuf2.0-0        install
-libgdk-pixbuf2.0-common        install
 libgeoclue-2-0        install
 libgeoip1        install
 libgeronimo-interceptor-3.0-spec-java        install
@@ -1359,7 +1356,6 @@ libsepol1:i386        install
 libserd-0-0        install
 libserf-1-1        install
 libserializer-java        install
-libservlet3.1-java        install
 libsexy2        install
 libshine3        install
 libshout3        install
@@ -1438,7 +1434,6 @@ libtimedate-perl        install
 libtinfo5:i386        install
 libtirpc1        install
 libtk8.6        install
-libtomcat8-java        install
 libtool        install
 libtsk13        install
 libtxc-dxtn-s2tc        install

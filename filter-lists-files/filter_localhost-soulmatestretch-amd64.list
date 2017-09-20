@@ -50,6 +50,7 @@ soulmate-keyring        install
 soulmate-kvm        install
 soulmate-minimal        install
 soulmate-pve        install
+soulmate-pve-kernel        install
 soulmate-smr        install
 soulmate-standard        install
 soulmate-themes        install
