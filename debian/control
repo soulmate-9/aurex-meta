@@ -191,7 +191,7 @@ Description: Soulmate for Ciclos Informatica
 
 Package: soulmate-kvm
 Architecture: any
-Depends: libvirt-daemon-system, libvirt-clients, virtinst, virt-manager, spice-client-gtk, gir1.2-spice-client-gtk-3.0, virt-viewer, ssh-askpass-gnome, python-guestfs
+Depends: soulmate-libvirt, virt-manager, spice-client-gtk, gir1.2-spice-client-gtk-3.0, virt-viewer, ssh-askpass-gnome, python-guestfs
 Description: Soulmate kvm virtualization packages
  KVM virtualization required packages for soulmate
 

@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.09.34) stretch; urgency=medium
+
+  * Added soulmate-libvirt
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 21 Sep 2017 11:32:57 +0000
+
 soulmate-meta (9.1+soulmate17.09.33) stretch; urgency=medium
 
   * caja packages version numbers updated 
