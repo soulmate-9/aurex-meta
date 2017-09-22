@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.09.35) stretch; urgency=medium
+
+  * Added gnome-calculator
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 22 Sep 2017 17:53:24 +0000
+
 soulmate-meta (9.1+soulmate17.09.34) stretch; urgency=medium
 
   * Added soulmate-libvirt

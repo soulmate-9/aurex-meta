@@ -145,6 +145,12 @@ Recommends: oracle-java8-installer, oracle-java8-set-default
 Description: Soulmate java packages
  Java packages required to tun soulmate desktop
 
+Package: sm-misc
+Architecture: all
+Recommends: gnome-calculator
+Description: Soulmate desktop miscellaneous tools
+ Miscellaneous packages required to run soulmate desktop
+
 Package: sm-supported
 Architecture: any
 Recommends: oracle-java7-installer, oracle-java8-installer, libvirt-bin, libvirt0, python-libvirt, virt-manager, virt-viewer, virtinst, qemu-kvm, quemu, virtualbox-4.3, virtualbox-5.0, germinate, dropbox, ldap-utils, opera, samba, samba-common-bin, samba-common, smbclient, swat, samba-doc, cifs-utils, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, samba-dbg, self-service-password [amd64], ausias-self-service-password-settings [amd64], ausias-self-service-password-artwork, mypaint, mypaint-data-hires, italc2-master, italc2-client, libitalc2, vsftpd, alien, unetbootin, multisystem, yad, atom
@@ -153,7 +159,7 @@ Description: Soulmate supported packages
 
 Package: soulmate-desktop
 Architecture: all
-Depends: soulmate-minimal (= ${binary:Version}), soulmate-standard (= ${binary:Version}), soulmate-default-settings, sm-meta-debian-core (= ${binary:Version}), sm-meta-debian-mate (= ${binary:Version}), sm-fonts (= ${binary:Version}), sm-extra-fonts (= ${binary:Version}), sm-office (= ${binary:Version}), sm-multimedia (= ${binary:Version}), sm-inet (= ${binary:Version}), sm-java (= ${binary:Version}), zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi, system-config-printer
+Depends: soulmate-minimal (= ${binary:Version}), soulmate-standard (= ${binary:Version}), soulmate-default-settings, sm-meta-debian-core (= ${binary:Version}), sm-meta-debian-mate (= ${binary:Version}), sm-fonts (= ${binary:Version}), sm-extra-fonts (= ${binary:Version}), sm-office (= ${binary:Version}), sm-multimedia (= ${binary:Version}), sm-inet (= ${binary:Version}), sm-java (= ${binary:Version}), sm-misc (= ${binary:Version}), zenity, cups-pdf, pdftk, cups, cups-bsd, cups-client, synaptic, gdebi, system-config-printer
 Recommends: file-roller, hplip, xsane, shutter, libgoo-canvas-perl, wine, winetricks, network-manager-openvpn, network-manager-openvpn-gnome, gparted, ophcrack, pm-utils, boot-repair, gnome-font-viewer
 Description: Soulmate generic desktop system
  This (meta)package depends on all of the packages for a generic
