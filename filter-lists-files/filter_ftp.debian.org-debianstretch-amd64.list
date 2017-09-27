@@ -383,6 +383,7 @@ glib-networking-common        install
 glib-networking-services        install
 glusterfs-client        install
 glusterfs-common        install
+gnome-calculator        install
 gnome-desktop3-data        install
 gnome-font-viewer        install
 gnome-icon-theme        install
@@ -926,6 +927,8 @@ libgtk2.0-bin        install
 libgtk2.0-common        install
 libgtkimageview0        install
 libgtkmm-2.4-1v5        install
+libgtksourceview-3.0-1        install
+libgtksourceview-3.0-common        install
 libgtkspell0        install
 libgtop-2.0-10        install
 libgtop2-common        install
@@ -1284,7 +1287,6 @@ libpcre3:i386        install
 libpcsclite1        install
 libpentaho-reporting-flow-engine-java        install
 libperl4-corelibs-perl        install
-libperl5.24        install
 libperlio-gzip-perl        install
 libphodav-2.0-0        install
 libphodav-2.0-common        install
@@ -1373,6 +1375,8 @@ libqt5multimediawidgets5        install
 libqt5network5        install
 libqt5opengl5        install
 libqt5printsupport5        install
+libqt5script5        install
+libqt5scripttools5        install
 libqt5svg5        install
 libqt5widgets5        install
 libqt5x11extras5        install
@@ -1892,9 +1896,6 @@ patchutils        install
 pciutils        install
 pcscd        install
 pdftk        install
-perl        install
-perl-base        install
-perl-modules-5.24        install
 perl-openssl-defaults        install
 pidgin        install
 pidgin-data        install

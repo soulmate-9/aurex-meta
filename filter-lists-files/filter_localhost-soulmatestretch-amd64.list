@@ -33,6 +33,7 @@ sm-meta-debian-mate        install
 sm-minimal-fs        install
 sm-minimal-misc        install
 sm-minimal-net        install
+sm-misc        install
 sm-multimedia        install
 sm-office        install
 sm-standard-fs        install
@@ -48,6 +49,7 @@ soulmate-gtk-bookmarks-settings        install
 soulmate-inf        install
 soulmate-keyring        install
 soulmate-kvm        install
+soulmate-libvirt        install
 soulmate-minimal        install
 soulmate-pve        install
 soulmate-pve-kernel        install

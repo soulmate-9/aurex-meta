@@ -33,6 +33,7 @@ libmagickcore-6.q16-3-extra        install
 libmagickwand-6.q16-3        install
 libmariadbclient18        install
 libmspack0        install
+libperl5.24        install
 libpq5        install
 libraw15        install
 libservlet3.1-java        install
@@ -60,6 +61,9 @@ mariadb-client-core-10.1        install
 mariadb-common        install
 openjdk-8-jre        install
 openjdk-8-jre-headless        install
+perl        install
+perl-base        install
+perl-modules-5.24        install
 python-libxml2        install
 python-samba        install
 samba        install

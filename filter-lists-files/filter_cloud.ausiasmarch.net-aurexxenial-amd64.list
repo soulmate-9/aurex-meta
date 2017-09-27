@@ -29,5 +29,6 @@ eclipse-neon-installer        install
 gtk2-engines-murrine        install
 netbeans-8.1-installer        install
 netbeans-installer        install
+packet-tracer-installer        install
 sublimetext-2-installer        install
 sublimetext-installer        install
