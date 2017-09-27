@@ -30,6 +30,7 @@ eclipse-neon-installer
 gtk2-engines-murrine
 netbeans-8.1-installer
 netbeans-installer
+packet-tracer-installer
 sublimetext-2-installer
 sublimetext-installer
 # -> http://download.proxmox.com/debian/pve jessie
@@ -492,6 +493,7 @@ glib-networking-common
 glib-networking-services
 glusterfs-client
 glusterfs-common
+gnome-calculator
 gnome-desktop3-data
 gnome-font-viewer
 gnome-icon-theme
@@ -1035,6 +1037,8 @@ libgtk2.0-bin
 libgtk2.0-common
 libgtkimageview0
 libgtkmm-2.4-1v5
+libgtksourceview-3.0-1
+libgtksourceview-3.0-common
 libgtkspell0
 libgtop-2.0-10
 libgtop2-common
@@ -1393,7 +1397,6 @@ libpcre3:i386
 libpcsclite1
 libpentaho-reporting-flow-engine-java
 libperl4-corelibs-perl
-libperl5.24
 libperlio-gzip-perl
 libphodav-2.0-0
 libphodav-2.0-common
@@ -1482,6 +1485,8 @@ libqt5multimediawidgets5
 libqt5network5
 libqt5opengl5
 libqt5printsupport5
+libqt5script5
+libqt5scripttools5
 libqt5svg5
 libqt5widgets5
 libqt5x11extras5
@@ -2001,9 +2006,6 @@ patchutils
 pciutils
 pcscd
 pdftk
-perl
-perl-base
-perl-modules-5.24
 perl-openssl-defaults
 pidgin
 pidgin-data
@@ -2348,6 +2350,7 @@ sm-meta-debian-mate
 sm-minimal-fs
 sm-minimal-misc
 sm-minimal-net
+sm-misc
 sm-multimedia
 sm-office
 sm-standard-fs
@@ -2363,6 +2366,7 @@ soulmate-gtk-bookmarks-settings
 soulmate-inf
 soulmate-keyring
 soulmate-kvm
+soulmate-libvirt
 soulmate-minimal
 soulmate-pve
 soulmate-pve-kernel
@@ -2494,6 +2498,7 @@ libmagickcore-6.q16-3-extra
 libmagickwand-6.q16-3
 libmariadbclient18
 libmspack0
+libperl5.24
 libpq5
 libraw15
 libservlet3.1-java
@@ -2521,6 +2526,9 @@ mariadb-client-core-10.1
 mariadb-common
 openjdk-8-jre
 openjdk-8-jre-headless
+perl
+perl-base
+perl-modules-5.24
 python-libxml2
 python-samba
 samba
