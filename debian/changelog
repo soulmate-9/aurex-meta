@@ -1,6 +1,15 @@
 soulmate-meta (9.1+soulmate17.09.37) stretch; urgency=medium
 
   * Added flashplayer-chromium
+  * soulmate sources modified to include "gourd" distribution in addition
+    to "stretch". This is very useful when building new metapackages with
+    new "external" (non debian, nor soulmate) depends. In the past, it was
+    necessary to upload the new metapages to "stable" to generate new filter
+    list files, breaking "stable" distribution until "update-lists" finishes
+    and we were able to run reprepro with new files to update the pool.
+    Now, we only need to upload the new metapackages to gourd, run ./update-lists
+    to finally update strech with metapackages and external packages in only one
+    shot.
 
  -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 27 Sep 2017 15:31:25 +0000
 

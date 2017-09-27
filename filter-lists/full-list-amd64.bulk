@@ -2314,27 +2314,11 @@ zlib1g:i386
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu xenial
 unetbootin
 unetbootin-translations
-# -> http://localhost/soulmate stretch
+# -> http://localhost/soulmate gourd
 ausias-classroom-student
 ausias-classroom-teacher
 ausias-desktop
-caja
-caja-common
-caja-extensions-common
-caja-open-terminal
-debian-system-adjustments
 desktop-base
-distro-transmute
-fusioninventory-agent
-germinate
-gir1.2-caja
-libcaja-extension1
-libgtop2-7
-python-caja
-python-caja-common
-python-webkit
-python3-germinate
-qemu-system-x86
 sm-ausias-netstation
 sm-ausias-printstation
 sm-caja-base
@@ -2357,21 +2341,38 @@ sm-standard-fs
 sm-standard-misc
 sm-standard-net
 sm-supported
-soulmate-artwork
 soulmate-asir
 soulmate-daw
-soulmate-default-settings
 soulmate-desktop
-soulmate-gtk-bookmarks-settings
 soulmate-inf
-soulmate-keyring
 soulmate-kvm
-soulmate-libvirt
 soulmate-minimal
-soulmate-pve
-soulmate-pve-kernel
 soulmate-smr
 soulmate-standard
+# -> http://localhost/soulmate stretch
+caja
+caja-common
+caja-extensions-common
+caja-open-terminal
+debian-system-adjustments
+distro-transmute
+fusioninventory-agent
+germinate
+gir1.2-caja
+libcaja-extension1
+libgtop2-7
+python-caja
+python-caja-common
+python-webkit
+python3-germinate
+qemu-system-x86
+soulmate-artwork
+soulmate-default-settings
+soulmate-gtk-bookmarks-settings
+soulmate-keyring
+soulmate-libvirt
+soulmate-pve
+soulmate-pve-kernel
 soulmate-themes
 soulmate-transmute
 xresprobe
@@ -2551,6 +2552,7 @@ oracle-java8-set-default
 oracle-java9-installer
 oracle-java9-set-default
 # -> http://www.deb-multimedia.org stretch
+flashplayer-chromium
 gstreamer1.0-libav
 gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-ugly

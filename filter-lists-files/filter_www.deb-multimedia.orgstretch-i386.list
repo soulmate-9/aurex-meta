@@ -1,3 +1,4 @@
+flashplayer-chromium        install
 gstreamer1.0-libav        install
 gstreamer1.0-plugins-bad        install
 gstreamer1.0-plugins-ugly        install
