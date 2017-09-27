@@ -184,7 +184,7 @@ Description: Soulmate-inf development tools
 Package: sm-inf-misc
 Architecture: all
 Depends: openssh-server, aurex-update-manager, easy-rsa, wireshark
-Recommends: freemind
+Recommends: freemind, packet-tracer-installer
 Description: Soulmate-inf miscellaneous tools
  Miscellaneous packages for soulmate-inf metapackage
 

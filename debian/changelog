@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.09.36) stretch; urgency=medium
+
+  * Added packet-tracer-installer
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 27 Sep 2017 06:47:43 +0000
+
 soulmate-meta (9.1+soulmate17.09.35) stretch; urgency=medium
 
   * Added gnome-calculator
