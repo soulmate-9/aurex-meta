@@ -135,7 +135,7 @@ Description: Soulmate mulimedia packages
 
 Package: sm-inet
 Architecture: all
-Recommends: mint-flashplugin, chromium, chromium-l10n, chromium-shell, chromium-driver, chromium-widevine, firefox, firefox-l10n-es, firefox-l10n-ca, firefox-l10n-en-gb, filezilla, bluegriffon
+Recommends: mint-flashplugin, chromium, chromium-l10n, flashplayer-chromium, chromium-shell, chromium-driver, chromium-widevine, firefox, firefox-l10n-es, firefox-l10n-ca, firefox-l10n-en-gb, filezilla, bluegriffon
 Description: Soulmate inet packages
  Inet related packages required to tun soulmate desktop
 
