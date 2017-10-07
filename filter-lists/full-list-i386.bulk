@@ -162,7 +162,6 @@ cups-pdf
 cups-pk-helper
 cups-ppdc
 cups-server-common
-curl
 dalvik-exchange
 dash
 davfs2
@@ -201,7 +200,6 @@ dmidecode
 dmraid
 dmsetup
 dmtracedump
-dnsmasq-base
 docbook-xml
 dosfstools
 dpkg
@@ -399,7 +397,6 @@ geoip-database
 geoip-database-extra
 gettext
 gettext-base
-ghostscript
 gimp
 gimp-data
 gimp-data-extras
@@ -535,6 +532,7 @@ libabw-0.1-1
 libaccountsservice0
 libacl1-dev
 libacl1:i386
+libaec0
 libafflib0v5
 libaio1
 libalgorithm-diff-perl
@@ -562,6 +560,8 @@ libapt-pkg-perl
 libapt-pkg5.0:i386
 libarchive-zip-perl
 libarchive13
+libarmadillo7
+libarpack2
 libart-2.0-2
 libasan3
 libasm-java
@@ -700,6 +700,7 @@ libcrypt-openssl-bignum-perl
 libcrypt-openssl-rsa-perl
 libcryptsetup4:i386
 libcrystalhd3
+libctemplate3
 libctpl2
 libcups2
 libcupscgi1
@@ -707,10 +708,11 @@ libcupsfilters1
 libcupsimage2
 libcupsmime1
 libcupsppdc1
-libcurl3
-libcurl3-gnutls
 libcwidget3v5
 libdaemon0
+libdap23
+libdapclient6v5
+libdapserver7v5
 libdata-random-perl
 libdate-manip-perl
 libdatrie1
@@ -763,6 +765,7 @@ libenchant1c2a
 libencode-locale-perl
 libeot0
 libepoxy0
+libepsilon1
 libept1.5.0
 liberror-perl
 libestr0
@@ -830,11 +833,15 @@ libgcr-3-common
 libgcr-base-3-1
 libgcr-ui-3-1
 libgd-perl
+libgdal20
 libgdata-common
 libgdata22
 libgdbm3:i386
 libgeoclue-2-0
 libgeoip1
+libgeos-3.5.1
+libgeos-c1v5
+libgeotiff2
 libgeronimo-interceptor-3.0-spec-java
 libgfortran3
 libgif7
@@ -895,8 +902,6 @@ libgpm2
 libgradle-core-java
 libgradle-plugins-java
 libgraphite2-3
-libgs9
-libgs9-common
 libgsasl7
 libgsl2
 libgsm1
@@ -938,6 +943,8 @@ libhamcrest-java
 libharfbuzz-icu0
 libharfbuzz0b
 libhawtjni-runtime-java
+libhdf4-0-alt
+libhdf5-100
 libhfsp0
 libhivex0
 libhogweed4:i386
@@ -963,7 +970,6 @@ libibverbs1
 libice6
 libicu57
 libidn11:i386
-libidn2-0:i386
 libiec61883-0
 libieee1284-3
 libijs-0.35
@@ -1036,6 +1042,12 @@ libk5crypto3
 libkate1
 libkeyutils1
 libklibc
+libkmlbase1
+libkmlconvenience1
+libkmldom1
+libkmlengine1
+libkmlregionator1
+libkmlxsd1
 libkmod2:i386
 libkrb5-3
 libkrb5support0
@@ -1119,6 +1131,7 @@ libmtp-runtime
 libmtp9
 libmultiverse-core-java
 libmwaw-0.3-3
+libmysqlcppconn7v5
 libmythes-1.2-0
 libnative-platform-java
 libnative-platform-jni
@@ -1138,6 +1151,7 @@ libnet-ip-perl
 libnet-oauth-perl
 libnet-smtp-ssl-perl
 libnet-ssleay-perl
+libnetcdf11
 libnetcf1
 libnetfilter-conntrack3:i386
 libnetpbm10
@@ -1173,6 +1187,7 @@ libobjenesis-java
 libodbc1
 libodfgen-0.1-1
 libofa0
+libogdi3.2
 libogg0
 libopenal-data
 libopenal1
@@ -1225,6 +1240,7 @@ libpciaccess0
 libpcre16-3
 libpcre2-8-0
 libpcre3:i386
+libpcrecpp0v5
 libpcsclite1
 libpentaho-reporting-flow-engine-java
 libperl4-corelibs-perl
@@ -1270,6 +1286,7 @@ libproc-processtable-perl
 libproc-simple-perl
 libprocps6:i386
 libproguard-java
+libproj12
 libprotobuf-c1
 libprotobuf-lite10
 libproxy-tools
@@ -1294,6 +1311,7 @@ libpython3.5-stdlib
 libqdox-java
 libqdox2-java
 libqgsttools-p1
+libqhull7
 libqmi-glib5
 libqmi-proxy
 libqpdf17
@@ -1440,6 +1458,7 @@ libsort-naturally-perl
 libsoundtouch1
 libsoxr0
 libspandsp2
+libspatialite7
 libspeex1
 libspeexdsp1
 libspice-client-glib-2.0-8
@@ -1463,9 +1482,11 @@ libstdc++-6-dev
 libstdc++6:i386
 libsub-name-perl
 libsuitesparseconfig4
+libsuperlu5
 libsynctex1
 libsys-hostname-long-perl
 libsystemd0:i386
+libsz2
 libtag1v5
 libtag1v5-vanilla
 libtaglibs-standard-impl-java
@@ -1489,6 +1510,7 @@ libtie-ixhash-perl
 libtiff5
 libtimedate-perl
 libtinfo5:i386
+libtinyxml2.6.2v5
 libtirpc1
 libtk8.6
 libtool
@@ -1507,6 +1529,7 @@ libupnp6
 libupower-glib3
 liburcu4
 liburi-perl
+liburiparser1
 libusb-1.0-0
 libusbmuxd4
 libusbredirhost1
@@ -1538,6 +1561,7 @@ libvorbis0a
 libvorbisenc2
 libvorbisfile3
 libvpx4
+libvsqlitepp3v5
 libvte-2.91-0
 libvte-2.91-common
 libvte-common
@@ -1672,6 +1696,7 @@ libyelp0
 libzbar0
 libzephyr4
 libzfs2linux
+libzip4
 libzopfli1
 libzpool2linux
 libzvbi-common
@@ -1719,6 +1744,9 @@ myspell-ca
 myspell-en-gb
 myspell-es
 mysql-common
+mysql-utilities
+mysql-workbench
+mysql-workbench-data
 nano
 ncurses-base
 ncurses-bin
@@ -1737,6 +1765,8 @@ notification-daemon
 ntfs-3g
 ntpdate
 ocl-icd-libopencl1
+odbcinst
+odbcinst1debian2
 openprinting-ppds
 opensc
 opensc-pkcs11
@@ -1783,6 +1813,8 @@ printer-driver-hpcups
 printer-driver-postscript-hp
 procps
 proguard-cli
+proj-bin
+proj-data
 psmisc
 python
 python-apt-common
@@ -1821,6 +1853,7 @@ python-ldb
 python-libvirt
 python-lxml
 python-minimal
+python-mysql.connector
 python-notify
 python-numpy
 python-oauth
@@ -1833,6 +1866,8 @@ python-pkg-resources
 python-ptyprocess
 python-pyasn1
 python-pycurl
+python-pyodbc
+python-pysqlite2
 python-requests
 python-scour
 python-secretstorage
@@ -1959,6 +1994,7 @@ tk8.6
 traceroute
 transfig
 tree
+ttf-bitstream-vera
 ttf-dejavu
 ttf-dejavu-core
 ttf-dejavu-extra
@@ -2061,11 +2097,26 @@ zlib1g:i386
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu xenial
 unetbootin
 unetbootin-translations
-# -> http://localhost/soulmate gourd
+# -> http://localhost/soulmate stretch
 ausias-classroom-student
 ausias-classroom-teacher
 ausias-desktop
+caja
+caja-common
+caja-extensions-common
+caja-open-terminal
+debian-system-adjustments
 desktop-base
+distro-transmute
+fusioninventory-agent
+germinate
+gir1.2-caja
+libcaja-extension1
+libgtop2-7
+python-caja
+python-caja-common
+python-webkit
+python3-germinate
 sm-ausias-netstation
 sm-ausias-printstation
 sm-caja-base
@@ -2076,6 +2127,7 @@ sm-inf-dev
 sm-inf-misc
 sm-inf-virt
 sm-java
+sm-java-supported
 sm-meta-debian-core
 sm-meta-debian-mate
 sm-minimal-fs
@@ -2088,35 +2140,19 @@ sm-standard-fs
 sm-standard-misc
 sm-standard-net
 sm-supported
+soulmate-artwork
 soulmate-asir
 soulmate-daw
+soulmate-default-settings
 soulmate-desktop
+soulmate-gtk-bookmarks-settings
 soulmate-inf
+soulmate-keyring
 soulmate-kvm
+soulmate-libvirt
 soulmate-minimal
 soulmate-smr
 soulmate-standard
-# -> http://localhost/soulmate stretch
-caja
-caja-common
-caja-extensions-common
-caja-open-terminal
-debian-system-adjustments
-distro-transmute
-fusioninventory-agent
-germinate
-gir1.2-caja
-libcaja-extension1
-libgtop2-7
-python-caja
-python-caja-common
-python-webkit
-python3-germinate
-soulmate-artwork
-soulmate-default-settings
-soulmate-gtk-bookmarks-settings
-soulmate-keyring
-soulmate-libvirt
 soulmate-themes
 soulmate-transmute
 xresprobe
@@ -2214,7 +2250,10 @@ chromium-driver
 chromium-l10n
 chromium-shell
 chromium-widevine
+curl
+dnsmasq-base
 file
+ghostscript
 gir1.2-gdkpixbuf-2.0
 gir1.2-soup-2.4
 git
@@ -2225,12 +2264,18 @@ imagemagick-6-common
 imagemagick-6.q16
 libaugeas0
 libbluetooth3
+libcurl3
+libcurl3-gnutls
 libexpat1
 libexpat1-dev
+libfreexl1
 libgcrypt20:i386
 libgd3
 libgdk-pixbuf2.0-0
 libgdk-pixbuf2.0-common
+libgs9
+libgs9-common
+libidn2-0:i386
 libimage-magick-perl
 libimage-magick-q16-perl
 libmagic-mgc
@@ -2294,6 +2339,7 @@ atom
 oracle-java7-installer
 oracle-java8-installer
 oracle-java8-set-default
+oracle-java8-unlimited-jce-policy
 # -> http://www.deb-multimedia.org stretch
 flashplayer-chromium
 gstreamer1.0-libav

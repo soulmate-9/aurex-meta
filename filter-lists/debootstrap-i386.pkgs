@@ -71,7 +71,7 @@ ii  libgnutls30:i386             3.5.8-5+deb9u2
 ii  libgpg-error0:i386           1.26-2
 ii  libhogweed4:i386             3.3-1+b1
 ii  libidn11:i386                1.33-1
-ii  libidn2-0:i386               0.16-1
+ii  libidn2-0:i386               0.16-1+deb9u1
 ii  libip4tc0:i386               1.6.0+snapshot20161117-6
 ii  libip6tc0:i386               1.6.0+snapshot20161117-6
 ii  libiptc0:i386                1.6.0+snapshot20161117-6

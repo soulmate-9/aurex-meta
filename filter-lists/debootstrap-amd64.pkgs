@@ -72,7 +72,7 @@ ii  libgnutls30:amd64             3.5.8-5+deb9u2
 ii  libgpg-error0:amd64           1.26-2
 ii  libhogweed4:amd64             3.3-1+b1
 ii  libidn11:amd64                1.33-1
-ii  libidn2-0:amd64               0.16-1
+ii  libidn2-0:amd64               0.16-1+deb9u1
 ii  libip4tc0:amd64               1.6.0+snapshot20161117-6
 ii  libip6tc0:amd64               1.6.0+snapshot20161117-6
 ii  libiptc0:amd64                1.6.0+snapshot20161117-6
@@ -149,7 +149,7 @@ ii  sensible-utils                0.0.9
 ii  systemd                       232-25+deb9u1
 ii  systemd-sysv                  232-25+deb9u1
 ii  sysvinit-utils                2.88dsf-59.9
-ii  tar                           1.29b-1.1
+ii  tar                           1.29b-2+pve.1
 ii  tasksel                       3.39
 ii  tasksel-data                  3.39
 ii  tzdata                        2017b-1

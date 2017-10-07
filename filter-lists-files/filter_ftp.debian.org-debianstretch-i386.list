@@ -109,7 +109,6 @@ cups-pdf        install
 cups-pk-helper        install
 cups-ppdc        install
 cups-server-common        install
-curl        install
 dalvik-exchange        install
 dash        install
 davfs2        install
@@ -148,7 +147,6 @@ dmidecode        install
 dmraid        install
 dmsetup        install
 dmtracedump        install
-dnsmasq-base        install
 docbook-xml        install
 dosfstools        install
 dpkg        install
@@ -346,7 +344,6 @@ geoip-database        install
 geoip-database-extra        install
 gettext        install
 gettext-base        install
-ghostscript        install
 gimp        install
 gimp-data        install
 gimp-data-extras        install
@@ -482,6 +479,7 @@ libabw-0.1-1        install
 libaccountsservice0        install
 libacl1-dev        install
 libacl1:i386        install
+libaec0        install
 libafflib0v5        install
 libaio1        install
 libalgorithm-diff-perl        install
@@ -509,6 +507,8 @@ libapt-pkg-perl        install
 libapt-pkg5.0:i386        install
 libarchive-zip-perl        install
 libarchive13        install
+libarmadillo7        install
+libarpack2        install
 libart-2.0-2        install
 libasan3        install
 libasm-java        install
@@ -647,6 +647,7 @@ libcrypt-openssl-bignum-perl        install
 libcrypt-openssl-rsa-perl        install
 libcryptsetup4:i386        install
 libcrystalhd3        install
+libctemplate3        install
 libctpl2        install
 libcups2        install
 libcupscgi1        install
@@ -654,10 +655,11 @@ libcupsfilters1        install
 libcupsimage2        install
 libcupsmime1        install
 libcupsppdc1        install
-libcurl3        install
-libcurl3-gnutls        install
 libcwidget3v5        install
 libdaemon0        install
+libdap23        install
+libdapclient6v5        install
+libdapserver7v5        install
 libdata-random-perl        install
 libdate-manip-perl        install
 libdatrie1        install
@@ -710,6 +712,7 @@ libenchant1c2a        install
 libencode-locale-perl        install
 libeot0        install
 libepoxy0        install
+libepsilon1        install
 libept1.5.0        install
 liberror-perl        install
 libestr0        install
@@ -777,11 +780,15 @@ libgcr-3-common        install
 libgcr-base-3-1        install
 libgcr-ui-3-1        install
 libgd-perl        install
+libgdal20        install
 libgdata-common        install
 libgdata22        install
 libgdbm3:i386        install
 libgeoclue-2-0        install
 libgeoip1        install
+libgeos-3.5.1        install
+libgeos-c1v5        install
+libgeotiff2        install
 libgeronimo-interceptor-3.0-spec-java        install
 libgfortran3        install
 libgif7        install
@@ -842,8 +849,6 @@ libgpm2        install
 libgradle-core-java        install
 libgradle-plugins-java        install
 libgraphite2-3        install
-libgs9        install
-libgs9-common        install
 libgsasl7        install
 libgsl2        install
 libgsm1        install
@@ -885,6 +890,8 @@ libhamcrest-java        install
 libharfbuzz-icu0        install
 libharfbuzz0b        install
 libhawtjni-runtime-java        install
+libhdf4-0-alt        install
+libhdf5-100        install
 libhfsp0        install
 libhivex0        install
 libhogweed4:i386        install
@@ -910,7 +917,6 @@ libibverbs1        install
 libice6        install
 libicu57        install
 libidn11:i386        install
-libidn2-0:i386        install
 libiec61883-0        install
 libieee1284-3        install
 libijs-0.35        install
@@ -983,6 +989,12 @@ libk5crypto3        install
 libkate1        install
 libkeyutils1        install
 libklibc        install
+libkmlbase1        install
+libkmlconvenience1        install
+libkmldom1        install
+libkmlengine1        install
+libkmlregionator1        install
+libkmlxsd1        install
 libkmod2:i386        install
 libkrb5-3        install
 libkrb5support0        install
@@ -1066,6 +1078,7 @@ libmtp-runtime        install
 libmtp9        install
 libmultiverse-core-java        install
 libmwaw-0.3-3        install
+libmysqlcppconn7v5        install
 libmythes-1.2-0        install
 libnative-platform-java        install
 libnative-platform-jni        install
@@ -1085,6 +1098,7 @@ libnet-ip-perl        install
 libnet-oauth-perl        install
 libnet-smtp-ssl-perl        install
 libnet-ssleay-perl        install
+libnetcdf11        install
 libnetcf1        install
 libnetfilter-conntrack3:i386        install
 libnetpbm10        install
@@ -1120,6 +1134,7 @@ libobjenesis-java        install
 libodbc1        install
 libodfgen-0.1-1        install
 libofa0        install
+libogdi3.2        install
 libogg0        install
 libopenal-data        install
 libopenal1        install
@@ -1172,6 +1187,7 @@ libpciaccess0        install
 libpcre16-3        install
 libpcre2-8-0        install
 libpcre3:i386        install
+libpcrecpp0v5        install
 libpcsclite1        install
 libpentaho-reporting-flow-engine-java        install
 libperl4-corelibs-perl        install
@@ -1217,6 +1233,7 @@ libproc-processtable-perl        install
 libproc-simple-perl        install
 libprocps6:i386        install
 libproguard-java        install
+libproj12        install
 libprotobuf-c1        install
 libprotobuf-lite10        install
 libproxy-tools        install
@@ -1241,6 +1258,7 @@ libpython3.5-stdlib        install
 libqdox-java        install
 libqdox2-java        install
 libqgsttools-p1        install
+libqhull7        install
 libqmi-glib5        install
 libqmi-proxy        install
 libqpdf17        install
@@ -1387,6 +1405,7 @@ libsort-naturally-perl        install
 libsoundtouch1        install
 libsoxr0        install
 libspandsp2        install
+libspatialite7        install
 libspeex1        install
 libspeexdsp1        install
 libspice-client-glib-2.0-8        install
@@ -1410,9 +1429,11 @@ libstdc++-6-dev        install
 libstdc++6:i386        install
 libsub-name-perl        install
 libsuitesparseconfig4        install
+libsuperlu5        install
 libsynctex1        install
 libsys-hostname-long-perl        install
 libsystemd0:i386        install
+libsz2        install
 libtag1v5        install
 libtag1v5-vanilla        install
 libtaglibs-standard-impl-java        install
@@ -1436,6 +1457,7 @@ libtie-ixhash-perl        install
 libtiff5        install
 libtimedate-perl        install
 libtinfo5:i386        install
+libtinyxml2.6.2v5        install
 libtirpc1        install
 libtk8.6        install
 libtool        install
@@ -1454,6 +1476,7 @@ libupnp6        install
 libupower-glib3        install
 liburcu4        install
 liburi-perl        install
+liburiparser1        install
 libusb-1.0-0        install
 libusbmuxd4        install
 libusbredirhost1        install
@@ -1485,6 +1508,7 @@ libvorbis0a        install
 libvorbisenc2        install
 libvorbisfile3        install
 libvpx4        install
+libvsqlitepp3v5        install
 libvte-2.91-0        install
 libvte-2.91-common        install
 libvte-common        install
@@ -1619,6 +1643,7 @@ libyelp0        install
 libzbar0        install
 libzephyr4        install
 libzfs2linux        install
+libzip4        install
 libzopfli1        install
 libzpool2linux        install
 libzvbi-common        install
@@ -1666,6 +1691,9 @@ myspell-ca        install
 myspell-en-gb        install
 myspell-es        install
 mysql-common        install
+mysql-utilities        install
+mysql-workbench        install
+mysql-workbench-data        install
 nano        install
 ncurses-base        install
 ncurses-bin        install
@@ -1684,6 +1712,8 @@ notification-daemon        install
 ntfs-3g        install
 ntpdate        install
 ocl-icd-libopencl1        install
+odbcinst        install
+odbcinst1debian2        install
 openprinting-ppds        install
 opensc        install
 opensc-pkcs11        install
@@ -1730,6 +1760,8 @@ printer-driver-hpcups        install
 printer-driver-postscript-hp        install
 procps        install
 proguard-cli        install
+proj-bin        install
+proj-data        install
 psmisc        install
 python        install
 python-apt-common        install
@@ -1768,6 +1800,7 @@ python-ldb        install
 python-libvirt        install
 python-lxml        install
 python-minimal        install
+python-mysql.connector        install
 python-notify        install
 python-numpy        install
 python-oauth        install
@@ -1780,6 +1813,8 @@ python-pkg-resources        install
 python-ptyprocess        install
 python-pyasn1        install
 python-pycurl        install
+python-pyodbc        install
+python-pysqlite2        install
 python-requests        install
 python-scour        install
 python-secretstorage        install
@@ -1906,6 +1941,7 @@ tk8.6        install
 traceroute        install
 transfig        install
 tree        install
+ttf-bitstream-vera        install
 ttf-dejavu        install
 ttf-dejavu-core        install
 ttf-dejavu-extra        install

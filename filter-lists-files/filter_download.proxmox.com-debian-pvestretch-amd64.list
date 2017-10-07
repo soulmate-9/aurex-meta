@@ -40,12 +40,15 @@ pve-docs        install
 pve-firewall        install
 pve-firmware        install
 pve-ha-manager        install
+pve-headers        install
+pve-headers-4.10.17-3-pve        install
 pve-kernel-4.10.17-3-pve        install
 pve-libspice-server1        install
 pve-manager        install
 pve-qemu-kvm        install
 qemu-server        install
 spiceterm        install
+tar        install
 vncterm        install
 zfs-zed        install
 zfsutils-linux        install
