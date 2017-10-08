@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.10.2) stretch; urgency=medium
+
+  * Relax soulmate-pve depends to use soulmate-pve-core 
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 08 Oct 2017 16:03:22 +0000
+
 soulmate-meta (9.1+soulmate17.10.1) stretch; urgency=medium
 
   * Added pve-headers to supported

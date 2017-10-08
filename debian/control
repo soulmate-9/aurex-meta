@@ -176,7 +176,7 @@ Description: Soulmate generic desktop system
 
 Package: sm-inf-virt
 Architecture: any
-Depends: soulmate-pve [amd64], aurex-virtualbox-5.1
+Depends: soulmate-pve [amd64] | soulmate-pve-core [amd64] , aurex-virtualbox-5.1
 Description: Soulmate-inf virtualization packages
  Proxmox VE and VirtualBox required packages for soulmate-inf metapackage
 
