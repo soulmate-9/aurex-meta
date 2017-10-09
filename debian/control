@@ -141,7 +141,8 @@ Description: Soulmate inet packages
 
 Package: sm-java
 Architecture: all
-Recommends: oracle-java8-installer, oracle-java8-set-default, oracle-java9-installer
+Depends: oracle-java8-set-default,
+Recommends: oracle-java8-installer, oracle-java9-installer
 Description: Soulmate java packages
  Java packages required to tun soulmate desktop
 
