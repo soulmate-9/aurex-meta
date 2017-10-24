@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.10.4) stretch; urgency=medium
+
+  * Added ch-home to sm-inf-misc
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 24 Oct 2017 12:24:32 +0000
+
 soulmate-meta (9.1+soulmate17.10.3) stretch; urgency=medium
 
   * Force java 8 as default (added depends on oracle-java8-set-default)
