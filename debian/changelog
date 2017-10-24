@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.10.5) stretch; urgency=medium
+
+  *  Added ffmpeg related packeges to supported
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 24 Oct 2017 22:10:18 +0000
+
 soulmate-meta (9.1+soulmate17.10.4) stretch; urgency=medium
 
   * Added ch-home to sm-inf-misc
