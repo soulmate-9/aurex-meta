@@ -6,12 +6,14 @@ sm-ausias-netstation        install
 sm-ausias-printstation        install
 sm-caja-base        install
 sm-extra-fonts        install
+sm-ffmpeg        install
 sm-fonts        install
 sm-inet        install
 sm-inf-dev        install
 sm-inf-misc        install
 sm-inf-virt        install
 sm-java        install
+sm-java-supported        install
 sm-meta-debian-core        install
 sm-meta-debian-mate        install
 sm-minimal-fs        install

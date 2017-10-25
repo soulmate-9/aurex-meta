@@ -41,8 +41,8 @@ pve-firewall        install
 pve-firmware        install
 pve-ha-manager        install
 pve-headers        install
-pve-headers-4.10.17-3-pve        install
-pve-kernel-4.10.17-3-pve        install
+pve-headers-4.13.4-1-pve        install
+pve-kernel-4.13.4-1-pve        install
 pve-libspice-server1        install
 pve-manager        install
 pve-qemu-kvm        install
