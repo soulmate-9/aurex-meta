@@ -128,7 +128,7 @@ Description: Soulmate extra font packages
 
 Package: sm-office
 Architecture: all
-Recommends: libreoffice-gtk, libreoffice-writer, libreoffice-calc, libreoffice, libreoffice-gnome, libreoffice-style-tango, libreoffice-style-human, libreoffice-l10n-common, libreoffice-pdfimport, libreoffice-math, libreoffice-ogltrans, libreoffice-l10n-es, libreoffice-help-es, libreoffice-l10n-ca, libreoffice-help-ca, libreoffice-l10n-en-gb, libreoffice-help-en-gb, myspell-es, myspell-en-gb, myspell-ca
+Recommends: libreoffice-gtk, libreoffice-writer, libreoffice-calc, libreoffice, libreoffice-gnome, libreoffice-style-tango, libreoffice-pdfimport, libreoffice-math, libreoffice-ogltrans, libreoffice-l10n-es, libreoffice-help-es, libreoffice-l10n-ca, libreoffice-help-ca, libreoffice-l10n-en-gb, libreoffice-help-en-gb, myspell-es, myspell-en-gb, myspell-ca
 Description: Soulmate office packages
  Office packages required to tun soulmate desktop
 

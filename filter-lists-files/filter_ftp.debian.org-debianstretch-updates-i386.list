@@ -1,1 +1,2 @@
 base-files        install
+tzdata        install

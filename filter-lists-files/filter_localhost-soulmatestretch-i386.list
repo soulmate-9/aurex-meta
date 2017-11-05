@@ -4,7 +4,6 @@ caja-extensions-common        install
 caja-open-terminal        install
 ch-home        install
 debian-system-adjustments        install
-distro-transmute        install
 fusioninventory-agent        install
 germinate        install
 gir1.2-caja        install
@@ -18,8 +17,6 @@ python3-germinate        install
 soulmate-artwork        install
 soulmate-default-settings        install
 soulmate-gtk-bookmarks-settings        install
-soulmate-keyring        install
 soulmate-libvirt        install
 soulmate-themes        install
-soulmate-transmute        install
 xresprobe        install
