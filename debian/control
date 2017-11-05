@@ -5,6 +5,11 @@ Maintainer: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 7.0.8), germinate (>= 2.25-0aurex1), rsync, bzr, debootstrap
 
+Package: soulmate-base-files
+Architecture: all
+Description: base files for soulmate
+ Important miscellaneous files for soulmate
+
 Package: sm-minimal-net
 Architecture: all
 Depends:  bridge-utils, vlan, ifenslave, net-tools, iproute2
@@ -25,7 +30,7 @@ Description: Minimal soulmate miscellaneous tools
 
 Package: soulmate-minimal
 Architecture: any
-Depends: sm-minimal-net (= ${binary:Version}), sm-minimal-fs (= ${binary:Version}), sm-minimal-misc (= ${binary:Version})
+Depends: soulmate-base-files, sm-minimal-net (= ${binary:Version}), sm-minimal-fs (= ${binary:Version}), sm-minimal-misc (= ${binary:Version})
 Description: Soulmate minimal system
  This (meta)package depends on all of the packages for a
  minimal soulmate system
