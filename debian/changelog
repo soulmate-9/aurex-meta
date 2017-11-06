@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.11.5) stretch; urgency=medium
+
+  * Filter lists files updated
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 06 Nov 2017 07:00:14 +0000
+
 soulmate-meta (9.1+soulmate17.11.4) stretch; urgency=medium
 
   * Fixed libreoffice apt pinning file

@@ -29,7 +29,6 @@ sm-standard-net        install
 sm-supported        install
 soulmate-asir        install
 soulmate-base-files        install
-soulmate-daw        install
 soulmate-desktop        install
 soulmate-inf        install
 soulmate-keyring        install

@@ -75,6 +75,12 @@ cdrdao        install
 cheese        install
 cheese-common        install
 cifs-utils        install
+coinor-libcbc3        install
+coinor-libcgl1        install
+coinor-libclp1        install
+coinor-libcoinmp1v5        install
+coinor-libcoinutils3v5        install
+coinor-libosi1v5        install
 colord        install
 colord-data        install
 command-not-found        install
@@ -174,11 +180,16 @@ file-roller        install
 filezilla        install
 filezilla-common        install
 findutils        install
+firebird3.0-common        install
+firebird3.0-common-doc        install
+firebird3.0-server-core        install
 fontconfig        install
 fontconfig-config        install
 fonts-beng        install
 fonts-beng-extra        install
 fonts-cantarell        install
+fonts-crosextra-caladea        install
+fonts-crosextra-carlito        install
 fonts-dejavu        install
 fonts-dejavu-core        install
 fonts-dejavu-extra        install
@@ -199,6 +210,7 @@ fonts-kalapi        install
 fonts-knda        install
 fonts-lao        install
 fonts-liberation        install
+fonts-linuxlibertine        install
 fonts-lklug-sinhala        install
 fonts-lohit-beng-assamese        install
 fonts-lohit-beng-bengali        install
@@ -229,6 +241,8 @@ fonts-samyak-gujr        install
 fonts-samyak-mlym        install
 fonts-samyak-taml        install
 fonts-sarai        install
+fonts-sil-gentium        install
+fonts-sil-gentium-basic        install
 fonts-sil-padauk        install
 fonts-smc        install
 fonts-taml        install
@@ -473,6 +487,7 @@ less        install
 lhasa        install
 liba52-0.7.4        install
 libaa1        install
+libabw-0.1-1        install
 libaccountsservice0        install
 libacl1-dev        install
 libacl1:i386        install
@@ -492,6 +507,7 @@ libantlr-java        install
 libao-common        install
 libao4        install
 libaopalliance-java        install
+libapache-poi-java        install
 libapache-pom-java        install
 libapparmor1:i386        install
 libappindicator1        install
@@ -538,8 +554,10 @@ libavahi-glib1        install
 libavc1394-0        install
 libbabeltrace-ctf1        install
 libbabeltrace1        install
+libbase-java        install
 libbasicobjects0        install
 libbcel-java        install
+libbcmail-java        install
 libbcpg-java        install
 libbcpkix-java        install
 libbcprov-java        install
@@ -555,6 +573,7 @@ libbonobo2-0        install
 libbonobo2-common        install
 libbonoboui2-0        install
 libbonoboui2-common        install
+libboost-date-time1.62.0        install
 libboost-filesystem1.62.0        install
 libboost-iostreams1.62.0        install
 libboost-random1.62.0        install
@@ -608,10 +627,13 @@ libclass-data-inheritable-perl        install
 libclass-method-modifiers-perl        install
 libclassworlds-java        install
 libclone-perl        install
+libclucene-contribs1v5        install
+libclucene-core1v5        install
 libclutter-1.0-0        install
 libclutter-1.0-common        install
 libclutter-gst-3.0-0        install
 libclutter-gtk-1.0-0        install
+libcmis-0.5-5v5        install
 libcogl-common        install
 libcogl-pango20        install
 libcogl-path20        install
@@ -692,6 +714,7 @@ libdvd-pkg        install
 libdvdnav4        install
 libdvdread4        install
 libdw1        install
+libe-book-0.1-1        install
 libeasymock-java        install
 libecj-java        install
 libeclipse-aether-java        install
@@ -699,15 +722,18 @@ libedit2        install
 libefiboot1        install
 libefivar1        install
 libegl1-mesa        install
+libehcache-java        install
 libelf1:i386        install
 libemail-valid-perl        install
 libenchant1c2a        install
 libencode-locale-perl        install
+libeot0        install
 libepoxy0        install
 libepsilon1        install
 libept1.5.0        install
 liberror-perl        install
 libestr0        install
+libetonyek-0.1-1        install
 libevdev2        install
 libevent-2.0-5        install
 libewf2        install
@@ -716,6 +742,8 @@ libexif12        install
 libexpat1        install
 libexpat1-dev        install
 libexporter-tiny-perl        install
+libexttextcat-2.0-0        install
+libexttextcat-data        install
 libextutils-depends-perl        install
 libextutils-pkgconfig-perl        install
 libf2fs0        install
@@ -723,6 +751,7 @@ libfaad2        install
 libfakeroot        install
 libfarstream-0.2-5        install
 libfastjson4:i386        install
+libfbclient2        install
 libfcgi-perl        install
 libfdisk1:i386        install
 libfdt1        install
@@ -743,10 +772,14 @@ libfindbugs-java        install
 libflac8        install
 libflite1        install
 libfluidsynth1        install
+libflute-java        install
 libfont-afm-perl        install
 libfontconfig1        install
 libfontembed1        install
 libfontenc1        install
+libfonts-java        install
+libformula-java        install
+libfreehand-0.1-1        install
 libfreetype6        install
 libfreexl1        install
 libfribidi0        install
@@ -759,6 +792,7 @@ libgbm1        install
 libgc1c2        install
 libgcc-6-dev        install
 libgcc1:i386        install
+libgcj-bc        install
 libgcj-common        install
 libgcj17        install
 libgck-1-0        install
@@ -832,6 +866,7 @@ libgovirt2        install
 libgpars-groovy-java        install
 libgpg-error0:i386        install
 libgpgme11        install
+libgpgmepp6        install
 libgphoto2-6        install
 libgphoto2-l10n        install
 libgphoto2-port12        install
@@ -888,6 +923,7 @@ libhfsp0        install
 libhivex0        install
 libhogweed4:i386        install
 libhpmud0        install
+libhsqldb1.8.0-java        install
 libhtml-form-perl        install
 libhtml-format-perl        install
 libhtml-parser-perl        install
@@ -904,6 +940,7 @@ libhttpclient-java        install
 libhttpcore-java        install
 libhunspell-1.4-0        install
 libhyphen0        install
+libib-util        install
 libibverbs1        install
 libice6        install
 libicu57        install
@@ -937,6 +974,7 @@ libisccfg140        install
 libisl15        install
 libiso9660-8        install
 libisorelax-java        install
+libitext-java        install
 libitm1        install
 libjack-jackd2-0        install
 libjansi-java        install
@@ -954,6 +992,7 @@ libjbig2dec0        install
 libjcifs-java        install
 libjcip-annotations-java        install
 libjcommander-java        install
+libjcommon-java        install
 libjcsp-java        install
 libjdom1-java        install
 libjemalloc1        install
@@ -996,7 +1035,10 @@ libkryo-java        install
 libksba8:i386        install
 libkxml2-java        install
 libkyotocabinet16v5        install
+liblangtag-common        install
+liblangtag1        install
 liblapack3        install
+liblayout-java        install
 liblcms2-2        install
 libldap-2.4-2        install
 libldap-common        install
@@ -1008,6 +1050,7 @@ liblilv-0-0        install
 liblirc-client0        install
 liblist-moreutils-perl        install
 libllvm3.9        install
+libloader-java        install
 liblocale-gettext-perl        install
 liblog4j1.2-java        install
 liblogback-java        install
@@ -1048,6 +1091,7 @@ libmbim-glib4        install
 libmbim-proxy        install
 libmeanwhile1        install
 libmetis5        install
+libmhash2        install
 libminizip1        install
 libminlog-java        install
 libmm-glib0        install
@@ -1065,6 +1109,7 @@ libmpfr4        install
 libmpg123-0        install
 libmpx2        install
 libmspack0        install
+libmspub-0.1-1        install
 libmsv-java        install
 libmtdev1        install
 libmtp-common        install
@@ -1072,6 +1117,7 @@ libmtp-runtime        install
 libmtp9        install
 libmultiverse-core-java        install
 libmysqlcppconn7v5        install
+libmythes-1.2-0        install
 libnative-platform-java        install
 libnative-platform-jni        install
 libncurses5:i386        install
@@ -1079,6 +1125,7 @@ libncursesw5:i386        install
 libndp0        install
 libnekohtml-java        install
 libneon27        install
+libneon27-gnutls        install
 libnet-cups-perl        install
 libnet-dbus-perl        install
 libnet-dns-perl        install
@@ -1122,6 +1169,7 @@ libnvpair1linux        install
 liboauth0        install
 libobjenesis-java        install
 libodbc1        install
+libodfgen-0.1-1        install
 libofa0        install
 libogdi3.2        install
 libogg0        install
@@ -1141,6 +1189,7 @@ libosinfo-1.0-0        install
 libosmesa6        install
 libp11-kit0:i386        install
 libpackagekit-glib2-18        install
+libpagemaker-0.0-0        install
 libpam-cap        install
 libpam-gnome-keyring        install
 libpam-modules-bin        install
@@ -1175,12 +1224,14 @@ libpcre2-8-0        install
 libpcre3:i386        install
 libpcrecpp0v5        install
 libpcsclite1        install
+libpentaho-reporting-flow-engine-java        install
 libperl4-corelibs-perl        install
 libperl5.24        install
 libperlio-gzip-perl        install
 libphodav-2.0-0        install
 libphodav-2.0-common        install
 libpipeline1:i386        install
+libpixie-java        install
 libpixman-1-0        install
 libpkcs11-helper1        install
 libplexus-ant-factory-java        install
@@ -1281,9 +1332,11 @@ libqwt5-qt4        install
 librados2        install
 libraptor2-0        install
 librarian0        install
+librasqal3        install
 libraw1394-11        install
 libraw15        install
 librbd1        install
+librdf0        install
 librdmacm1        install
 libre2-3        install
 libreadline5        install
@@ -1293,6 +1346,7 @@ libref-array1        install
 libreflectasm-java        install
 libregexp-assemble-perl        install
 librelaxng-datatype-java        install
+librepository-java        install
 libresid-builder0c2a        install
 librest-0.7-0        install
 librevenge-0.0-0        install
@@ -1304,6 +1358,8 @@ librpmsign3        install
 librsvg2-2        install
 librsvg2-common        install
 librubberband2        install
+libsac-java        install
+libsac-java-gcj        install
 libsamplerate0        install
 libsane        install
 libsane-common        install
@@ -1314,6 +1370,7 @@ libsasl2-2        install
 libsasl2-modules        install
 libsasl2-modules-db        install
 libsasl2-modules-gssapi-mit        install
+libsaxonhe-java        install
 libsbc1        install
 libsdl-image1.2        install
 libsdl-ttf2.0-0        install
@@ -1329,6 +1386,7 @@ libsensors4        install
 libsepol1:i386        install
 libserd-0-0        install
 libserf-1-1        install
+libserializer-java        install
 libservlet3.1-java        install
 libsexy2        install
 libshine3        install
@@ -1419,6 +1477,7 @@ libtinyxml2.6.2v5        install
 libtirpc1        install
 libtk8.6        install
 libtomcat8-java        install
+libtommath1        install
 libtool        install
 libtsk13        install
 libtxc-dxtn-s2tc        install
@@ -1558,6 +1617,7 @@ libxkbfile1        install
 libxklavier16        install
 libxml-commons-external-java        install
 libxml-commons-resolver1.1-java        install
+libxml-java        install
 libxml-libxml-perl        install
 libxml-namespacesupport-perl        install
 libxml-parser-perl        install
@@ -1570,6 +1630,7 @@ libxml-twig-perl        install
 libxml-xpathengine-perl        install
 libxml2        install
 libxml2-utils        install
+libxmlbeans-java        install
 libxmu6        install
 libxmuu1        install
 libxom-java        install
@@ -1616,6 +1677,7 @@ lm-sensors        install
 locales        install
 login        install
 logrotate        install
+lp-solve        install
 lsb-base        install
 lsb-release        install
 lsscsi        install

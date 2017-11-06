@@ -28,8 +28,6 @@ libvirt-daemon-system        install
 libvirt0        install
 libxfont2        install
 lightning        install
-openjdk-8-jre        install
-openjdk-8-jre-headless        install
 openssl        install
 thunderbird        install
 wget        install
