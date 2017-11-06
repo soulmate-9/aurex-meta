@@ -40,6 +40,45 @@ virtualbox-5.1
 dropbox
 # -> http://ftp.debian.org/debian stretch-backports
 fonts-opensymbol
+libreoffice
+libreoffice-avmedia-backend-gstreamer
+libreoffice-base
+libreoffice-base-core
+libreoffice-base-drivers
+libreoffice-calc
+libreoffice-common
+libreoffice-core
+libreoffice-draw
+libreoffice-gnome
+libreoffice-gtk3
+libreoffice-help-ca
+libreoffice-help-en-gb
+libreoffice-help-es
+libreoffice-impress
+libreoffice-java-common
+libreoffice-l10n-ca
+libreoffice-l10n-en-gb
+libreoffice-l10n-es
+libreoffice-librelogo
+libreoffice-math
+libreoffice-nlpsolver
+libreoffice-ogltrans
+libreoffice-pdfimport
+libreoffice-report-builder
+libreoffice-report-builder-bin
+libreoffice-script-provider-bsh
+libreoffice-script-provider-js
+libreoffice-script-provider-python
+libreoffice-sdbc-firebird
+libreoffice-sdbc-hsqldb
+libreoffice-sdbc-postgresql
+libreoffice-style-galaxy
+libreoffice-style-tango
+libreoffice-wiki-publisher
+libreoffice-writer
+python3-uno
+uno-libs3
+ure
 # -> http://ftp.debian.org/debian stretch-updates
 base-files
 tzdata
@@ -121,6 +160,12 @@ cdrdao
 cheese
 cheese-common
 cifs-utils
+coinor-libcbc3
+coinor-libcgl1
+coinor-libclp1
+coinor-libcoinmp1v5
+coinor-libcoinutils3v5
+coinor-libosi1v5
 colord
 colord-data
 command-not-found
@@ -220,11 +265,16 @@ file-roller
 filezilla
 filezilla-common
 findutils
+firebird3.0-common
+firebird3.0-common-doc
+firebird3.0-server-core
 fontconfig
 fontconfig-config
 fonts-beng
 fonts-beng-extra
 fonts-cantarell
+fonts-crosextra-caladea
+fonts-crosextra-carlito
 fonts-dejavu
 fonts-dejavu-core
 fonts-dejavu-extra
@@ -245,6 +295,7 @@ fonts-kalapi
 fonts-knda
 fonts-lao
 fonts-liberation
+fonts-linuxlibertine
 fonts-lklug-sinhala
 fonts-lohit-beng-assamese
 fonts-lohit-beng-bengali
@@ -275,6 +326,8 @@ fonts-samyak-gujr
 fonts-samyak-mlym
 fonts-samyak-taml
 fonts-sarai
+fonts-sil-gentium
+fonts-sil-gentium-basic
 fonts-sil-padauk
 fonts-smc
 fonts-taml
@@ -519,6 +572,7 @@ less
 lhasa
 liba52-0.7.4
 libaa1
+libabw-0.1-1
 libaccountsservice0
 libacl1-dev
 libacl1:i386
@@ -538,6 +592,7 @@ libantlr-java
 libao-common
 libao4
 libaopalliance-java
+libapache-poi-java
 libapache-pom-java
 libapparmor1:i386
 libappindicator1
@@ -584,8 +639,10 @@ libavahi-glib1
 libavc1394-0
 libbabeltrace-ctf1
 libbabeltrace1
+libbase-java
 libbasicobjects0
 libbcel-java
+libbcmail-java
 libbcpg-java
 libbcpkix-java
 libbcprov-java
@@ -601,6 +658,7 @@ libbonobo2-0
 libbonobo2-common
 libbonoboui2-0
 libbonoboui2-common
+libboost-date-time1.62.0
 libboost-filesystem1.62.0
 libboost-iostreams1.62.0
 libboost-random1.62.0
@@ -654,10 +712,13 @@ libclass-data-inheritable-perl
 libclass-method-modifiers-perl
 libclassworlds-java
 libclone-perl
+libclucene-contribs1v5
+libclucene-core1v5
 libclutter-1.0-0
 libclutter-1.0-common
 libclutter-gst-3.0-0
 libclutter-gtk-1.0-0
+libcmis-0.5-5v5
 libcogl-common
 libcogl-pango20
 libcogl-path20
@@ -738,6 +799,7 @@ libdvd-pkg
 libdvdnav4
 libdvdread4
 libdw1
+libe-book-0.1-1
 libeasymock-java
 libecj-java
 libeclipse-aether-java
@@ -745,15 +807,18 @@ libedit2
 libefiboot1
 libefivar1
 libegl1-mesa
+libehcache-java
 libelf1:i386
 libemail-valid-perl
 libenchant1c2a
 libencode-locale-perl
+libeot0
 libepoxy0
 libepsilon1
 libept1.5.0
 liberror-perl
 libestr0
+libetonyek-0.1-1
 libevdev2
 libevent-2.0-5
 libewf2
@@ -762,6 +827,8 @@ libexif12
 libexpat1
 libexpat1-dev
 libexporter-tiny-perl
+libexttextcat-2.0-0
+libexttextcat-data
 libextutils-depends-perl
 libextutils-pkgconfig-perl
 libf2fs0
@@ -769,6 +836,7 @@ libfaad2
 libfakeroot
 libfarstream-0.2-5
 libfastjson4:i386
+libfbclient2
 libfcgi-perl
 libfdisk1:i386
 libfdt1
@@ -789,10 +857,14 @@ libfindbugs-java
 libflac8
 libflite1
 libfluidsynth1
+libflute-java
 libfont-afm-perl
 libfontconfig1
 libfontembed1
 libfontenc1
+libfonts-java
+libformula-java
+libfreehand-0.1-1
 libfreetype6
 libfreexl1
 libfribidi0
@@ -805,6 +877,7 @@ libgbm1
 libgc1c2
 libgcc-6-dev
 libgcc1:i386
+libgcj-bc
 libgcj-common
 libgcj17
 libgck-1-0
@@ -878,6 +951,7 @@ libgovirt2
 libgpars-groovy-java
 libgpg-error0:i386
 libgpgme11
+libgpgmepp6
 libgphoto2-6
 libgphoto2-l10n
 libgphoto2-port12
@@ -934,6 +1008,7 @@ libhfsp0
 libhivex0
 libhogweed4:i386
 libhpmud0
+libhsqldb1.8.0-java
 libhtml-form-perl
 libhtml-format-perl
 libhtml-parser-perl
@@ -950,6 +1025,7 @@ libhttpclient-java
 libhttpcore-java
 libhunspell-1.4-0
 libhyphen0
+libib-util
 libibverbs1
 libice6
 libicu57
@@ -983,6 +1059,7 @@ libisccfg140
 libisl15
 libiso9660-8
 libisorelax-java
+libitext-java
 libitm1
 libjack-jackd2-0
 libjansi-java
@@ -1000,6 +1077,7 @@ libjbig2dec0
 libjcifs-java
 libjcip-annotations-java
 libjcommander-java
+libjcommon-java
 libjcsp-java
 libjdom1-java
 libjemalloc1
@@ -1042,7 +1120,10 @@ libkryo-java
 libksba8:i386
 libkxml2-java
 libkyotocabinet16v5
+liblangtag-common
+liblangtag1
 liblapack3
+liblayout-java
 liblcms2-2
 libldap-2.4-2
 libldap-common
@@ -1054,6 +1135,7 @@ liblilv-0-0
 liblirc-client0
 liblist-moreutils-perl
 libllvm3.9
+libloader-java
 liblocale-gettext-perl
 liblog4j1.2-java
 liblogback-java
@@ -1094,6 +1176,7 @@ libmbim-glib4
 libmbim-proxy
 libmeanwhile1
 libmetis5
+libmhash2
 libminizip1
 libminlog-java
 libmm-glib0
@@ -1111,6 +1194,7 @@ libmpfr4
 libmpg123-0
 libmpx2
 libmspack0
+libmspub-0.1-1
 libmsv-java
 libmtdev1
 libmtp-common
@@ -1118,6 +1202,7 @@ libmtp-runtime
 libmtp9
 libmultiverse-core-java
 libmysqlcppconn7v5
+libmythes-1.2-0
 libnative-platform-java
 libnative-platform-jni
 libncurses5:i386
@@ -1125,6 +1210,7 @@ libncursesw5:i386
 libndp0
 libnekohtml-java
 libneon27
+libneon27-gnutls
 libnet-cups-perl
 libnet-dbus-perl
 libnet-dns-perl
@@ -1168,6 +1254,7 @@ libnvpair1linux
 liboauth0
 libobjenesis-java
 libodbc1
+libodfgen-0.1-1
 libofa0
 libogdi3.2
 libogg0
@@ -1187,6 +1274,7 @@ libosinfo-1.0-0
 libosmesa6
 libp11-kit0:i386
 libpackagekit-glib2-18
+libpagemaker-0.0-0
 libpam-cap
 libpam-gnome-keyring
 libpam-modules-bin
@@ -1221,12 +1309,14 @@ libpcre2-8-0
 libpcre3:i386
 libpcrecpp0v5
 libpcsclite1
+libpentaho-reporting-flow-engine-java
 libperl4-corelibs-perl
 libperl5.24
 libperlio-gzip-perl
 libphodav-2.0-0
 libphodav-2.0-common
 libpipeline1:i386
+libpixie-java
 libpixman-1-0
 libpkcs11-helper1
 libplexus-ant-factory-java
@@ -1327,9 +1417,11 @@ libqwt5-qt4
 librados2
 libraptor2-0
 librarian0
+librasqal3
 libraw1394-11
 libraw15
 librbd1
+librdf0
 librdmacm1
 libre2-3
 libreadline5
@@ -1339,6 +1431,7 @@ libref-array1
 libreflectasm-java
 libregexp-assemble-perl
 librelaxng-datatype-java
+librepository-java
 libresid-builder0c2a
 librest-0.7-0
 librevenge-0.0-0
@@ -1350,6 +1443,8 @@ librpmsign3
 librsvg2-2
 librsvg2-common
 librubberband2
+libsac-java
+libsac-java-gcj
 libsamplerate0
 libsane
 libsane-common
@@ -1360,6 +1455,7 @@ libsasl2-2
 libsasl2-modules
 libsasl2-modules-db
 libsasl2-modules-gssapi-mit
+libsaxonhe-java
 libsbc1
 libsdl-image1.2
 libsdl-ttf2.0-0
@@ -1375,6 +1471,7 @@ libsensors4
 libsepol1:i386
 libserd-0-0
 libserf-1-1
+libserializer-java
 libservlet3.1-java
 libsexy2
 libshine3
@@ -1465,6 +1562,7 @@ libtinyxml2.6.2v5
 libtirpc1
 libtk8.6
 libtomcat8-java
+libtommath1
 libtool
 libtsk13
 libtxc-dxtn-s2tc
@@ -1604,6 +1702,7 @@ libxkbfile1
 libxklavier16
 libxml-commons-external-java
 libxml-commons-resolver1.1-java
+libxml-java
 libxml-libxml-perl
 libxml-namespacesupport-perl
 libxml-parser-perl
@@ -1616,6 +1715,7 @@ libxml-twig-perl
 libxml-xpathengine-perl
 libxml2
 libxml2-utils
+libxmlbeans-java
 libxmu6
 libxmuu1
 libxom-java
@@ -1662,6 +1762,7 @@ lm-sensors
 locales
 login
 logrotate
+lp-solve
 lsb-base
 lsb-release
 lsscsi
