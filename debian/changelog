@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate18.04.2) stretch; urgency=medium
+
+  * Updated caja version depends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 11 Apr 2018 00:52:39 +0000
+
 soulmate-meta (9.1+soulmate18.04.1) stretch; urgency=medium
 
   * added sm-dev-depends
