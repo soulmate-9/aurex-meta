@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate17.11.6) stretch; urgency=medium
+
+  * added sm-dev-depends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 10 Apr 2018 23:19:08 +0000
+
 soulmate-meta (9.1+soulmate17.11.5) stretch; urgency=medium
 
   * Filter lists files updated

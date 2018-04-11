@@ -86,7 +86,7 @@ Description: software-properties-gtk soulmate package
 
 Package: sm-caja-base
 Architecture: all
-Depends: caja (=1.18.3-2+soulmate1.is.1.16.6+1.1), caja-common (=1.18.3-2+soulmate1.is.1.16.6+1.1), caja-extensions-common (=1.18.1-2+soulmate.is.1.16.0+1.1), caja-open-terminal (=1.18.1-2+soulmate.is.1.16.0+1.1), gir1.2-caja (=1.18.3-2+soulmate1.is.1.16.6+1.1), libcaja-extension1 (=1.18.3-2+soulmate1.is.1.16.6+1.1), python-caja (=1.18.0-2+soulmate.is.1.16.0+1.1), python-caja-common (=1.18.0-2+soulmate.is.1.16.0+1.1)
+Depends: caja (=1.18.5-2+soulmate1.is.1.16.6+1.1), caja-common (=1.18.5-2+soulmate1.is.1.16.6+1.1), caja-extensions-common (=1.18.1-2+soulmate.is.1.16.0+1.1), caja-open-terminal (=1.18.1-2+soulmate.is.1.16.0+1.1), gir1.2-caja (=1.18.5-2+soulmate1.is.1.16.6+1.1), libcaja-extension1 (=1.18.5-2+soulmate1.is.1.16.6+1.1), python-caja (=1.18.0-2+soulmate.is.1.16.0+1.1), python-caja-common (=1.18.0-2+soulmate.is.1.16.0+1.1)
 Description: Caja packages required to run soulmate
  Set of specific versions of caja packages required to run soulmate
  Desktop Environment.
@@ -171,9 +171,15 @@ Description: ffmpeg related supported packages
 
 Package: sm-supported
 Architecture: any
-Recommends: sm-java-supported, sm-ffmpeg, libvirt-bin, libvirt0, python-libvirt, virt-manager, virt-viewer, virtinst, qemu-kvm, quemu, virtualbox-4.3, virtualbox-5.0, germinate, dropbox, ldap-utils, opera, samba, samba-common-bin, samba-common, smbclient, swat, samba-doc, cifs-utils, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, samba-dbg, self-service-password [amd64], ausias-self-service-password-settings [amd64], ausias-self-service-password-artwork, mypaint, mypaint-data-hires, italc2-master, italc2-client, libitalc2, vsftpd, alien, unetbootin, multisystem, yad, atom, pve-headers
+Recommends: sm-java-supported, sm-ffmpeg, libvirt-bin, libvirt0, python-libvirt, virt-manager, virt-viewer, virtinst, qemu-kvm, quemu, virtualbox-4.3, virtualbox-5.0, germinate, dropbox, ldap-utils, opera, samba, samba-common-bin, samba-common, smbclient, swat, samba-doc, cifs-utils, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, samba-dbg, self-service-password [amd64], ausias-self-service-password-settings [amd64], ausias-self-service-password-artwork, mypaint, mypaint-data-hires, italc2-master, italc2-client, libitalc2, vsftpd, alien, unetbootin, multisystem, yad, atom, pve-headers, sm-dev-depends
 Description: Soulmate supported packages
  Just a dummy package to reference additional packages supported in soulmate
+
+Package: sm-dev-depends
+Architecture: any
+Recommends: libmate-desktop-dev
+Description: Soulmate development required packages
+ Just a dummy package to reference additional packages required for soulmate development
 
 Package: soulmate-desktop
 Architecture: all
