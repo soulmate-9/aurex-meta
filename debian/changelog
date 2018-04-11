@@ -1,4 +1,4 @@
-soulmate-meta (9.1+soulmate17.11.6) stretch; urgency=medium
+soulmate-meta (9.1+soulmate18.04.1) stretch; urgency=medium
 
   * added sm-dev-depends
 
