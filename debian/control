@@ -145,8 +145,8 @@ Description: Soulmate inet packages
  Inet related packages required to tun soulmate desktop
 
 Package: sm-java
-Architecture: all
-Depends: oracle-java10-set-default,
+Architecture: any
+Depends: oracle-java10-set-default [amd64], oracle-java8-set-default [i386]
 Recommends: oracle-java8-installer, oracle-java9-installer
 Description: Soulmate java packages
  Java packages required to tun soulmate desktop

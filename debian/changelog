@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate18.05.2) stretch; urgency=medium
+
+  * Revert to java8 for i386 architecture
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 31 May 2018 14:30:47 +0000
+
 soulmate-meta (9.1+soulmate18.05.1) stretch; urgency=medium
 
   * Upgrade java to java10
