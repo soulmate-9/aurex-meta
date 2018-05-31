@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate18.05.1) stretch; urgency=medium
+
+  * Upgrade java to java10
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 31 May 2018 14:10:17 +0000
+
 soulmate-meta (9.1+soulmate18.04.3) stretch; urgency=medium
 
   * Fixed caja-extension and python-caja version number
