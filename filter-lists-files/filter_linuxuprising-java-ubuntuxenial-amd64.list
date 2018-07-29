@@ -1,0 +1,4 @@
+oracle-java10-installer        install
+oracle-java10-set-default        install
+oracle-java9-installer        install
+oracle-java9-unlimited-jce-policy        install
