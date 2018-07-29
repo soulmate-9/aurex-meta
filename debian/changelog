@@ -1,3 +1,9 @@
+soulmate-meta (9.1+soulmate18.07.1) stretch; urgency=medium
+
+  * Added ausias-cc-update-settings to sm-supported
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 29 Jul 2018 14:26:15 +0000
+
 soulmate-meta (9.1+soulmate18.05.2) stretch; urgency=medium
 
   * Revert to java8 for i386 architecture

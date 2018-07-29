@@ -1,7 +1,2 @@
-oracle-java7-installer        install
 oracle-java8-installer        install
-oracle-java8-set-default        install
 oracle-java8-unlimited-jce-policy        install
-oracle-java9-installer        install
-oracle-java9-set-default        install
-oracle-java9-unlimited-jce-policy        install

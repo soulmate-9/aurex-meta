@@ -2458,8 +2458,10 @@ oracle-java9-unlimited-jce-policy
 # -> http://localhost/soulmate gourd
 ausias-classroom-student
 ausias-classroom-teacher
+ausias-desktop
 caja-extensions-common
 caja-open-terminal
+desktop-base
 python-caja
 python-caja-common
 sm-ausias-netstation

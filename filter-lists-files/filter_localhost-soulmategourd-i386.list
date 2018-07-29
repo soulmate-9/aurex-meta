@@ -1,11 +1,15 @@
 ausias-classroom-student        install
 ausias-classroom-teacher        install
 ausias-desktop        install
+caja-extensions-common        install
+caja-open-terminal        install
 desktop-base        install
-distro-transmute        install
+python-caja        install
+python-caja-common        install
 sm-ausias-netstation        install
 sm-ausias-printstation        install
 sm-caja-base        install
+sm-dev-depends        install
 sm-extra-fonts        install
 sm-ffmpeg        install
 sm-fonts        install
@@ -32,9 +36,7 @@ soulmate-base-files        install
 soulmate-daw        install
 soulmate-desktop        install
 soulmate-inf        install
-soulmate-keyring        install
 soulmate-kvm        install
 soulmate-minimal        install
 soulmate-smr        install
 soulmate-standard        install
-soulmate-transmute        install

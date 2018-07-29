@@ -145,7 +145,7 @@ ii  readline-common              7.0-3
 ii  rsyslog                      8.24.0-1
 ii  sed                          4.4-1
 ii  sensible-utils               0.0.9+deb9u1
-ii  soulmate-base-files          9.1+soulmate18.05.1
+ii  soulmate-base-files          9.1+soulmate18.05.2
 ii  systemd                      232-25+deb9u3
 ii  systemd-sysv                 232-25+deb9u3
 ii  sysvinit-utils               2.88dsf-59.9

@@ -5,6 +5,8 @@ gstreamer1.0-libav        install
 gstreamer1.0-plugins-bad        install
 gstreamer1.0-plugins-ugly        install
 libaacs0        install
+libaribb24-0        install
+libaribb25-0        install
 libasound2-plugins        install
 libasound2-plugins:i386        install
 libass9        install
@@ -28,6 +30,7 @@ libbasicusageenvironment1        install
 libbluray2        install
 libchromaprint1        install
 libdca0        install
+libdsm3        install
 libdvbpsi10        install
 libebml4v5        install
 libfaac0        install
@@ -38,6 +41,7 @@ libgroupsock8        install
 libgstreamer-plugins-bad1.0-0        install
 libilbc2        install
 libilbc2:i386        install
+libjavascriptcoregtk-4.0-18        install
 libkvazaar3        install
 libkvazaar3:i386        install
 liblivemedia58        install
@@ -65,7 +69,8 @@ libusageenvironment3        install
 libvidstab1.0        install
 libvlc-bin        install
 libvlc5        install
-libvlccore8        install
+libvlccore9        install
+libwebkit2gtk-4.0-37        install
 libx264-150        install
 libx264-150:i386        install
 libx265-116        install

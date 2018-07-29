@@ -1,2 +1,8 @@
-base-files        install
+libpam-systemd        install
+libsystemd0:amd64        install
+libsystemd0:i386        install
+libudev1:amd64        install
+systemd        install
+systemd-sysv        install
 tzdata        install
+udev        install
